@@ -39,7 +39,7 @@ reproduce.bat            # Windows
 
 ### From shared data (recommended)
 
-The pre-processed knowledge graph (`heterodata.pt`) and PCA features (`features_128d.pt`) are available on Zenodo at [DOI]. Download and place them in `data/processed/`, then:
+The pre-processed knowledge graph (`heterodata.pt`) and PCA features (`features_128d.pt`) are available on Zenodo at 10.5281/zenodo.21225701. Download and place them in `data/processed/`, then:
 
 ```bash
 # Train the main Tempered HGT model (PCA 128d features)
@@ -185,4 +185,4 @@ If you use this code, please cite:
 
 > [Authors]. Graph Neural Network-Driven Discovery of Hidden Molecular Drivers of Venous Wall Inflammation and Fibrosis. *Nature Communications* (2026).
 
-The code is archived at Zenodo: [DOI]
+The code is archived at Zenodo: 10.5281/zenodo.21225701

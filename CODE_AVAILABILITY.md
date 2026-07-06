@@ -4,7 +4,7 @@
 
 ---
 
-All custom code used in this study is publicly available at Zenodo with the DOI [TO BE ASSIGNED UPON ARCHIVE] and on GitHub at [REPOSITORY URL TO BE ADDED].
+All custom code used in this study is publicly available at Zenodo with the DOI 10.5281/zenodo.21225701 and on GitHub at https://github.com/JY7123/vte-gnn-target-discovery.
 
 The repository includes:
 
@@ -28,13 +28,3 @@ The repository includes:
 - CellChat v2 (scRNA-seq ligand-receptor analysis)
 - dorothea/viper (transcription factor activity inference)
 - Seurat v5 (scRNA-seq preprocessing)
-
----
-
-**Instructions for the corresponding author:**
-1. Create a GitHub repository (public or private with sharing link for review)
-2. Push the code from `vte_gnn_target_discovery/`
-3. Upload `data/processed/heterodata.pt`, `data/processed/train_edges.pt`, `data/processed/negative_edges.pt`, and `checkpoints/pca_features/features_128d.pt` to Zenodo
-4. Link Zenodo to GitHub to auto-generate a DOI
-5. Replace `[DOI]` and `[REPOSITORY URL]` placeholders above with actual values
-6. Add the final statement to the manuscript
