@@ -1,0 +1,63 @@
+# config/ablation_config.yaml
+# Controls which prior components are enabled/disabled for each ablation run
+
+ablation_modes:
+  full_prior:
+    tau_trainable: true
+    cos_decay_enabled: true
+    edge_bias_enabled: true
+    negative_anchor_enabled: true
+    description: "Full three-layer prior injection"
+
+  pure_hgt:
+    tau_trainable: false
+    tau_init_value: 1.0
+    cos_decay_enabled: false
+    edge_bias_enabled: false
+    negative_anchor_enabled: false
+    description: "No prior — pure data-driven HGT attention"
+
+  no_temperature:
+    tau_trainable: false
+    tau_init_value: 1.0
+    cos_decay_enabled: true
+    edge_bias_enabled: true
+    negative_anchor_enabled: true
+    description: "Edge bias only, no per-relation tau modulation"
+
+  no_edge_bias:
+    tau_trainable: true
+    cos_decay_enabled: false
+    edge_bias_enabled: false
+    negative_anchor_enabled: true
+    description: "Temperature only, no hard prior edge bias"
+
+  no_negative_anchors:
+    tau_trainable: true
+    cos_decay_enabled: true
+    edge_bias_enabled: true
+    negative_anchor_enabled: false
+    description: "Hmgb1/Padi4 negative anchors removed"
+
+false_positive_injection:
+  enabled: true
+  pairs:
+    - source: "CRP"
+      source_type: "Protein"
+      target: "venous thromboembolism"
+      target_type: "Disease"
+      relation: "ASSOCIATED_WITH"
+    - source: "ferritin"
+      source_type: "Protein"
+      target: "deep vein thrombosis"
+      target_type: "Disease"
+      relation: "ASSOCIATED_WITH"
+
+unified_hyperparams:
+  hidden_channels: 128
+  num_heads: 4
+  num_layers: 2
+  learning_rate: 0.001
+  batch_size: 256
+  patience: 10
+  num_epochs: 100

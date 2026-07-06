@@ -1,0 +1,13 @@
+{
+  "train_edges": 14953,
+  "val_edges": 0,
+  "test_edges": 0,
+  "inductive_edges": 0,
+  "train_cutoff": "2024-12-31",
+  "val_window": "2025-01-01 to 2025-06-30",
+  "test_window": "2025-07-01 to 2026-06-30",
+  "train_edge_types": 29,
+  "test_edge_types": 0,
+  "has_temporal_info": false,
+  "transductive_fraction": 0.0
+}

@@ -1,0 +1,61 @@
+"Target","Step","Paths","TotalPaths","Degree","GNN_Score","Active"
+"Renin","Step 1
+Fucosylation",0,65,40,134.73,FALSE
+"Renin","Step 2
+Galectin",0,65,40,134.73,FALSE
+"Renin","Step 3
+Adhesion",0,65,40,134.73,FALSE
+"Renin","Step 4
+Cytoskeletal",0,65,40,134.73,FALSE
+"Renin","Step 5
+MAPK",0,65,40,134.73,FALSE
+"Renin","Step 6
+Transcription",1,65,40,134.73,TRUE
+"C3","Step 1
+Fucosylation",0,46,86,136.98,FALSE
+"C3","Step 2
+Galectin",0,46,86,136.98,FALSE
+"C3","Step 3
+Adhesion",0,46,86,136.98,FALSE
+"C3","Step 4
+Cytoskeletal",0,46,86,136.98,FALSE
+"C3","Step 5
+MAPK",0,46,86,136.98,FALSE
+"C3","Step 6
+Transcription",0,46,86,136.98,FALSE
+"MMP-2","Step 1
+Fucosylation",0,90,154,153.6,FALSE
+"MMP-2","Step 2
+Galectin",0,90,154,153.6,FALSE
+"MMP-2","Step 3
+Adhesion",0,90,154,153.6,FALSE
+"MMP-2","Step 4
+Cytoskeletal",1,90,154,153.6,TRUE
+"MMP-2","Step 5
+MAPK",0,90,154,153.6,FALSE
+"MMP-2","Step 6
+Transcription",0,90,154,153.6,FALSE
+"PAR-2","Step 1
+Fucosylation",0,91,49,116.34,FALSE
+"PAR-2","Step 2
+Galectin",0,91,49,116.34,FALSE
+"PAR-2","Step 3
+Adhesion",1,91,49,116.34,TRUE
+"PAR-2","Step 4
+Cytoskeletal",1,91,49,116.34,TRUE
+"PAR-2","Step 5
+MAPK",0,91,49,116.34,FALSE
+"PAR-2","Step 6
+Transcription",0,91,49,116.34,FALSE
+"TSP-1","Step 1
+Fucosylation",0,95,43,106.63,FALSE
+"TSP-1","Step 2
+Galectin",0,95,43,106.63,FALSE
+"TSP-1","Step 3
+Adhesion",1,95,43,106.63,TRUE
+"TSP-1","Step 4
+Cytoskeletal",0,95,43,106.63,FALSE
+"TSP-1","Step 5
+MAPK",0,95,43,106.63,FALSE
+"TSP-1","Step 6
+Transcription",0,95,43,106.63,FALSE

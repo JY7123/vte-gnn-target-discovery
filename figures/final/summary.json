@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-06-10T02:53:10.137725",
+  "model_auroc": 0.751,
+  "total_scored": 50,
+  "pathway_filtered": 10,
+  "shared_downstream": 0,
+  "parallel_regulation": 9,
+  "multi_pathway_hub": 0
+}

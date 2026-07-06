@@ -1,0 +1,6 @@
+"Target","Anchor","CascadeStep","StepLabel","Hops"
+"renin","stat3",6,"Inflammatory Transcription",5
+"mmp-2","rhoa",4,"Cytoskeletal Signaling",5
+"par-2","cd44",3,"Cell Adhesion",5
+"par-2","rhoa",4,"Cytoskeletal Signaling",5
+"tsp-1","cd44",3,"Cell Adhesion",5

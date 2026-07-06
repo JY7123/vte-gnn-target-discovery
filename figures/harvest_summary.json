@@ -1,0 +1,78 @@
+{
+  "timestamp": "2026-06-10T02:35:47.042989",
+  "total_predictions_scored": 50,
+  "tier1_drug_repurposing": 0,
+  "tier2_novel_pathway": 3,
+  "mr_intersection_genes": [],
+  "top_targets": [
+    {
+      "rank": 1,
+      "target": "sirt1 expression",
+      "score": 19.426158905029297,
+      "tier": "other"
+    },
+    {
+      "rank": 2,
+      "target": "f2 mrna expression",
+      "score": 17.864591598510742,
+      "tier": "other"
+    },
+    {
+      "rank": 3,
+      "target": "slc44a3",
+      "score": 12.450796127319336,
+      "tier": "other"
+    },
+    {
+      "rank": 4,
+      "target": "ppar-\u03b3 expression",
+      "score": 11.657885551452637,
+      "tier": "other"
+    },
+    {
+      "rank": 5,
+      "target": "runx1 expression",
+      "score": 11.614564895629883,
+      "tier": "other"
+    },
+    {
+      "rank": 6,
+      "target": "dsur expression",
+      "score": 11.360368728637695,
+      "tier": "other"
+    },
+    {
+      "rank": 7,
+      "target": "leiden mutation",
+      "score": 11.026933670043945,
+      "tier": "other"
+    },
+    {
+      "rank": 8,
+      "target": "foxp3",
+      "score": 10.894847869873047,
+      "tier": "other"
+    },
+    {
+      "rank": 9,
+      "target": "epcr gene ser219gly polymorphism",
+      "score": 10.869287490844727,
+      "tier": "other"
+    },
+    {
+      "rank": 10,
+      "target": "ifih1 gain-of-function mutation",
+      "score": 10.776936531066895,
+      "tier": "other"
+    }
+  ],
+  "output_files": [
+    "fig3_literature_validation.json",
+    "fig3_mr_venn.json",
+    "fig3_predictions.csv",
+    "fig3_predictions.json",
+    "fig4b_radar.json",
+    "fig4c_contradiction.json",
+    "harvest_summary.json"
+  ]
+}

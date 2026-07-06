@@ -1,0 +1,496 @@
+{
+  "target": "c3",
+  "target_type": "Protein",
+  "full_name": "c3",
+  "gnn_score": 136.98,
+  "degree": 86,
+  "num_anchor_paths": 46,
+  "shortest_path_length": 2,
+  "anchor_cascade_map": [
+    {
+      "anchor": "fibrin",
+      "step": 99,
+      "label": "Fibrin",
+      "hops": 2
+    },
+    {
+      "anchor": "platelet",
+      "step": 99,
+      "label": "Platelet",
+      "hops": 4
+    },
+    {
+      "anchor": "thrombosis",
+      "step": 99,
+      "label": "Thrombosis",
+      "hops": 4
+    },
+    {
+      "anchor": "coagulation",
+      "step": 99,
+      "label": "Coagulation",
+      "hops": 4
+    },
+    {
+      "anchor": "endothelial",
+      "step": 99,
+      "label": "Endothelial",
+      "hops": 4
+    },
+    {
+      "anchor": "inflammat",
+      "step": 99,
+      "label": "Inflammat",
+      "hops": 5
+    },
+    {
+      "anchor": "fibrosis",
+      "step": 99,
+      "label": "Fibrosis",
+      "hops": 5
+    },
+    {
+      "anchor": "cytokine",
+      "step": 99,
+      "label": "Cytokine",
+      "hops": 5
+    }
+  ],
+  "nodes": [
+    {
+      "id": "P_r",
+      "type": "P",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "fibrin formation",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "long-chain polyp",
+      "type": "Metabolite",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "platelet consumption",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "lac",
+      "type": "Protein",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "thrombosis",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "microparticles",
+      "type": "Cell",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "activation of the coagulation cascade",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "neutrophil extracellular traps",
+      "type": "Cell",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "vascular endothelial injury",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "boophilin",
+      "type": "Protein",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "bleeding",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "inflammation",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "cathepsin g",
+      "type": "Protein",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "tfpi",
+      "type": "Protein",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "fsap",
+      "type": "Protein",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "liver fibrosis",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "cytokine storm",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "Protein",
+      "target": "fibrin formation",
+      "source_type": "P",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.002362,
+      "hop": 1,
+      "anchor": "fibrin",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Fibrin"
+    },
+    {
+      "source": "Protein",
+      "target": "fibrin formation",
+      "source_type": "P",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.002362,
+      "hop": 1,
+      "anchor": "platelet",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Platelet"
+    },
+    {
+      "source": "fibrin formation",
+      "target": "long-chain polyp",
+      "source_type": "Disease",
+      "target_type": "Metabolite",
+      "relation": "INVERSE_PROMOTES",
+      "attention_weight": 0.01234,
+      "hop": 2,
+      "anchor": "platelet",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Platelet"
+    },
+    {
+      "source": "long-chain polyp",
+      "target": "platelet consumption",
+      "source_type": "Metabolite",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.006504,
+      "hop": 3,
+      "anchor": "platelet",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Platelet"
+    },
+    {
+      "source": "Protein",
+      "target": "fibrin formation",
+      "source_type": "P",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.002362,
+      "hop": 1,
+      "anchor": "thrombosis",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Thrombosis"
+    },
+    {
+      "source": "fibrin formation",
+      "target": "lac",
+      "source_type": "Disease",
+      "target_type": "Protein",
+      "relation": "INVERSE_INHIBITS",
+      "attention_weight": 0.004787,
+      "hop": 2,
+      "anchor": "thrombosis",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Thrombosis"
+    },
+    {
+      "source": "lac",
+      "target": "thrombosis",
+      "source_type": "Protein",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.000166,
+      "hop": 3,
+      "anchor": "thrombosis",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Thrombosis"
+    },
+    {
+      "source": "Protein",
+      "target": "fibrin formation",
+      "source_type": "P",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.002362,
+      "hop": 1,
+      "anchor": "coagulation",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Coagulation"
+    },
+    {
+      "source": "fibrin formation",
+      "target": "microparticles",
+      "source_type": "Disease",
+      "target_type": "Cell",
+      "relation": "INVERSE_PROMOTES",
+      "attention_weight": 0.002198,
+      "hop": 2,
+      "anchor": "coagulation",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Coagulation"
+    },
+    {
+      "source": "microparticles",
+      "target": "activation of the coagulation cascade",
+      "source_type": "Cell",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.00617,
+      "hop": 3,
+      "anchor": "coagulation",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Coagulation"
+    },
+    {
+      "source": "Protein",
+      "target": "fibrin formation",
+      "source_type": "P",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.002362,
+      "hop": 1,
+      "anchor": "endothelial",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Endothelial"
+    },
+    {
+      "source": "fibrin formation",
+      "target": "neutrophil extracellular traps",
+      "source_type": "Disease",
+      "target_type": "Cell",
+      "relation": "INVERSE_PROMOTES",
+      "attention_weight": 0.001756,
+      "hop": 2,
+      "anchor": "endothelial",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Endothelial"
+    },
+    {
+      "source": "neutrophil extracellular traps",
+      "target": "vascular endothelial injury",
+      "source_type": "Cell",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.004692,
+      "hop": 3,
+      "anchor": "endothelial",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Endothelial"
+    },
+    {
+      "source": "Protein",
+      "target": "fibrin formation",
+      "source_type": "P",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.002362,
+      "hop": 1,
+      "anchor": "inflammat",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Inflammat"
+    },
+    {
+      "source": "fibrin formation",
+      "target": "boophilin",
+      "source_type": "Disease",
+      "target_type": "Protein",
+      "relation": "INVERSE_INHIBITS",
+      "attention_weight": 0.10898,
+      "hop": 2,
+      "anchor": "inflammat",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Inflammat"
+    },
+    {
+      "source": "boophilin",
+      "target": "bleeding",
+      "source_type": "Protein",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.00028,
+      "hop": 3,
+      "anchor": "inflammat",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Inflammat"
+    },
+    {
+      "source": "bleeding",
+      "target": "inflammation",
+      "source_type": "Disease",
+      "target_type": "Disease",
+      "relation": "INVERSE_INDUCES",
+      "attention_weight": 0.025679,
+      "hop": 4,
+      "anchor": "inflammat",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Inflammat"
+    },
+    {
+      "source": "Protein",
+      "target": "cathepsin g",
+      "source_type": "P",
+      "target_type": "Protein",
+      "relation": "INVERSE_ACTIVATES",
+      "attention_weight": 0.001275,
+      "hop": 1,
+      "anchor": "fibrosis",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Fibrosis"
+    },
+    {
+      "source": "cathepsin g",
+      "target": "tfpi",
+      "source_type": "Protein",
+      "target_type": "Protein",
+      "relation": "INHIBITS",
+      "attention_weight": 0.000442,
+      "hop": 2,
+      "anchor": "fibrosis",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Fibrosis"
+    },
+    {
+      "source": "tfpi",
+      "target": "fsap",
+      "source_type": "Protein",
+      "target_type": "Protein",
+      "relation": "INVERSE_INHIBITS",
+      "attention_weight": 0.12524,
+      "hop": 3,
+      "anchor": "fibrosis",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Fibrosis"
+    },
+    {
+      "source": "fsap",
+      "target": "liver fibrosis",
+      "source_type": "Protein",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.00051,
+      "hop": 4,
+      "anchor": "fibrosis",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Fibrosis"
+    },
+    {
+      "source": "Protein",
+      "target": "fibrin formation",
+      "source_type": "P",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.002362,
+      "hop": 1,
+      "anchor": "cytokine",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Cytokine"
+    },
+    {
+      "source": "fibrin formation",
+      "target": "neutrophil extracellular traps",
+      "source_type": "Disease",
+      "target_type": "Cell",
+      "relation": "INVERSE_PROMOTES",
+      "attention_weight": 0.001756,
+      "hop": 2,
+      "anchor": "cytokine",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Cytokine"
+    },
+    {
+      "source": "neutrophil extracellular traps",
+      "target": "vascular endothelial injury",
+      "source_type": "Cell",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.004692,
+      "hop": 3,
+      "anchor": "cytokine",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Cytokine"
+    },
+    {
+      "source": "vascular endothelial injury",
+      "target": "cytokine storm",
+      "source_type": "Disease",
+      "target_type": "Disease",
+      "relation": "INVERSE_INDUCES",
+      "attention_weight": 0.000375,
+      "hop": 4,
+      "anchor": "cytokine",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Cytokine"
+    }
+  ]
+}

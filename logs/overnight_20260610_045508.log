@@ -1,0 +1,18 @@
+=======================================================
+VTE GNN Overnight Training  04:55:08
+Log: logs/overnight_20260610_045508.log
+=======================================================
+
+[1/3] Loading data + building features...
+  82644 nodes, 248240 edges, 5056 edge types
+  Features: 128d random (seed=42)
+  Training edge types: 20
+  Train: 27162 edges
+
+[2/3] Building model + training 100 epochs...
+  893,992 params | 128d input | 128d hidden
+
+Done in 2m 39s
+AUROC: 0.8273 | MRR: 0.0930 | Hits@10: 0.1404
+Checkpoint: checkpoints/overnight/checkpoint_epoch_53.pt
+Summary: checkpoints/overnight/summary.json

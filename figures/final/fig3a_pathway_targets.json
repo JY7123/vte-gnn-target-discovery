@@ -1,0 +1,122 @@
+[
+  {
+    "rank": 1,
+    "target": "f2 mrna expression",
+    "score": 17.86,
+    "pathways": [
+      "Coagulation"
+    ],
+    "num_pathways": 1,
+    "mechanism_type": "parallel_regulation",
+    "alignment_score": 0.0,
+    "contaminated": false
+  },
+  {
+    "rank": 2,
+    "target": "tlr4 knockout",
+    "score": 9.86,
+    "pathways": [
+      "Inflammation"
+    ],
+    "num_pathways": 1,
+    "mechanism_type": "parallel_regulation",
+    "alignment_score": 0.0,
+    "contaminated": false
+  },
+  {
+    "rank": 3,
+    "target": "synthesis of il-12",
+    "score": 9.8,
+    "pathways": [
+      "Inflammation"
+    ],
+    "num_pathways": 1,
+    "mechanism_type": "parallel_regulation",
+    "alignment_score": 0.0,
+    "contaminated": false
+  },
+  {
+    "rank": 4,
+    "target": "\u03b2-fibrinogen -455 g>a mutation",
+    "score": 9.51,
+    "pathways": [
+      "Coagulation"
+    ],
+    "num_pathways": 1,
+    "mechanism_type": "parallel_regulation",
+    "alignment_score": 0.0,
+    "contaminated": false
+  },
+  {
+    "rank": 5,
+    "target": "proinflammatory cytokines secreted by activated glia",
+    "score": 9.38,
+    "pathways": [
+      "Inflammation"
+    ],
+    "num_pathways": 1,
+    "mechanism_type": "parallel_regulation",
+    "alignment_score": 0.0,
+    "contaminated": false
+  },
+  {
+    "rank": 6,
+    "target": "other cytokines",
+    "score": 9.37,
+    "pathways": [
+      "Inflammation"
+    ],
+    "num_pathways": 1,
+    "mechanism_type": "parallel_regulation",
+    "alignment_score": 0.0,
+    "contaminated": false
+  },
+  {
+    "rank": 7,
+    "target": "il-6 -1363t/g polymorphism",
+    "score": 9.31,
+    "pathways": [
+      "Inflammation"
+    ],
+    "num_pathways": 1,
+    "mechanism_type": "parallel_regulation",
+    "alignment_score": 0.0,
+    "contaminated": false
+  },
+  {
+    "rank": 8,
+    "target": "il-10 gene expression",
+    "score": 9.22,
+    "pathways": [
+      "Inflammation"
+    ],
+    "num_pathways": 1,
+    "mechanism_type": "parallel_regulation",
+    "alignment_score": 0.0,
+    "contaminated": false
+  },
+  {
+    "rank": 9,
+    "target": "profibrotic growth factors",
+    "score": 9.16,
+    "pathways": [
+      "Fibrosis"
+    ],
+    "num_pathways": 1,
+    "mechanism_type": "novel_mechanism",
+    "alignment_score": 0.0,
+    "contaminated": false
+  },
+  {
+    "rank": 10,
+    "target": "tlr-7 snp",
+    "score": 9.12,
+    "pathways": [
+      "Inflammation"
+    ],
+    "num_pathways": 1,
+    "mechanism_type": "parallel_regulation",
+    "alignment_score": 0.0,
+    "contaminated": false
+  }
+]

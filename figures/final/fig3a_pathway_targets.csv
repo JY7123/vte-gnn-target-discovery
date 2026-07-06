@@ -1,0 +1,11 @@
+rank,target,score,pathways,num_pathways,mechanism_type,alignment_score,contaminated
+1,f2 mrna expression,17.86,['Coagulation'],1,parallel_regulation,0.0,False
+2,tlr4 knockout,9.86,['Inflammation'],1,parallel_regulation,0.0,False
+3,synthesis of il-12,9.8,['Inflammation'],1,parallel_regulation,0.0,False
+4,¦Â-fibrinogen -455 g>a mutation,9.51,['Coagulation'],1,parallel_regulation,0.0,False
+5,proinflammatory cytokines secreted by activated glia,9.38,['Inflammation'],1,parallel_regulation,0.0,False
+6,other cytokines,9.37,['Inflammation'],1,parallel_regulation,0.0,False
+7,il-6 -1363t/g polymorphism,9.31,['Inflammation'],1,parallel_regulation,0.0,False
+8,il-10 gene expression,9.22,['Inflammation'],1,parallel_regulation,0.0,False
+9,profibrotic growth factors,9.16,['Fibrosis'],1,novel_mechanism,0.0,False
+10,tlr-7 snp,9.12,['Inflammation'],1,parallel_regulation,0.0,False

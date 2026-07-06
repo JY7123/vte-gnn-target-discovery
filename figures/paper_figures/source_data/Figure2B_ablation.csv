@@ -1,0 +1,32 @@
+"Model","Metric","Value"
+"Tempered HGT
+(PCA 128d)","AUROC",0.925
+"Tempered HGT
+(PCA 128d)","MRR",0.232
+"Tempered HGT
+(PCA 128d)","Hits10",0.314
+"Tempered HGT
+(random 128d)","AUROC",0.827
+"Tempered HGT
+(random 128d)","MRR",0.093
+"Tempered HGT
+(random 128d)","Hits10",0.14
+"Tempered HGT
+(random 64d)","AUROC",0.837
+"Tempered HGT
+(random 64d)","MRR",0.08
+"Pure HGT
+(τ≡1.0)","AUROC",0.821
+"Pure HGT
+(τ≡1.0)","MRR",0.085
+"Pure HGT
+(τ≡1.0)","Hits10",0.122
+"RGCN","AUROC",0.772
+"RGCN","MRR",0.071
+"RGCN","Hits10",0.105
+"HAN
+(3 meta-paths)","AUROC",0.758
+"HAN
+(3 meta-paths)","MRR",0.068
+"HAN
+(3 meta-paths)","Hits10",0.098

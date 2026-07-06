@@ -1,0 +1,322 @@
+[
+  {
+    "target": "pdi",
+    "node_type": "Protein",
+    "name": "pdi",
+    "degree": 69,
+    "anchors": [
+      {
+        "anchor": "mapk",
+        "name": "p38 mapk/cpla2 pathway",
+        "hops": 2
+      },
+      {
+        "anchor": "rock",
+        "name": "rocks",
+        "hops": 2
+      },
+      {
+        "anchor": "rhoa",
+        "name": "rhoa/rock",
+        "hops": 2
+      },
+      {
+        "anchor": "mapk",
+        "name": "p38 mapk",
+        "hops": 2
+      },
+      {
+        "anchor": "mapk",
+        "name": "mapks",
+        "hops": 2
+      }
+    ]
+  },
+  {
+    "target": "mmp-9",
+    "node_type": "Gene",
+    "name": "mmp-9 expression",
+    "degree": 24,
+    "anchors": [
+      {
+        "anchor": "rock",
+        "name": "rock activity",
+        "hops": 2
+      },
+      {
+        "anchor": "mapk",
+        "name": "p38 mapk pathway",
+        "hops": 2
+      },
+      {
+        "anchor": "mapk",
+        "name": "p38 mapk",
+        "hops": 2
+      },
+      {
+        "anchor": "mapk",
+        "name": "mapk signaling",
+        "hops": 2
+      },
+      {
+        "anchor": "mapk",
+        "name": "mapks",
+        "hops": 2
+      }
+    ]
+  },
+  {
+    "target": "il-32",
+    "node_type": "Cytokine",
+    "name": "il-32",
+    "degree": 2,
+    "anchors": [
+      {
+        "anchor": "mapk",
+        "name": "mapk",
+        "hops": 2
+      },
+      {
+        "anchor": "galectin",
+        "name": "galectin-3",
+        "hops": 2
+      },
+      {
+        "anchor": "rock",
+        "name": "rocks",
+        "hops": 2
+      },
+      {
+        "anchor": "rhoa",
+        "name": "rhoa/rock",
+        "hops": 2
+      },
+      {
+        "anchor": "mapk",
+        "name": "mapkp42/44 phosphorylation",
+        "hops": 3
+      }
+    ]
+  },
+  {
+    "target": "par-2",
+    "node_type": "Protein",
+    "name": "par-2",
+    "degree": 49,
+    "anchors": [
+      {
+        "anchor": "galectin",
+        "name": "galectin-3",
+        "hops": 2
+      },
+      {
+        "anchor": "galectin",
+        "name": "galectin-1",
+        "hops": 2
+      },
+      {
+        "anchor": "mapk",
+        "name": "ras/raf/mek/mapk pathway",
+        "hops": 2
+      },
+      {
+        "anchor": "mapk",
+        "name": "mapk signaling pathway inhibition",
+        "hops": 2
+      },
+      {
+        "anchor": "mapk",
+        "name": "mapk",
+        "hops": 2
+      }
+    ]
+  },
+  {
+    "target": "lipa",
+    "node_type": "Gene",
+    "name": "lipa mutations",
+    "degree": 3,
+    "anchors": [
+      {
+        "anchor": "rock",
+        "name": "rock1",
+        "hops": 2
+      },
+      {
+        "anchor": "rock",
+        "name": "rock",
+        "hops": 2
+      },
+      {
+        "anchor": "rock",
+        "name": "rocks",
+        "hops": 2
+      },
+      {
+        "anchor": "mapk",
+        "name": "mapkp42/44 phosphorylation",
+        "hops": 3
+      },
+      {
+        "anchor": "mapk",
+        "name": "mapkp38 phosphorylation",
+        "hops": 3
+      }
+    ]
+  },
+  {
+    "target": "ap1m2",
+    "node_type": "Gene",
+    "name": "ap1m2",
+    "degree": 2,
+    "anchors": [
+      {
+        "anchor": "mapk",
+        "name": "mapkp42/44 phosphorylation",
+        "hops": 3
+      },
+      {
+        "anchor": "mapk",
+        "name": "mapkp38 phosphorylation",
+        "hops": 3
+      },
+      {
+        "anchor": "mapk",
+        "name": "mapk signaling pathway",
+        "hops": 3
+      },
+      {
+        "anchor": "mapk",
+        "name": "p38 mapk",
+        "hops": 3
+      },
+      {
+        "anchor": "mapk",
+        "name": "p38mapk",
+        "hops": 3
+      }
+    ]
+  },
+  {
+    "target": "slc4a1",
+    "node_type": "Gene",
+    "name": "slc4a1 variant",
+    "degree": 2,
+    "anchors": [
+      {
+        "anchor": "galectin",
+        "name": "galectin-3",
+        "hops": 2
+      },
+      {
+        "anchor": "galectin",
+        "name": "galectin-3-binding protein",
+        "hops": 2
+      },
+      {
+        "anchor": "mapk",
+        "name": "p38 mapk",
+        "hops": 3
+      },
+      {
+        "anchor": "mapk",
+        "name": "p38mapk",
+        "hops": 3
+      },
+      {
+        "anchor": "galectin",
+        "name": "galectin-3 bp",
+        "hops": 3
+      }
+    ]
+  },
+  {
+    "target": "cdh17",
+    "node_type": "Gene",
+    "name": "cdh17",
+    "degree": 2,
+    "anchors": [
+      {
+        "anchor": "rock",
+        "name": "rocks",
+        "hops": 2
+      },
+      {
+        "anchor": "mapk",
+        "name": "mapk signaling pathway",
+        "hops": 3
+      },
+      {
+        "anchor": "mapk",
+        "name": "mapks",
+        "hops": 3
+      },
+      {
+        "anchor": "rock",
+        "name": "rock inhibitors",
+        "hops": 3
+      },
+      {
+        "anchor": "mapk",
+        "name": "p38 mapk",
+        "hops": 3
+      }
+    ]
+  },
+  {
+    "target": "accn1",
+    "node_type": "Gene",
+    "name": "accn1",
+    "degree": 2,
+    "anchors": [
+      {
+        "anchor": "galectin",
+        "name": "galectin-3",
+        "hops": 2
+      },
+      {
+        "anchor": "galectin",
+        "name": "galectin-3-binding protein",
+        "hops": 2
+      },
+      {
+        "anchor": "mapk",
+        "name": "p38 mapk",
+        "hops": 3
+      },
+      {
+        "anchor": "mapk",
+        "name": "p38mapk",
+        "hops": 3
+      },
+      {
+        "anchor": "galectin",
+        "name": "galectin-3 bp",
+        "hops": 3
+      }
+    ]
+  },
+  {
+    "target": "jak-2",
+    "node_type": "Gene",
+    "name": "jak-2 v617f mutation",
+    "degree": 3,
+    "anchors": [
+      {
+        "anchor": "mapk",
+        "name": "mapks",
+        "hops": 3
+      },
+      {
+        "anchor": "mapk",
+        "name": "p38 mapk",
+        "hops": 3
+      },
+      {
+        "anchor": "mapk",
+        "name": "p38mapk",
+        "hops": 3
+      }
+    ]
+  }
+]

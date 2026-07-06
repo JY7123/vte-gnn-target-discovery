@@ -1,0 +1,152 @@
+[
+  {
+    "rank": 1,
+    "target": "renin",
+    "type": "Protein",
+    "gnn_score": 134.73,
+    "degree": 40,
+    "discovery_score": 36.281,
+    "anchor": "vascular smooth muscle relaxat",
+    "hops": 2
+  },
+  {
+    "rank": 2,
+    "target": "c3",
+    "type": "Protein",
+    "gnn_score": 136.98,
+    "degree": 86,
+    "discovery_score": 30.672,
+    "anchor": "chronic inflammation-related c",
+    "hops": 2
+  },
+  {
+    "rank": 3,
+    "target": "mmp-2",
+    "type": "Protein",
+    "gnn_score": 153.6,
+    "degree": 154,
+    "discovery_score": 30.456,
+    "anchor": "galectin-3",
+    "hops": 2
+  },
+  {
+    "rank": 4,
+    "target": "par-2",
+    "type": "Protein",
+    "gnn_score": 116.34,
+    "degree": 49,
+    "discovery_score": 29.739,
+    "anchor": "galectin-3",
+    "hops": 2
+  },
+  {
+    "rank": 5,
+    "target": "tsp-1",
+    "type": "Protein",
+    "gnn_score": 106.63,
+    "degree": 43,
+    "discovery_score": 28.178,
+    "anchor": "rhoa/rock",
+    "hops": 2
+  },
+  {
+    "rank": 6,
+    "target": "erp5",
+    "type": "Protein",
+    "gnn_score": 59.57,
+    "degree": 9,
+    "discovery_score": 25.869,
+    "anchor": "rhoa/rock",
+    "hops": 2
+  },
+  {
+    "rank": 7,
+    "target": "factor ix",
+    "type": "Protein",
+    "gnn_score": 129.05,
+    "degree": 154,
+    "discovery_score": 25.588,
+    "anchor": "catheter-related thrombosis",
+    "hops": 2
+  },
+  {
+    "rank": 8,
+    "target": "mmp-9",
+    "type": "Protein",
+    "gnn_score": 134.24,
+    "degree": 294,
+    "discovery_score": 23.604,
+    "anchor": "galectin-3",
+    "hops": 2
+  },
+  {
+    "rank": 9,
+    "target": "inos",
+    "type": "Protein",
+    "gnn_score": 105.28,
+    "degree": 92,
+    "discovery_score": 23.226,
+    "anchor": "cd44",
+    "hops": 2
+  },
+  {
+    "rank": 10,
+    "target": "factor x",
+    "type": "Protein",
+    "gnn_score": 124.77,
+    "degree": 245,
+    "discovery_score": 22.664,
+    "anchor": "catheter-related thrombosis",
+    "hops": 2
+  },
+  {
+    "rank": 11,
+    "target": "tlr5 gene variation",
+    "type": "Gene",
+    "gnn_score": 24.03,
+    "degree": 2,
+    "discovery_score": 21.873,
+    "anchor": "low-density lipoprotein recept",
+    "hops": 3
+  },
+  {
+    "rank": 12,
+    "target": "coagulation factors",
+    "type": "Protein",
+    "gnn_score": 101.32,
+    "degree": 116,
+    "discovery_score": 21.275,
+    "anchor": "galectin-3",
+    "hops": 2
+  },
+  {
+    "rank": 13,
+    "target": "il10 g1082a polymorphism",
+    "type": "Gene",
+    "gnn_score": 23.35,
+    "degree": 2,
+    "discovery_score": 21.256,
+    "anchor": "catheter-related thrombosis",
+    "hops": 3
+  },
+  {
+    "rank": 14,
+    "target": "c5",
+    "type": "Protein",
+    "gnn_score": 87.53,
+    "degree": 70,
+    "discovery_score": 20.534,
+    "anchor": "galectin-3",
+    "hops": 2
+  },
+  {
+    "rank": 15,
+    "target": "bdnf val66met polymorphism",
+    "type": "Gene",
+    "gnn_score": 21.75,
+    "degree": 2,
+    "discovery_score": 19.797,
+    "anchor": "cd44",
+    "hops": 3
+  }
+]

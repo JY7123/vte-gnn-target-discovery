@@ -1,0 +1,59 @@
+{
+  "categories": [
+    "Anchor Alignment",
+    "Pathway Coverage",
+    "Novelty"
+  ],
+  "scores": {
+    "f2 mrna expression": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "tlr4 knockout": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "synthesis of il-12": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "\u03b2-fibrinogen -455 g>a mutation": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "proinflammatory cytokines secreted by ac": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "other cytokines": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "il-6 -1363t/g polymorphism": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "il-10 gene expression": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "profibrotic growth factors": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "tlr-7 snp": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  }
+}

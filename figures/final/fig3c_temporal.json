@@ -1,0 +1,16 @@
+{
+  "pending_targets": [
+    "f2 mrna expression",
+    "tlr4 knockout",
+    "synthesis of il-12",
+    "\u03b2-fibrinogen -455 g>a mutation",
+    "proinflammatory cytokines secreted by activated glia",
+    "other cytokines",
+    "il-6 -1363t/g polymorphism",
+    "il-10 gene expression",
+    "profibrotic growth factors",
+    "tlr-7 snp"
+  ],
+  "window": "2025-07 to 2026-06",
+  "status": "queued"
+}

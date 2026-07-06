@@ -1,0 +1,466 @@
+{
+  "target": "tsp-1",
+  "target_type": "Protein",
+  "full_name": "tsp-1",
+  "gnn_score": 106.63,
+  "degree": 43,
+  "num_anchor_paths": 95,
+  "shortest_path_length": 3,
+  "anchor_cascade_map": [
+    {
+      "anchor": "cd44",
+      "step": 3,
+      "label": "Cell Adhesion",
+      "hops": 5
+    },
+    {
+      "anchor": "coagulation",
+      "step": 99,
+      "label": "Coagulation",
+      "hops": 3
+    },
+    {
+      "anchor": "fibrin",
+      "step": 99,
+      "label": "Fibrin",
+      "hops": 3
+    },
+    {
+      "anchor": "inflammat",
+      "step": 99,
+      "label": "Inflammat",
+      "hops": 3
+    },
+    {
+      "anchor": "chronic inflammation",
+      "step": 99,
+      "label": "Chronic Inflammation",
+      "hops": 4
+    },
+    {
+      "anchor": "platelet",
+      "step": 99,
+      "label": "Platelet",
+      "hops": 4
+    },
+    {
+      "anchor": "fibrosis",
+      "step": 99,
+      "label": "Fibrosis",
+      "hops": 4
+    },
+    {
+      "anchor": "thrombosis",
+      "step": 99,
+      "label": "Thrombosis",
+      "hops": 5
+    }
+  ],
+  "nodes": [
+    {
+      "id": "P_r",
+      "type": "P",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "tax2",
+      "type": "Protein",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "tumor growth",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "platelet-tumor cross-talk",
+      "type": "Cell",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "p-selectin binding to psgl-1/cd44",
+      "type": "Protein",
+      "is_target": false,
+      "is_anchor": true,
+      "cascade_step": 3,
+      "cascade_label": "Cell Adhesion"
+    },
+    {
+      "id": "tf",
+      "type": "Protein",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "coagulation activation",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "fibrin deposition",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "systemic inflammation in copd",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "angiogenesis",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "chronic inflammation",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "thrombus stabilization",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "il-4",
+      "type": "Cytokine",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "fibrosis",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "factor x",
+      "type": "Protein",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "factor vii",
+      "type": "Protein",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "thrombosis",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "Protein",
+      "target": "tax2",
+      "source_type": "P",
+      "target_type": "Protein",
+      "relation": "INVERSE_BINDS_TO",
+      "attention_weight": 0.012037,
+      "hop": 1,
+      "anchor": "cd44",
+      "anchor_type": "gene",
+      "anchor_step": 3,
+      "anchor_label": "Cell Adhesion"
+    },
+    {
+      "source": "tax2",
+      "target": "tumor growth",
+      "source_type": "Protein",
+      "target_type": "Disease",
+      "relation": "INHIBITS",
+      "attention_weight": 2e-06,
+      "hop": 2,
+      "anchor": "cd44",
+      "anchor_type": "gene",
+      "anchor_step": 3,
+      "anchor_label": "Cell Adhesion"
+    },
+    {
+      "source": "tumor growth",
+      "target": "platelet-tumor cross-talk",
+      "source_type": "Disease",
+      "target_type": "Cell",
+      "relation": "INVERSE_PROMOTES",
+      "attention_weight": 0.000919,
+      "hop": 3,
+      "anchor": "cd44",
+      "anchor_type": "gene",
+      "anchor_step": 3,
+      "anchor_label": "Cell Adhesion"
+    },
+    {
+      "source": "platelet-tumor cross-talk",
+      "target": "p-selectin binding to psgl-1/cd44",
+      "source_type": "Cell",
+      "target_type": "Protein",
+      "relation": "INVERSE_MEDIATES",
+      "attention_weight": 0.0,
+      "hop": 4,
+      "anchor": "cd44",
+      "anchor_type": "gene",
+      "anchor_step": 3,
+      "anchor_label": "Cell Adhesion"
+    },
+    {
+      "source": "Protein",
+      "target": "tf",
+      "source_type": "P",
+      "target_type": "Protein",
+      "relation": "INVERSE_INHIBITS",
+      "attention_weight": 0.000981,
+      "hop": 1,
+      "anchor": "coagulation",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Coagulation"
+    },
+    {
+      "source": "tf",
+      "target": "coagulation activation",
+      "source_type": "Protein",
+      "target_type": "Disease",
+      "relation": "ASSOCIATED_WITH",
+      "attention_weight": 0.014048,
+      "hop": 2,
+      "anchor": "coagulation",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Coagulation"
+    },
+    {
+      "source": "Protein",
+      "target": "tf",
+      "source_type": "P",
+      "target_type": "Protein",
+      "relation": "INVERSE_INHIBITS",
+      "attention_weight": 0.000981,
+      "hop": 1,
+      "anchor": "fibrin",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Fibrin"
+    },
+    {
+      "source": "tf",
+      "target": "fibrin deposition",
+      "source_type": "Protein",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.004573,
+      "hop": 2,
+      "anchor": "fibrin",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Fibrin"
+    },
+    {
+      "source": "Protein",
+      "target": "tf",
+      "source_type": "P",
+      "target_type": "Protein",
+      "relation": "INVERSE_INHIBITS",
+      "attention_weight": 0.000981,
+      "hop": 1,
+      "anchor": "inflammat",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Inflammat"
+    },
+    {
+      "source": "tf",
+      "target": "systemic inflammation in copd",
+      "source_type": "Protein",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.004388,
+      "hop": 2,
+      "anchor": "inflammat",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Inflammat"
+    },
+    {
+      "source": "Protein",
+      "target": "tax2",
+      "source_type": "P",
+      "target_type": "Protein",
+      "relation": "INVERSE_BINDS_TO",
+      "attention_weight": 0.012037,
+      "hop": 1,
+      "anchor": "chronic inflammation",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Chronic Inflammation"
+    },
+    {
+      "source": "tax2",
+      "target": "angiogenesis",
+      "source_type": "Protein",
+      "target_type": "Disease",
+      "relation": "INHIBITS",
+      "attention_weight": 7e-06,
+      "hop": 2,
+      "anchor": "chronic inflammation",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Chronic Inflammation"
+    },
+    {
+      "source": "angiogenesis",
+      "target": "chronic inflammation",
+      "source_type": "Disease",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.006827,
+      "hop": 3,
+      "anchor": "chronic inflammation",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Chronic Inflammation"
+    },
+    {
+      "source": "Protein",
+      "target": "tax2",
+      "source_type": "P",
+      "target_type": "Protein",
+      "relation": "INVERSE_BINDS_TO",
+      "attention_weight": 0.012037,
+      "hop": 1,
+      "anchor": "platelet",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Platelet"
+    },
+    {
+      "source": "tax2",
+      "target": "tumor growth",
+      "source_type": "Protein",
+      "target_type": "Disease",
+      "relation": "INHIBITS",
+      "attention_weight": 2e-06,
+      "hop": 2,
+      "anchor": "platelet",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Platelet"
+    },
+    {
+      "source": "tumor growth",
+      "target": "platelet-tumor cross-talk",
+      "source_type": "Disease",
+      "target_type": "Cell",
+      "relation": "INVERSE_PROMOTES",
+      "attention_weight": 0.000919,
+      "hop": 3,
+      "anchor": "platelet",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Platelet"
+    },
+    {
+      "source": "Protein",
+      "target": "thrombus stabilization",
+      "source_type": "P",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.000185,
+      "hop": 1,
+      "anchor": "fibrosis",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Fibrosis"
+    },
+    {
+      "source": "thrombus stabilization",
+      "target": "il-4",
+      "source_type": "Disease",
+      "target_type": "Cytokine",
+      "relation": "INVERSE_PROMOTES",
+      "attention_weight": 0.005846,
+      "hop": 2,
+      "anchor": "fibrosis",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Fibrosis"
+    },
+    {
+      "source": "il-4",
+      "target": "fibrosis",
+      "source_type": "Cytokine",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.000172,
+      "hop": 3,
+      "anchor": "fibrosis",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Fibrosis"
+    },
+    {
+      "source": "Protein",
+      "target": "tf",
+      "source_type": "P",
+      "target_type": "Protein",
+      "relation": "INVERSE_INHIBITS",
+      "attention_weight": 0.000981,
+      "hop": 1,
+      "anchor": "thrombosis",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Thrombosis"
+    },
+    {
+      "source": "tf",
+      "target": "factor x",
+      "source_type": "Protein",
+      "target_type": "Protein",
+      "relation": "ACTIVATES",
+      "attention_weight": 0.047832,
+      "hop": 2,
+      "anchor": "thrombosis",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Thrombosis"
+    },
+    {
+      "source": "factor x",
+      "target": "factor vii",
+      "source_type": "Protein",
+      "target_type": "Protein",
+      "relation": "ACTIVATES",
+      "attention_weight": 0.000522,
+      "hop": 3,
+      "anchor": "thrombosis",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Thrombosis"
+    },
+    {
+      "source": "factor vii",
+      "target": "thrombosis",
+      "source_type": "Protein",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.00028,
+      "hop": 4,
+      "anchor": "thrombosis",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Thrombosis"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "target": "AGTR1 gene",
+    "type": "Gene",
+    "degree": 2,
+    "disc_score": 18.3,
+    "anchor": "inflammatory markers",
+    "note": "Angiotensin II receptor type 1 ¡ª RAS¡úthrombosis novel bridge"
+  },
+  {
+    "target": "KALRN (Kalirin)",
+    "type": "Gene",
+    "degree": 2,
+    "disc_score": 10.9,
+    "anchor": "ROCK1",
+    "note": "Rho-GEF activating ROCK1 ¡ª cytoskeletal remodeling¡úplatelet"
+  },
+  {
+    "target": "GDF-7",
+    "type": "Gene",
+    "degree": 2,
+    "disc_score": 7.1,
+    "anchor": "RHOA-ROCK",
+    "note": "BMP family ¡ª TGF-beta superfamily, fibrosis axis"
+  },
+  {
+    "target": "LRP1 gene",
+    "type": "Gene",
+    "degree": 2,
+    "disc_score": 13.8,
+    "anchor": "acute phase",
+    "note": "LDL receptor-related protein ¡ª lipid-thrombosis crosstalk"
+  },
+  {
+    "target": "VAMP-8 gene",
+    "type": "Gene",
+    "degree": 2,
+    "disc_score": 7.1,
+    "anchor": "sarpogrelate",
+    "note": "Vesicle trafficking ¡ª platelet granule secretion"
+  },
+  {
+    "target": "FRMD3",
+    "type": "Gene",
+    "degree": 2,
+    "disc_score": 14.2,
+    "anchor": "endothelium",
+    "note": "FERM domain ¡ª cytoskeleton-endothelial barrier"
+  },
+  {
+    "target": "AGGF1",
+    "type": "Gene",
+    "degree": 6,
+    "disc_score": 7.5,
+    "anchor": "galectin-3",
+    "note": "Angiogenic factor with G-patch ¡ª venous angiogenesis"
+  },
+  {
+    "target": "LPIN2 mutation",
+    "type": "Gene",
+    "degree": 2,
+    "disc_score": 7.7,
+    "anchor": "inflammation",
+    "note": "Lipin-2 ¡ª lipid metabolism¡úinflammation¡úthrombosis"
+  },
+  {
+    "target": "SORT1 gene",
+    "type": "Gene",
+    "degree": 2,
+    "disc_score": 8.5,
+    "anchor": "acute phase",
+    "note": "Sortilin-1 ¡ª LDL trafficking, emerging CV target"
+  },
+  {
+    "target": "EPOR mutations",
+    "type": "Gene",
+    "degree": 2,
+    "disc_score": 7.5,
+    "anchor": "sarpogrelate",
+    "note": "Erythropoietin receptor ¡ª erythrocytosis¡úthrombosis"
+  },
+  {
+    "target": "CD36 rs1761667",
+    "type": "Gene",
+    "degree": 2,
+    "disc_score": 15.1,
+    "anchor": "catheter-thrombosis",
+    "note": "Scavenger receptor ¡ª oxidized LDL¡úplatelet activation"
+  },
+  {
+    "target": "CXCL1/CXCL2",
+    "type": "Gene",
+    "degree": 2,
+    "disc_score": 7.6,
+    "anchor": "galectin-3",
+    "note": "Chemokine duo ¡ª neutrophil recruitment¡úvenous inflammation"
+  },
+  {
+    "target": "PDE4D SNP83",
+    "type": "Gene",
+    "degree": 2,
+    "disc_score": 18.0,
+    "anchor": "catheter-thrombosis",
+    "note": "cAMP phosphodiesterase ¡ª platelet inhibition pathway"
+  },
+  {
+    "target": "TPO gene polymorphism",
+    "type": "Gene",
+    "degree": 2,
+    "disc_score": 18.6,
+    "anchor": "immune-related",
+    "note": "Thyroid peroxidase ¡ª thyroid-autoimmunity¡úthrombosis"
+  },
+  {
+    "target": "SFTPD polymorphism",
+    "type": "Gene",
+    "degree": 2,
+    "disc_score": 17.9,
+    "anchor": "ROCK1",
+    "note": "Surfactant protein D ¡ª innate immunity¡úvascular"
+  }
+]

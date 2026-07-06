@@ -1,0 +1,31 @@
+{
+  "mr_only": 3,
+  "gnn_only": 3,
+  "intersection": 0,
+  "intersection_genes": [],
+  "mr_only_genes": [
+    "F11",
+    "KNG1",
+    "LRP4"
+  ],
+  "gnn_only_genes": [
+    "eif2ak4 gene mutations",
+    "f2 mrna expression",
+    "tlr4 knockout"
+  ],
+  "overlap_ratio": 0.0,
+  "venn_data": {
+    "gnn_set": [
+      "eif2ak4 gene mutations",
+      "f2 mrna expression",
+      "tlr4 knockout"
+    ],
+    "mr_set": [
+      "F11",
+      "KNG1",
+      "LRP4"
+    ],
+    "intersection": [],
+    "mr_targets_detail": []
+  }
+}

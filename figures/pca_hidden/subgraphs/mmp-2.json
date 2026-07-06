@@ -1,0 +1,466 @@
+{
+  "target": "mmp-2",
+  "target_type": "Protein",
+  "full_name": "mmp-2",
+  "gnn_score": 153.6,
+  "degree": 154,
+  "num_anchor_paths": 90,
+  "shortest_path_length": 3,
+  "anchor_cascade_map": [
+    {
+      "anchor": "rhoa",
+      "step": 4,
+      "label": "Cytoskeletal Signaling",
+      "hops": 5
+    },
+    {
+      "anchor": "inflammat",
+      "step": 99,
+      "label": "Inflammat",
+      "hops": 3
+    },
+    {
+      "anchor": "chronic inflammation",
+      "step": 99,
+      "label": "Chronic Inflammation",
+      "hops": 3
+    },
+    {
+      "anchor": "thrombosis",
+      "step": 99,
+      "label": "Thrombosis",
+      "hops": 4
+    },
+    {
+      "anchor": "coagulation",
+      "step": 99,
+      "label": "Coagulation",
+      "hops": 4
+    },
+    {
+      "anchor": "platelet",
+      "step": 99,
+      "label": "Platelet",
+      "hops": 4
+    },
+    {
+      "anchor": "endothelial",
+      "step": 99,
+      "label": "Endothelial",
+      "hops": 4
+    },
+    {
+      "anchor": "fibrosis",
+      "step": 99,
+      "label": "Fibrosis",
+      "hops": 4
+    }
+  ],
+  "nodes": [
+    {
+      "id": "P_r",
+      "type": "P",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "thrombin",
+      "type": "Protein",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "fondaparinux",
+      "type": "Drug",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "coagulation factor xa",
+      "type": "Protein",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "rhoa",
+      "type": "Protein",
+      "is_target": false,
+      "is_anchor": true,
+      "cascade_step": 4,
+      "cascade_label": "Cytoskeletal Signaling"
+    },
+    {
+      "id": "thrombus resolution",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "inflammatory response",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "angiogenesis",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "chronic inflammation",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "protein c",
+      "type": "Protein",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "thrombosis",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "catestatin",
+      "type": "Cytokine",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "platelet aggregation",
+      "type": "Cell",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "il-6",
+      "type": "Cytokine",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "endothelial activation",
+      "type": "Cell",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "pai-1",
+      "type": "Protein",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "tissue fibrosis",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "Protein",
+      "target": "thrombin",
+      "source_type": "P",
+      "target_type": "Protein",
+      "relation": "INVERSE_ACTIVATES",
+      "attention_weight": 0.098635,
+      "hop": 1,
+      "anchor": "rhoa",
+      "anchor_type": "gene",
+      "anchor_step": 4,
+      "anchor_label": "Cytoskeletal Signaling"
+    },
+    {
+      "source": "thrombin",
+      "target": "fondaparinux",
+      "source_type": "Protein",
+      "target_type": "Drug",
+      "relation": "INVERSE_INHIBITS",
+      "attention_weight": 0.011048,
+      "hop": 2,
+      "anchor": "rhoa",
+      "anchor_type": "gene",
+      "anchor_step": 4,
+      "anchor_label": "Cytoskeletal Signaling"
+    },
+    {
+      "source": "fondaparinux",
+      "target": "coagulation factor xa",
+      "source_type": "Drug",
+      "target_type": "Protein",
+      "relation": "INHIBITS",
+      "attention_weight": 0.000315,
+      "hop": 3,
+      "anchor": "rhoa",
+      "anchor_type": "gene",
+      "anchor_step": 4,
+      "anchor_label": "Cytoskeletal Signaling"
+    },
+    {
+      "source": "coagulation factor xa",
+      "target": "rhoa",
+      "source_type": "Protein",
+      "target_type": "Protein",
+      "relation": "ACTIVATES",
+      "attention_weight": 0.001142,
+      "hop": 4,
+      "anchor": "rhoa",
+      "anchor_type": "gene",
+      "anchor_step": 4,
+      "anchor_label": "Cytoskeletal Signaling"
+    },
+    {
+      "source": "Protein",
+      "target": "thrombus resolution",
+      "source_type": "P",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.00059,
+      "hop": 1,
+      "anchor": "inflammat",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Inflammat"
+    },
+    {
+      "source": "thrombus resolution",
+      "target": "inflammatory response",
+      "source_type": "Disease",
+      "target_type": "Disease",
+      "relation": "INVERSE_PROMOTES",
+      "attention_weight": 0.000861,
+      "hop": 2,
+      "anchor": "inflammat",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Inflammat"
+    },
+    {
+      "source": "Protein",
+      "target": "angiogenesis",
+      "source_type": "P",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.000489,
+      "hop": 1,
+      "anchor": "chronic inflammation",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Chronic Inflammation"
+    },
+    {
+      "source": "angiogenesis",
+      "target": "chronic inflammation",
+      "source_type": "Disease",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.006827,
+      "hop": 2,
+      "anchor": "chronic inflammation",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Chronic Inflammation"
+    },
+    {
+      "source": "Protein",
+      "target": "thrombin",
+      "source_type": "P",
+      "target_type": "Protein",
+      "relation": "INVERSE_ACTIVATES",
+      "attention_weight": 0.098635,
+      "hop": 1,
+      "anchor": "thrombosis",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Thrombosis"
+    },
+    {
+      "source": "thrombin",
+      "target": "protein c",
+      "source_type": "Protein",
+      "target_type": "Protein",
+      "relation": "ACTIVATES",
+      "attention_weight": 0.125006,
+      "hop": 2,
+      "anchor": "thrombosis",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Thrombosis"
+    },
+    {
+      "source": "protein c",
+      "target": "thrombosis",
+      "source_type": "Protein",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.000331,
+      "hop": 3,
+      "anchor": "thrombosis",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Thrombosis"
+    },
+    {
+      "source": "Protein",
+      "target": "thrombin",
+      "source_type": "P",
+      "target_type": "Protein",
+      "relation": "INVERSE_ACTIVATES",
+      "attention_weight": 0.098635,
+      "hop": 1,
+      "anchor": "coagulation",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Coagulation"
+    },
+    {
+      "source": "thrombin",
+      "target": "fondaparinux",
+      "source_type": "Protein",
+      "target_type": "Drug",
+      "relation": "INVERSE_INHIBITS",
+      "attention_weight": 0.011048,
+      "hop": 2,
+      "anchor": "coagulation",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Coagulation"
+    },
+    {
+      "source": "fondaparinux",
+      "target": "coagulation factor xa",
+      "source_type": "Drug",
+      "target_type": "Protein",
+      "relation": "INHIBITS",
+      "attention_weight": 0.000315,
+      "hop": 3,
+      "anchor": "coagulation",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Coagulation"
+    },
+    {
+      "source": "Protein",
+      "target": "thrombus resolution",
+      "source_type": "P",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.00059,
+      "hop": 1,
+      "anchor": "platelet",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Platelet"
+    },
+    {
+      "source": "thrombus resolution",
+      "target": "catestatin",
+      "source_type": "Disease",
+      "target_type": "Cytokine",
+      "relation": "INVERSE_PROMOTES",
+      "attention_weight": 0.01296,
+      "hop": 2,
+      "anchor": "platelet",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Platelet"
+    },
+    {
+      "source": "catestatin",
+      "target": "platelet aggregation",
+      "source_type": "Cytokine",
+      "target_type": "Cell",
+      "relation": "INHIBITS",
+      "attention_weight": 0.0,
+      "hop": 3,
+      "anchor": "platelet",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Platelet"
+    },
+    {
+      "source": "Protein",
+      "target": "thrombus resolution",
+      "source_type": "P",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.00059,
+      "hop": 1,
+      "anchor": "endothelial",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Endothelial"
+    },
+    {
+      "source": "thrombus resolution",
+      "target": "il-6",
+      "source_type": "Disease",
+      "target_type": "Cytokine",
+      "relation": "INVERSE_PROMOTES",
+      "attention_weight": 0.002129,
+      "hop": 2,
+      "anchor": "endothelial",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Endothelial"
+    },
+    {
+      "source": "il-6",
+      "target": "endothelial activation",
+      "source_type": "Cytokine",
+      "target_type": "Cell",
+      "relation": "PROMOTES",
+      "attention_weight": 0.01234,
+      "hop": 3,
+      "anchor": "endothelial",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Endothelial"
+    },
+    {
+      "source": "Protein",
+      "target": "thrombus resolution",
+      "source_type": "P",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.00059,
+      "hop": 1,
+      "anchor": "fibrosis",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Fibrosis"
+    },
+    {
+      "source": "thrombus resolution",
+      "target": "pai-1",
+      "source_type": "Disease",
+      "target_type": "Protein",
+      "relation": "INVERSE_PROMOTES",
+      "attention_weight": 0.000801,
+      "hop": 2,
+      "anchor": "fibrosis",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Fibrosis"
+    },
+    {
+      "source": "pai-1",
+      "target": "tissue fibrosis",
+      "source_type": "Protein",
+      "target_type": "Disease",
+      "relation": "ASSOCIATED_WITH",
+      "attention_weight": 0.07972,
+      "hop": 3,
+      "anchor": "fibrosis",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Fibrosis"
+    }
+  ]
+}

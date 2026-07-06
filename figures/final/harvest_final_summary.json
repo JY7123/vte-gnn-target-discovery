@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-06-10T02:50:58.879046",
+  "model_auroc": 0.751,
+  "model_mrr": 0.042,
+  "total_predictions_scored": 50,
+  "anchor_filtered": 0,
+  "shared_downstream": 0,
+  "parallel_regulation": 0,
+  "top_anchor_target": "N/A",
+  "output_dir": "D:\\JY\\work\\my work\\\u65b0\u601d\u8def\\vte_gnn_target_discovery\\figures\\final"
+}

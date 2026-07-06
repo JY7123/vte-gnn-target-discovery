@@ -1,0 +1,51 @@
+target,target_type,disease,relation,score,tier,is_mr_target
+sirt1 expression,Gene,nucleic acid¨Cdriven coagulation,INHIBITS,19.426158905029297,other,False
+f2 mrna expression,Gene,coronary artery disease,CONTRIBUTES_TO,17.864591598510742,other,False
+slc44a3,Gene,oral submucous fibrosis,PROMOTES,12.450796127319336,other,False
+ppar-¦Ã expression,Gene,deep vein thrombosis,PROMOTES,11.657885551452637,other,False
+runx1 expression,Gene,hypertension,PROMOTES,11.614564895629883,other,False
+dsur expression,Gene,increased cardiovascular risk,INHIBITS,11.360368728637695,other,False
+leiden mutation,Gene,fractional excretion of sodium under amiloride treatment,PROMOTES,11.026933670043945,other,False
+foxp3,Gene,il-1¦Â overproduction,CONTRIBUTES_TO,10.894847869873047,other,False
+epcr gene ser219gly polymorphism,Gene,reduced acute pain episodes,CONTRIBUTES_TO,10.869287490844727,other,False
+ifih1 gain-of-function mutation,Gene,hemoconcentration and increased blood viscosity,CONTRIBUTES_TO,10.776936531066895,other,False
+epcr gene ser219gly polymorphism,Gene,clotting initiation time,ASSOCIATED_WITH,10.578920364379883,other,False
+rs1009312,Gene,antithrombin resistance,ASSOCIATED_WITH,10.453397750854492,other,False
+gabaa receptor alpha4 subunit,Gene,williams syndrome,PROMOTES,10.346122741699219,other,False
+secretion of fgf-2,Cytokine,vte,ASSOCIATED_WITH,10.336298942565918,other,False
+¦Áv¦Â3,Protein,vte risk,ASSOCIATED_WITH,9.974902153015137,other,False
+entpd1 gene transcription,Gene,severe cardiac and cerebral complications,CONTRIBUTES_TO,9.944963455200195,other,False
+tlr4 knockout,Gene,arterial thrombosis,ASSOCIATED_WITH,9.86055850982666,other,False
+ccl17/tarc,Cytokine,mortality,ASSOCIATED_WITH,9.801568984985352,other,False
+synthesis of il-12,Cytokine,arterial thrombosis,ASSOCIATED_WITH,9.799457550048828,other,False
+increased postpartal expression of mir-21-5p,Gene,provoked pulmonary embolism,ASSOCIATED_WITH,9.757311820983887,other,False
+let-7/mir-98 family members,Gene,processing speed change,CONTRIBUTES_TO,9.710411071777344,other,False
+cyclin a promoter activity,Gene,arterial thrombosis,ASSOCIATED_WITH,9.668169975280762,other,False
+ip10 secretion,Cytokine,myeloproliferative neoplasm,ASSOCIATED_WITH,9.59939193725586,other,False
+alk2 downregulation,Gene,neurovascular damage,INHIBITS,9.585102081298828,other,False
+mapt h1 haplotype,Gene,mitochondrial injury,ASSOCIATED_WITH,9.55955982208252,other,False
+bmpr2 haploinsufficiency,Gene,collagen remodeling,PROMOTES,9.538398742675781,other,False
+shox2,Gene,bone resorption markers,ASSOCIATED_WITH,9.526646614074707,other,False
+¦Â-fibrinogen -455 g>a mutation,Gene,wound-healing complications,ASSOCIATED_WITH,9.505948066711426,other,False
+cxcl6,Cytokine,disruption of the gag layer,ASSOCIATED_WITH,9.475543022155762,other,False
+mthfr c677t and a1298c mutations,Gene,ace2 depletion,ASSOCIATED_WITH,9.457103729248047,other,False
+eif2ak4 gene mutations,Gene,activation of fibrinolysis and hemostasis,INHIBITS,9.446207046508789,other,False
+ace2 deficiency,Gene,acute exacerbation of interstitial pneumonia,ASSOCIATED_WITH,9.39315414428711,other,False
+proinflammatory cytokines secreted by activated glia,Cytokine,quadriceps tendon rupture,ASSOCIATED_WITH,9.381839752197266,other,False
+other cytokines,Cytokine,venous thromboembolism,ASSOCIATED_WITH,9.367189407348633,other,False
+e-ntpdase expression,Gene,pulmonary arteriole remodeling,CONTRIBUTES_TO,9.34380054473877,other,False
+il-6 -1363t/g polymorphism,Gene,antithrombin resistance,INHIBITS,9.30732536315918,other,False
+heterozygous mutation in proc gene,Gene,increased risk of oligoarticular and rf-negative polyarticular juvenile idiopathic arthritis,ASSOCIATED_WITH,9.278074264526367,other,False
+kcnn4 silencing,Gene,hepatic pre-metastatic niche formation,CONTRIBUTES_TO,9.270148277282715,other,False
+heterozygous mutation in proc gene,Gene,sheehan's syndrome,ASSOCIATED_WITH,9.250812530517578,other,False
+¦Á-myhc mrna,Gene,acute reperfusion injury,CONTRIBUTES_TO,9.236584663391113,other,False
+il-10 gene expression,Gene,progression to cirrhosis,INHIBITS,9.21646785736084,other,False
+hmox1 30-repeat allele,Gene,neonatal-onset multi-system inflammatory disease,CONTRIBUTES_TO,9.209630966186523,other,False
+v617f mutation,Gene,cancer-associated thrombosis,ASSOCIATED_WITH,9.194138526916504,other,False
+thbd pro thrombomodulin mutation,Gene,deep vein thrombosis,CONTRIBUTES_TO,9.188536643981934,other,False
+profibrotic growth factors,Cytokine,lca,ASSOCIATED_WITH,9.15502643585205,other,False
+leptin secretion,Cytokine,hemorrhagic effects,ASSOCIATED_WITH,9.1408109664917,other,False
+cgb5 intron 2 snp,Gene,arterial vasospasm,CONTRIBUTES_TO,9.132156372070312,other,False
+mir-141-3p,Gene,serum alt/ast levels,ASSOCIATED_WITH,9.121953964233398,other,False
+tlr-7 snp,Gene,glioblastoma,INHIBITS,9.119884490966797,other,False
+pros1 transcription,Gene,th2-high endotype,INHIBITS,9.09007740020752,other,False

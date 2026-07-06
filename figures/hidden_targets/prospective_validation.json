@@ -1,0 +1,110 @@
+{
+  "search_date": "2026-06-10T12:44:01.769900",
+  "window": "2025-01-01 to 2026-06-30",
+  "total_targets": 10,
+  "targets_with_new_evidence": 8,
+  "results": [
+    {
+      "target": "PDI",
+      "query": "protein disulfide isomerase AND (venous thromboembolism OR deep vein thrombosis)",
+      "post_2024_papers": 4,
+      "pmids": [
+        "41474368",
+        "41197808",
+        "40336049",
+        "39973747"
+      ]
+    },
+    {
+      "target": "MMP-9",
+      "query": "MMP-9 AND (venous thromboembolism OR venous thrombosis)",
+      "post_2024_papers": 4,
+      "pmids": [
+        "40724896",
+        "40145454",
+        "39825912",
+        "39793399"
+      ]
+    },
+    {
+      "target": "IL-32",
+      "query": "IL-32 AND (thrombosis OR coagulation OR inflammation)",
+      "post_2024_papers": 28,
+      "pmids": [
+        "42257262",
+        "42099604",
+        "42096871",
+        "41748756",
+        "41727490"
+      ]
+    },
+    {
+      "target": "PAR-2",
+      "query": "PAR-2 protease activated receptor AND (thrombosis OR coagulation)",
+      "post_2024_papers": 16,
+      "pmids": [
+        "42128959",
+        "41842964",
+        "41495365",
+        "41274690",
+        "40994550"
+      ]
+    },
+    {
+      "target": "LIPA",
+      "query": "LIPA lysosomal acid lipase AND (thrombosis OR vascular)",
+      "post_2024_papers": 5,
+      "pmids": [
+        "42163465",
+        "41599846",
+        "41431923",
+        "40827730",
+        "40091840"
+      ]
+    },
+    {
+      "target": "AP1M2",
+      "query": "AP1M2 AND (thrombosis OR coagulation OR endothelial)",
+      "post_2024_papers": 1,
+      "pmids": [
+        "39303819"
+      ]
+    },
+    {
+      "target": "SLC4A1",
+      "query": "SLC4A1 AND (thrombosis OR erythrocyte OR endothelial)",
+      "post_2024_papers": 21,
+      "pmids": [
+        "42058779",
+        "41914049",
+        "41778592",
+        "41631466",
+        "41394639"
+      ]
+    },
+    {
+      "target": "CDH17",
+      "query": "CDH17 cadherin AND (thrombosis OR vascular remodeling)",
+      "post_2024_papers": 0,
+      "pmids": []
+    },
+    {
+      "target": "ACCN1",
+      "query": "ACCN1 ASIC AND (thrombosis OR acidosis OR platelet)",
+      "post_2024_papers": 0,
+      "pmids": []
+    },
+    {
+      "target": "JAK-2",
+      "query": "JAK2 V617F AND (venous thromboembolism OR splanchnic thrombosis)",
+      "post_2024_papers": 5,
+      "pmids": [
+        "41870701",
+        "41780952",
+        "41016980",
+        "40605890",
+        "40287867"
+      ]
+    }
+  ]
+}

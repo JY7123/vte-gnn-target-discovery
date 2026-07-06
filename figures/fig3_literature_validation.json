@@ -1,0 +1,24 @@
+{
+  "total_predictions": 3,
+  "prospective_hits": 0,
+  "reproduction_hits": 0,
+  "results": [
+    {
+      "gene": "eif2ak4 gene mutations",
+      "score": 0.0,
+      "literature_status": "unvalidated"
+    },
+    {
+      "gene": "f2 mrna expression",
+      "score": 0.0,
+      "literature_status": "unvalidated"
+    },
+    {
+      "gene": "tlr4 knockout",
+      "score": 0.0,
+      "literature_status": "unvalidated"
+    }
+  ],
+  "target_count": 3,
+  "timestamp": "2026-06-10T02:35:47.039629"
+}

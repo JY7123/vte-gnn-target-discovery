@@ -1,0 +1,302 @@
+{
+  "model_auroc": 0.837,
+  "total_scored": 9273,
+  "filtered": 2089,
+  "top25": [
+    {
+      "rank": 1,
+      "target": "plasma soluble p-selectin concentration",
+      "type": "Protein",
+      "disease": "thrombosis risk",
+      "relation": "ASSOCIATED_WITH",
+      "score": 3.08,
+      "pathways": [
+        "Fibrosis",
+        "Adhesion"
+      ]
+    },
+    {
+      "rank": 2,
+      "target": "platelet p-selectin",
+      "type": "Protein",
+      "disease": "vascular permeability",
+      "relation": "PROMOTES",
+      "score": 2.63,
+      "pathways": [
+        "Coagulation",
+        "Adhesion"
+      ]
+    },
+    {
+      "rank": 3,
+      "target": "plasma fibrinogen level",
+      "type": "Protein",
+      "disease": "ischemic stroke",
+      "relation": "ASSOCIATED_WITH",
+      "score": 1.85,
+      "pathways": [
+        "Coagulation",
+        "Fibrosis"
+      ]
+    },
+    {
+      "rank": 4,
+      "target": "plasma fibrinogen",
+      "type": "Protein",
+      "disease": "metastasis",
+      "relation": "PROMOTES",
+      "score": 1.7,
+      "pathways": [
+        "Coagulation",
+        "Fibrosis"
+      ]
+    },
+    {
+      "rank": 5,
+      "target": "plasma fibrinogen levels",
+      "type": "Protein",
+      "disease": "thrombotic risk",
+      "relation": "PROMOTES",
+      "score": 1.6,
+      "pathways": [
+        "Coagulation",
+        "Fibrosis"
+      ]
+    },
+    {
+      "rank": 6,
+      "target": "plasma fibrinogen",
+      "type": "Protein",
+      "disease": "tumor progression",
+      "relation": "PROMOTES",
+      "score": 1.6,
+      "pathways": [
+        "Coagulation",
+        "Fibrosis"
+      ]
+    },
+    {
+      "rank": 7,
+      "target": "platelet-derived tgf-beta expression",
+      "type": "Protein",
+      "disease": "fibrosis",
+      "relation": "ASSOCIATED_WITH",
+      "score": 1.46,
+      "pathways": [
+        "Coagulation",
+        "Fibrosis"
+      ]
+    },
+    {
+      "rank": 8,
+      "target": "increased plasma levels of clotting factor viii",
+      "type": "Protein",
+      "disease": "recurrent pregnancy loss",
+      "relation": "ASSOCIATED_WITH",
+      "score": 0.85,
+      "pathways": [
+        "Coagulation",
+        "Fibrosis"
+      ]
+    },
+    {
+      "rank": 9,
+      "target": "mismatched factor viii replacement therapy",
+      "type": "Protein",
+      "disease": "anti-factor viii alloantibody development",
+      "relation": "PROMOTES",
+      "score": 0.12,
+      "pathways": [
+        "Coagulation",
+        "Fibrosis"
+      ]
+    },
+    {
+      "rank": 10,
+      "target": "increased plasma fibrinogen concentration",
+      "type": "Protein",
+      "disease": "microvascular flap thrombosis",
+      "relation": "ASSOCIATED_WITH",
+      "score": 0.11,
+      "pathways": [
+        "Coagulation",
+        "Fibrosis"
+      ]
+    },
+    {
+      "rank": 11,
+      "target": "plasma fibrinogen",
+      "type": "Protein",
+      "disease": "progression to ards",
+      "relation": "ASSOCIATED_WITH",
+      "score": 0.1,
+      "pathways": [
+        "Coagulation",
+        "Fibrosis"
+      ]
+    },
+    {
+      "rank": 12,
+      "target": "tnfsf11 rs7984870 cc genotype",
+      "type": "Gene",
+      "disease": "improvements in hot flashes",
+      "relation": "ASSOCIATED_WITH",
+      "score": -0.05,
+      "pathways": [
+        "Coagulation",
+        "Inflammation"
+      ]
+    },
+    {
+      "rank": 13,
+      "target": "activated platelet p-selectin",
+      "type": "Protein",
+      "disease": "lung vaso-occlusion",
+      "relation": "PROMOTES",
+      "score": -0.07,
+      "pathways": [
+        "Coagulation",
+        "Adhesion"
+      ]
+    },
+    {
+      "rank": 14,
+      "target": "plasma fibrinogen",
+      "type": "Protein",
+      "disease": "lymph node involvement",
+      "relation": "ASSOCIATED_WITH",
+      "score": -0.07,
+      "pathways": [
+        "Coagulation",
+        "Fibrosis"
+      ]
+    },
+    {
+      "rank": 15,
+      "target": "plasma thrombin level",
+      "type": "Protein",
+      "disease": "all-cause mortality",
+      "relation": "ASSOCIATED_WITH",
+      "score": -0.12,
+      "pathways": [
+        "Coagulation",
+        "Fibrosis"
+      ]
+    },
+    {
+      "rank": 16,
+      "target": "plasma fibrinogen",
+      "type": "Protein",
+      "disease": "dvt development",
+      "relation": "PROMOTES",
+      "score": -0.28,
+      "pathways": [
+        "Coagulation",
+        "Fibrosis"
+      ]
+    },
+    {
+      "rank": 17,
+      "target": "plasma fibrinogen",
+      "type": "Protein",
+      "disease": "tumor necrosis",
+      "relation": "ASSOCIATED_WITH",
+      "score": -0.32,
+      "pathways": [
+        "Coagulation",
+        "Fibrosis"
+      ]
+    },
+    {
+      "rank": 18,
+      "target": "tnfsf11 snps",
+      "type": "Gene",
+      "disease": "aimss",
+      "relation": "ASSOCIATED_WITH",
+      "score": -0.42,
+      "pathways": [
+        "Coagulation",
+        "Inflammation"
+      ]
+    },
+    {
+      "rank": 19,
+      "target": "tnfrsf11b snps",
+      "type": "Gene",
+      "disease": "aimss",
+      "relation": "ASSOCIATED_WITH",
+      "score": -0.47,
+      "pathways": [
+        "Coagulation",
+        "Inflammation"
+      ]
+    },
+    {
+      "rank": 20,
+      "target": "plasma fibrinogen",
+      "type": "Protein",
+      "disease": "poorer overall survival",
+      "relation": "ASSOCIATED_WITH",
+      "score": -0.53,
+      "pathways": [
+        "Coagulation",
+        "Fibrosis"
+      ]
+    },
+    {
+      "rank": 21,
+      "target": "thrombin",
+      "type": "Protein",
+      "disease": "thrombosis",
+      "relation": "PROMOTES",
+      "score": 65.9,
+      "pathways": [
+        "Coagulation"
+      ]
+    },
+    {
+      "rank": 22,
+      "target": "thrombin",
+      "type": "Protein",
+      "disease": "inflammation",
+      "relation": "ASSOCIATED_WITH",
+      "score": 63.98,
+      "pathways": [
+        "Coagulation"
+      ]
+    },
+    {
+      "rank": 23,
+      "target": "thrombin",
+      "type": "Protein",
+      "disease": "inflammation",
+      "relation": "PROMOTES",
+      "score": 63.98,
+      "pathways": [
+        "Coagulation"
+      ]
+    },
+    {
+      "rank": 24,
+      "target": "thrombin",
+      "type": "Protein",
+      "disease": "thrombus formation",
+      "relation": "ASSOCIATED_WITH",
+      "score": 59.93,
+      "pathways": [
+        "Coagulation"
+      ]
+    },
+    {
+      "rank": 25,
+      "target": "thrombin",
+      "type": "Protein",
+      "disease": "thrombus formation",
+      "relation": "PROMOTES",
+      "score": 59.93,
+      "pathways": [
+        "Coagulation"
+      ]
+    }
+  ]
+}

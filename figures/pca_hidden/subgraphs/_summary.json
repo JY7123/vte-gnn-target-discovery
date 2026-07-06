@@ -1,0 +1,122 @@
+{
+  "method": "native HGT attention weights (no grad, pure forward pass)",
+  "model": "PCA PubMedBERT->128d, epoch 93, AUROC=0.9254",
+  "targets": [
+    {
+      "rank": 1,
+      "name": "renin",
+      "degree": 40,
+      "paths": 65,
+      "shortest_hops": 3,
+      "cascade_mapping": [
+        "Inflammatory Transcription",
+        "Fibrosis",
+        "Endothelial"
+      ],
+      "output_file": "figures/pca_hidden/subgraphs/renin.json"
+    },
+    {
+      "rank": 2,
+      "name": "c3",
+      "degree": 86,
+      "paths": 46,
+      "shortest_hops": 2,
+      "cascade_mapping": [
+        "Fibrin",
+        "Platelet",
+        "Thrombosis"
+      ],
+      "output_file": "figures/pca_hidden/subgraphs/c3.json"
+    },
+    {
+      "rank": 3,
+      "name": "mmp-2",
+      "degree": 154,
+      "paths": 90,
+      "shortest_hops": 3,
+      "cascade_mapping": [
+        "Cytoskeletal Signaling",
+        "Inflammat",
+        "Chronic Inflammation"
+      ],
+      "output_file": "figures/pca_hidden/subgraphs/mmp-2.json"
+    },
+    {
+      "rank": 4,
+      "name": "par-2",
+      "degree": 49,
+      "paths": 91,
+      "shortest_hops": 4,
+      "cascade_mapping": [
+        "Cell Adhesion",
+        "Cytoskeletal Signaling",
+        "Inflammat"
+      ],
+      "output_file": "figures/pca_hidden/subgraphs/par-2.json"
+    },
+    {
+      "rank": 5,
+      "name": "tsp-1",
+      "degree": 43,
+      "paths": 95,
+      "shortest_hops": 3,
+      "cascade_mapping": [
+        "Cell Adhesion",
+        "Coagulation",
+        "Fibrin"
+      ],
+      "output_file": "figures/pca_hidden/subgraphs/tsp-1.json"
+    }
+  ],
+  "mechanism_cascade": [
+    {
+      "step": 1,
+      "label": "Core Fucosylation",
+      "anchors": [
+        "FUT8"
+      ]
+    },
+    {
+      "step": 2,
+      "label": "Galectin-3 / ECM",
+      "anchors": [
+        "Lgals3"
+      ]
+    },
+    {
+      "step": 3,
+      "label": "Cell Adhesion",
+      "anchors": [
+        "CD44",
+        "ITGB1"
+      ]
+    },
+    {
+      "step": 4,
+      "label": "Cytoskeletal Signaling",
+      "anchors": [
+        "RhoA",
+        "ROCK1",
+        "ROCK2"
+      ]
+    },
+    {
+      "step": 5,
+      "label": "MAPK Signal Transduction",
+      "anchors": [
+        "MAPK1",
+        "MAPK3"
+      ]
+    },
+    {
+      "step": 6,
+      "label": "Inflammatory Transcription",
+      "anchors": [
+        "NFKB1",
+        "RELA"
+      ]
+    }
+  ],
+  "total_targets_analyzed": 5,
+  "timestamp": "2026-06-10T19:42:29.193022"
+}

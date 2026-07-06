@@ -1,0 +1,452 @@
+[
+  {
+    "target": "sirt1 expression",
+    "target_type": "Gene",
+    "disease": "nucleic acid\u2013driven coagulation",
+    "relation": "INHIBITS",
+    "score": 19.426158905029297,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "f2 mrna expression",
+    "target_type": "Gene",
+    "disease": "coronary artery disease",
+    "relation": "CONTRIBUTES_TO",
+    "score": 17.864591598510742,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "slc44a3",
+    "target_type": "Gene",
+    "disease": "oral submucous fibrosis",
+    "relation": "PROMOTES",
+    "score": 12.450796127319336,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "ppar-\u03b3 expression",
+    "target_type": "Gene",
+    "disease": "deep vein thrombosis",
+    "relation": "PROMOTES",
+    "score": 11.657885551452637,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "runx1 expression",
+    "target_type": "Gene",
+    "disease": "hypertension",
+    "relation": "PROMOTES",
+    "score": 11.614564895629883,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "dsur expression",
+    "target_type": "Gene",
+    "disease": "increased cardiovascular risk",
+    "relation": "INHIBITS",
+    "score": 11.360368728637695,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "leiden mutation",
+    "target_type": "Gene",
+    "disease": "fractional excretion of sodium under amiloride treatment",
+    "relation": "PROMOTES",
+    "score": 11.026933670043945,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "foxp3",
+    "target_type": "Gene",
+    "disease": "il-1\u03b2 overproduction",
+    "relation": "CONTRIBUTES_TO",
+    "score": 10.894847869873047,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "epcr gene ser219gly polymorphism",
+    "target_type": "Gene",
+    "disease": "reduced acute pain episodes",
+    "relation": "CONTRIBUTES_TO",
+    "score": 10.869287490844727,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "ifih1 gain-of-function mutation",
+    "target_type": "Gene",
+    "disease": "hemoconcentration and increased blood viscosity",
+    "relation": "CONTRIBUTES_TO",
+    "score": 10.776936531066895,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "epcr gene ser219gly polymorphism",
+    "target_type": "Gene",
+    "disease": "clotting initiation time",
+    "relation": "ASSOCIATED_WITH",
+    "score": 10.578920364379883,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "rs1009312",
+    "target_type": "Gene",
+    "disease": "antithrombin resistance",
+    "relation": "ASSOCIATED_WITH",
+    "score": 10.453397750854492,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "gabaa receptor alpha4 subunit",
+    "target_type": "Gene",
+    "disease": "williams syndrome",
+    "relation": "PROMOTES",
+    "score": 10.346122741699219,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "secretion of fgf-2",
+    "target_type": "Cytokine",
+    "disease": "vte",
+    "relation": "ASSOCIATED_WITH",
+    "score": 10.336298942565918,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "\u03b1v\u03b23",
+    "target_type": "Protein",
+    "disease": "vte risk",
+    "relation": "ASSOCIATED_WITH",
+    "score": 9.974902153015137,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "entpd1 gene transcription",
+    "target_type": "Gene",
+    "disease": "severe cardiac and cerebral complications",
+    "relation": "CONTRIBUTES_TO",
+    "score": 9.944963455200195,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "tlr4 knockout",
+    "target_type": "Gene",
+    "disease": "arterial thrombosis",
+    "relation": "ASSOCIATED_WITH",
+    "score": 9.86055850982666,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "ccl17/tarc",
+    "target_type": "Cytokine",
+    "disease": "mortality",
+    "relation": "ASSOCIATED_WITH",
+    "score": 9.801568984985352,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "synthesis of il-12",
+    "target_type": "Cytokine",
+    "disease": "arterial thrombosis",
+    "relation": "ASSOCIATED_WITH",
+    "score": 9.799457550048828,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "increased postpartal expression of mir-21-5p",
+    "target_type": "Gene",
+    "disease": "provoked pulmonary embolism",
+    "relation": "ASSOCIATED_WITH",
+    "score": 9.757311820983887,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "let-7/mir-98 family members",
+    "target_type": "Gene",
+    "disease": "processing speed change",
+    "relation": "CONTRIBUTES_TO",
+    "score": 9.710411071777344,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "cyclin a promoter activity",
+    "target_type": "Gene",
+    "disease": "arterial thrombosis",
+    "relation": "ASSOCIATED_WITH",
+    "score": 9.668169975280762,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "ip10 secretion",
+    "target_type": "Cytokine",
+    "disease": "myeloproliferative neoplasm",
+    "relation": "ASSOCIATED_WITH",
+    "score": 9.59939193725586,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "alk2 downregulation",
+    "target_type": "Gene",
+    "disease": "neurovascular damage",
+    "relation": "INHIBITS",
+    "score": 9.585102081298828,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "mapt h1 haplotype",
+    "target_type": "Gene",
+    "disease": "mitochondrial injury",
+    "relation": "ASSOCIATED_WITH",
+    "score": 9.55955982208252,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "bmpr2 haploinsufficiency",
+    "target_type": "Gene",
+    "disease": "collagen remodeling",
+    "relation": "PROMOTES",
+    "score": 9.538398742675781,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "shox2",
+    "target_type": "Gene",
+    "disease": "bone resorption markers",
+    "relation": "ASSOCIATED_WITH",
+    "score": 9.526646614074707,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "\u03b2-fibrinogen -455 g>a mutation",
+    "target_type": "Gene",
+    "disease": "wound-healing complications",
+    "relation": "ASSOCIATED_WITH",
+    "score": 9.505948066711426,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "cxcl6",
+    "target_type": "Cytokine",
+    "disease": "disruption of the gag layer",
+    "relation": "ASSOCIATED_WITH",
+    "score": 9.475543022155762,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "mthfr c677t and a1298c mutations",
+    "target_type": "Gene",
+    "disease": "ace2 depletion",
+    "relation": "ASSOCIATED_WITH",
+    "score": 9.457103729248047,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "eif2ak4 gene mutations",
+    "target_type": "Gene",
+    "disease": "activation of fibrinolysis and hemostasis",
+    "relation": "INHIBITS",
+    "score": 9.446207046508789,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "ace2 deficiency",
+    "target_type": "Gene",
+    "disease": "acute exacerbation of interstitial pneumonia",
+    "relation": "ASSOCIATED_WITH",
+    "score": 9.39315414428711,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "proinflammatory cytokines secreted by activated glia",
+    "target_type": "Cytokine",
+    "disease": "quadriceps tendon rupture",
+    "relation": "ASSOCIATED_WITH",
+    "score": 9.381839752197266,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "other cytokines",
+    "target_type": "Cytokine",
+    "disease": "venous thromboembolism",
+    "relation": "ASSOCIATED_WITH",
+    "score": 9.367189407348633,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "e-ntpdase expression",
+    "target_type": "Gene",
+    "disease": "pulmonary arteriole remodeling",
+    "relation": "CONTRIBUTES_TO",
+    "score": 9.34380054473877,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "il-6 -1363t/g polymorphism",
+    "target_type": "Gene",
+    "disease": "antithrombin resistance",
+    "relation": "INHIBITS",
+    "score": 9.30732536315918,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "heterozygous mutation in proc gene",
+    "target_type": "Gene",
+    "disease": "increased risk of oligoarticular and rf-negative polyarticular juvenile idiopathic arthritis",
+    "relation": "ASSOCIATED_WITH",
+    "score": 9.278074264526367,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "kcnn4 silencing",
+    "target_type": "Gene",
+    "disease": "hepatic pre-metastatic niche formation",
+    "relation": "CONTRIBUTES_TO",
+    "score": 9.270148277282715,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "heterozygous mutation in proc gene",
+    "target_type": "Gene",
+    "disease": "sheehan's syndrome",
+    "relation": "ASSOCIATED_WITH",
+    "score": 9.250812530517578,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "\u03b1-myhc mrna",
+    "target_type": "Gene",
+    "disease": "acute reperfusion injury",
+    "relation": "CONTRIBUTES_TO",
+    "score": 9.236584663391113,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "il-10 gene expression",
+    "target_type": "Gene",
+    "disease": "progression to cirrhosis",
+    "relation": "INHIBITS",
+    "score": 9.21646785736084,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "hmox1 30-repeat allele",
+    "target_type": "Gene",
+    "disease": "neonatal-onset multi-system inflammatory disease",
+    "relation": "CONTRIBUTES_TO",
+    "score": 9.209630966186523,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "v617f mutation",
+    "target_type": "Gene",
+    "disease": "cancer-associated thrombosis",
+    "relation": "ASSOCIATED_WITH",
+    "score": 9.194138526916504,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "thbd pro thrombomodulin mutation",
+    "target_type": "Gene",
+    "disease": "deep vein thrombosis",
+    "relation": "CONTRIBUTES_TO",
+    "score": 9.188536643981934,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "profibrotic growth factors",
+    "target_type": "Cytokine",
+    "disease": "lca",
+    "relation": "ASSOCIATED_WITH",
+    "score": 9.15502643585205,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "leptin secretion",
+    "target_type": "Cytokine",
+    "disease": "hemorrhagic effects",
+    "relation": "ASSOCIATED_WITH",
+    "score": 9.1408109664917,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "cgb5 intron 2 snp",
+    "target_type": "Gene",
+    "disease": "arterial vasospasm",
+    "relation": "CONTRIBUTES_TO",
+    "score": 9.132156372070312,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "mir-141-3p",
+    "target_type": "Gene",
+    "disease": "serum alt/ast levels",
+    "relation": "ASSOCIATED_WITH",
+    "score": 9.121953964233398,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "tlr-7 snp",
+    "target_type": "Gene",
+    "disease": "glioblastoma",
+    "relation": "INHIBITS",
+    "score": 9.119884490966797,
+    "tier": "other",
+    "is_mr_target": false
+  },
+  {
+    "target": "pros1 transcription",
+    "target_type": "Gene",
+    "disease": "th2-high endotype",
+    "relation": "INHIBITS",
+    "score": 9.09007740020752,
+    "tier": "other",
+    "is_mr_target": false
+  }
+]

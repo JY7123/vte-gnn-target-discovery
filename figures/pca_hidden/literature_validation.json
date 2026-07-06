@@ -1,0 +1,257 @@
+{
+  "method": "KG topology + blacklist-based novelty classification",
+  "note": "Neo4j offline — using cached KG topology, no PMID enrichment",
+  "timestamp": "2026-06-11T05:21:35.829995",
+  "targets": [
+    {
+      "target": "renin",
+      "full_name": "renin",
+      "target_type": "Protein",
+      "degree": 40,
+      "neighbor_type_distribution": {
+        "Protein": 14,
+        "Disease": 1,
+        "Article": 16,
+        "Process": 1,
+        "Metabolite": 3,
+        "Drug": 4,
+        "Cytokine": 1
+      },
+      "vte_context_neighbors": 0,
+      "vte_neighbor_sample": [],
+      "blacklisted": false,
+      "name_contains_vte_keyword": false,
+      "cascade_mapping": [
+        "Inflammatory Transcription",
+        "Fibrosis",
+        "Endothelial"
+      ],
+      "anchor_hits": [
+        "Inflammatory Transcription",
+        "Endothelial"
+      ],
+      "shortest_path_hops": 3,
+      "novelty_category": "novel_mechanism",
+      "novelty_confidence": 0.7,
+      "novelty_rationale": "low degree (40), minimal VTE literature context (0 VTE neighbors), connects to mechanism cascade via Inflammatory Transcription+Endothelial",
+      "gnn_score": 134.73,
+      "discovery_score": 36.281
+    },
+    {
+      "target": "c3",
+      "full_name": "c3",
+      "target_type": "Protein",
+      "degree": 86,
+      "neighbor_type_distribution": {
+        "Protein": 28,
+        "Cell": 15,
+        "Disease": 6,
+        "Article": 30,
+        "Cytokine": 3,
+        "ECM": 1,
+        "Process": 2,
+        "Drug": 1
+      },
+      "vte_context_neighbors": 6,
+      "vte_neighbor_sample": [
+        [
+          "Cell",
+          "platelet activation"
+        ],
+        [
+          "Disease",
+          "fibrin formation"
+        ],
+        [
+          "Disease",
+          "thrombosis"
+        ],
+        [
+          "Cell",
+          "activated platelets"
+        ],
+        [
+          "Cell",
+          "platelet activation"
+        ]
+      ],
+      "blacklisted": false,
+      "name_contains_vte_keyword": false,
+      "cascade_mapping": [
+        "Fibrin",
+        "Platelet",
+        "Thrombosis"
+      ],
+      "anchor_hits": [
+        "Fibrin",
+        "Platelet",
+        "Thrombosis"
+      ],
+      "shortest_path_hops": 2,
+      "novelty_category": "underexplored",
+      "novelty_confidence": 0.6,
+      "novelty_rationale": "medium degree (86), connects to mechanism cascade via Fibrin+Platelet",
+      "gnn_score": 136.98,
+      "discovery_score": 30.672
+    },
+    {
+      "target": "mmp-2",
+      "full_name": "mmp-2",
+      "target_type": "Protein",
+      "degree": 154,
+      "neighbor_type_distribution": {
+        "Protein": 22,
+        "Cell": 10,
+        "Disease": 25,
+        "Process": 3,
+        "Article": 59,
+        "Metabolite": 4,
+        "ECM": 4,
+        "Gene": 6,
+        "Drug": 9,
+        "Cytokine": 7,
+        "Pathway": 2,
+        "Concept": 3
+      },
+      "vte_context_neighbors": 7,
+      "vte_neighbor_sample": [
+        [
+          "Cell",
+          "platelet aggregation"
+        ],
+        [
+          "Process",
+          "myocardial contractility"
+        ],
+        [
+          "Protein",
+          "vascular mmp-2 levels"
+        ],
+        [
+          "Cell",
+          "platelets"
+        ],
+        [
+          "Disease",
+          "dvt"
+        ]
+      ],
+      "blacklisted": false,
+      "name_contains_vte_keyword": false,
+      "cascade_mapping": [
+        "Cytoskeletal Signaling",
+        "Inflammat",
+        "Chronic Inflammation"
+      ],
+      "anchor_hits": [
+        "Cytoskeletal Signaling",
+        "Chronic Inflammation"
+      ],
+      "shortest_path_hops": 3,
+      "novelty_category": "underexplored",
+      "novelty_confidence": 0.6,
+      "novelty_rationale": "medium degree (154), connects to mechanism cascade via Cytoskeletal Signaling+Chronic Inflammation",
+      "gnn_score": 153.6,
+      "discovery_score": 30.456
+    },
+    {
+      "target": "par-2",
+      "full_name": "par-2",
+      "target_type": "Protein",
+      "degree": 49,
+      "neighbor_type_distribution": {
+        "Cell": 6,
+        "Disease": 6,
+        "Article": 16,
+        "Protein": 16,
+        "Process": 1,
+        "Pathway": 1,
+        "Cytokine": 1,
+        "Gene": 1,
+        "Metabolite": 1
+      },
+      "vte_context_neighbors": 1,
+      "vte_neighbor_sample": [
+        [
+          "Protein",
+          "coagulation factor xa"
+        ]
+      ],
+      "blacklisted": false,
+      "name_contains_vte_keyword": false,
+      "cascade_mapping": [
+        "Cell Adhesion",
+        "Cytoskeletal Signaling",
+        "Inflammat"
+      ],
+      "anchor_hits": [
+        "Cell Adhesion",
+        "Cytoskeletal Signaling"
+      ],
+      "shortest_path_hops": 4,
+      "novelty_category": "novel_mechanism",
+      "novelty_confidence": 0.7,
+      "novelty_rationale": "low degree (49), minimal VTE literature context (1 VTE neighbors), connects to mechanism cascade via Cell Adhesion+Cytoskeletal Signaling",
+      "gnn_score": 116.34,
+      "discovery_score": 29.739
+    },
+    {
+      "target": "tsp-1",
+      "full_name": "tsp-1",
+      "target_type": "Protein",
+      "degree": 43,
+      "neighbor_type_distribution": {
+        "Protein": 11,
+        "Cell": 5,
+        "Disease": 7,
+        "Article": 12,
+        "Gene": 4,
+        "ECM": 1,
+        "Cytokine": 1,
+        "Pathway": 1,
+        "Metabolite": 1
+      },
+      "vte_context_neighbors": 4,
+      "vte_neighbor_sample": [
+        [
+          "Cell",
+          "endothelial cell apoptosis"
+        ],
+        [
+          "Cell",
+          "endothelial cell migration"
+        ],
+        [
+          "Cell",
+          "endothelial cell proliferation"
+        ],
+        [
+          "Cell",
+          "endothelial cell tube-formation"
+        ]
+      ],
+      "blacklisted": false,
+      "name_contains_vte_keyword": false,
+      "cascade_mapping": [
+        "Cell Adhesion",
+        "Coagulation",
+        "Fibrin"
+      ],
+      "anchor_hits": [
+        "Cell Adhesion",
+        "Coagulation",
+        "Fibrin"
+      ],
+      "shortest_path_hops": 3,
+      "novelty_category": "underexplored",
+      "novelty_confidence": 0.65,
+      "novelty_rationale": "low degree (43), some VTE context (4 neighbors), mechanism cascade connection via Cell Adhesion+Coagulation",
+      "gnn_score": 106.63,
+      "discovery_score": 28.178
+    }
+  ],
+  "summary": {
+    "novel_mechanism": 2,
+    "underexplored": 3
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "title": "PAR-2 (F2RL1) Multi-Dimensional Evidence Validation for VTE Target Discovery",
+  "timestamp": "2026-06-11T21:19:09.580534",
+  "publication_landscape": {
+    "PAR-2 in VTE/DVT": {
+      "count": 6
+    },
+    "PAR-2 total": {
+      "count": 2950
+    },
+    "PAR-2 in inflammation": {
+      "count": 1183
+    },
+    "PAR-2 in cancer": {
+      "count": 717
+    },
+    "PAR-2 cardiovascular": {
+      "count": 576
+    },
+    "VTE total": {
+      "count": 182530
+    },
+    "Coagulation in VTE": {
+      "count": 11475
+    }
+  },
+  "top_vte_articles": [
+    {
+      "pmid": "19738116",
+      "title": "Role of tissue factor in cancer.",
+      "year": "2009",
+      "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+      "abstract": "Tissue factor (TF) is a transmembrane glycoprotein that localizes the coagulation serine protease factor VII/VIIa (FVII/VIIa) to the cell surface. The primary function of TF is to activate the clotting cascade. The TF:FVIIa complex also activates cells by cleavage of a G-protein coupled receptor called protease-activated receptor 2 (PAR2). TF is expressed by tumor cells and contributes to a variety of pathologic processes, such as thrombosis, metastasis, tumor growth, and tumor angiogenesis. For"
+    },
+    {
+      "pmid": "42044974",
+      "title": "Enhancing immune response in advanced HCC with PVTT: rivaroxaban as a core adjuvant in combined therapy.",
+      "year": "2026",
+      "journal": "Journal for immunotherapy of cancer",
+      "abstract": "Despite the establishment of combined local and systemic therapy as the standard approach for advanced hepatocellular carcinoma (HCC) with portal vein tumor thrombus (PVTT), its efficacy remains constrained by two primary challenges: the immunosuppressive tumor microenvironment (TME) and treatment resistance. Recent research shows that factor Xa (FXa) boosts programmed death-ligand 1 (PD-L1) expression in tumor cells via the proteinase-activated receptor-2 (PAR-2) and signal transducer and activ"
+    },
+    {
+      "pmid": "27161731",
+      "title": "PO-43 - Differential coagulation factor expression in neuroendocrine prostate cancer (PC), metastatic castrate-resistant PC, and localized prostatic adenocarcinoma.",
+      "year": "2016",
+      "journal": "Thrombosis research",
+      "abstract": "Neuroendocrine prostate cancer (NEPC) is an aggressive late-stage variant of PC that is often androgen-receptor negative. Most clinicians believe the VTE rate with NEPC is higher than with standard metastatic castration-resistant PC (mCRPC), but NEPC tends to present with bulkier visceral disease and include platinum chemotherapy unlike standard PC. In many solid tumors, a more aggressive phenotype correlates with increased VTE risk and elevated expression of coagulation factors. We previously r"
+    },
+    {
+      "pmid": "27161723",
+      "title": "PO-36 - Thrombin Inhibition Preoperatively (TIP) in early breast cancer, the first clinical trial of NOACs as an anti-cancer agent: trial methodology.",
+      "year": "2016",
+      "journal": "Thrombosis research",
+      "abstract": "Breast cancer is associated with a 3-4 fold increased risk of VTE. These patients have a 4-fold lower survival than those remaining free of VTE, implying VTE is a surrogate marker for aggressive cancer. Tumour expression of thrombin pathway markers are increased in the oestrogen receptor negative (ER-), high Ki67, more aggressive breast cancer subtypes. In in vitro and in vivo studies, the thrombin pathway promotes cancer growth and metastases, highlighting the potential role of the thrombin pat"
+    },
+    {
+      "pmid": "28769809",
+      "title": "Apixaban Enhances Vasodilatation Mediated by Protease-Activated Receptor 2 in Isolated Rat Arteries.",
+      "year": "2017",
+      "journal": "Frontiers in pharmacology",
+      "abstract": "Apixaban (APX) is a direct inhibitor of factor X (FXa) approved for prophylaxis and treatment of deep venous thrombosis and atrial fibrillation. Because FXa activates protease-activated receptor 2 (PAR-2) in endothelium and vascular smooth muscle, inhibition of FXa by APX may affect vasomotor function. The effect of APX was assessed "
+    }
+  ],
+  "top_cv_articles": [
+    {
+      "pmid": "11356985",
+      "title": "Proteinase-activated receptors.",
+      "year": "2001",
+      "journal": "Pharmacological reviews",
+      "abstract": "Proteinase-activated receptors are a recently described, novel family of seven-transmembrane G-protein-coupled receptors. Rather then being stimulated through ligand receptor occupancy, activation is initiated by cleavage of the N terminus of the receptor by a serine protease resulting in the generation of a new tethered ligand that interacts with the receptor within extracellular loop-2. To date, four proteinase-activated receptors (PARs) have been identified, with distinct N-terminal cleavage "
+    },
+    {
+      "pmid": "29793990",
+      "title": "Proteases, Protease-Activated Receptors, and Atherosclerosis.",
+      "year": "2018",
+      "journal": "Arteriosclerosis, thrombosis, and vascular biology",
+      "abstract": ""
+    },
+    {
+      "pmid": "39234697",
+      "title": "Macrophage-Expressed Coagulation Factor VII Promotes Adverse Cardiac Remodeling.",
+      "year": "2024",
+      "journal": "Circulation research",
+      "abstract": "Excess fibrotic remodeling causes cardiac dysfunction in ischemic heart disease, driven by MAP (mitogen-activated protein) kinase-dependent TGF-ß1 (transforming growth factor-ß1) activation by coagulation signaling of myeloid cells. How coagulation-inflammatory circuits can be specifically targeted to achieve beneficial macrophage reprogramming after myocardial infarction (MI) is not completely understood."
+    },
+    {
+      "pmid": "12511583",
+      "title": "PARticipation in inflammation.",
+      "year": "2003",
+      "journal": "The Journal of clinical investigation",
+      "abstract": ""
+    },
+    {
+      "pmid": "40694429",
+      "title": "Coagulation proteases modulate nucleic acid uptake and cGAS-STING-IFN induction in the tumor microenvironment.",
+      "year": "2025",
+      "journal": "JCI insight",
+      "abstract": "Malignancies increase the risk for thrombosis and metastasis dependent on complex interactions of innate immune cells, platelets, and the coagulation system. Immunosuppressive functions of platelets and macrophage-derived coagulation factors in the tumor microenvironment (TME) drive tumor growth. Here, we show that patients with malignancies and tumor-bearing mice have increased levels of coagulation factor (F) X-expressing circulating monocytes engaged in platelet aggregate formation. This inte"
+    }
+  ],
+  "neglect_ratio": {
+    "par2_vte_pct": 0.2,
+    "coag_vte_ratio": 1912.5,
+    "interpretation": "Only 6 of 2,950 PAR-2 papers (0.20%) mention VTE/DVT. Coagulation factors have 11,475 VTE papers (1912x more). PAR-2 is systematically understudied in VTE."
+  }
+}

@@ -1,0 +1,511 @@
+{
+  "target": "renin",
+  "target_type": "Protein",
+  "full_name": "renin",
+  "gnn_score": 134.73,
+  "degree": 40,
+  "num_anchor_paths": 65,
+  "shortest_path_length": 3,
+  "anchor_cascade_map": [
+    {
+      "anchor": "stat3",
+      "step": 6,
+      "label": "Inflammatory Transcription",
+      "hops": 5
+    },
+    {
+      "anchor": "fibrosis",
+      "step": 99,
+      "label": "Fibrosis",
+      "hops": 3
+    },
+    {
+      "anchor": "endothelial",
+      "step": 99,
+      "label": "Endothelial",
+      "hops": 4
+    },
+    {
+      "anchor": "inflammat",
+      "step": 99,
+      "label": "Inflammat",
+      "hops": 4
+    },
+    {
+      "anchor": "thrombosis",
+      "step": 99,
+      "label": "Thrombosis",
+      "hops": 4
+    },
+    {
+      "anchor": "cytokine",
+      "step": 99,
+      "label": "Cytokine",
+      "hops": 4
+    },
+    {
+      "anchor": "fibrin",
+      "step": 99,
+      "label": "Fibrin",
+      "hops": 5
+    },
+    {
+      "anchor": "coagulation",
+      "step": 99,
+      "label": "Coagulation",
+      "hops": 5
+    }
+  ],
+  "nodes": [
+    {
+      "id": "P_r",
+      "type": "P",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "hypertension",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "tnf-α",
+      "type": "Cytokine",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "ros generation",
+      "type": "Cell",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "stat3",
+      "type": "Protein",
+      "is_target": false,
+      "is_anchor": true,
+      "cascade_step": 6,
+      "cascade_label": "Inflammatory Transcription"
+    },
+    {
+      "id": "renal fibrosis",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "endothelial cell apoptosis",
+      "type": "Cell",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "inflammation",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "il-6",
+      "type": "Cytokine",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "deep vein thrombosis",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "secretion of cytokines",
+      "type": "Cell",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "aliskiren",
+      "type": "Drug",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "angiotensin ii",
+      "type": "Protein",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "endothelial activation",
+      "type": "Cell",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "fibrin accumulation",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": true
+    },
+    {
+      "id": "d-dimer",
+      "type": "Metabolite",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "renal dysfunction",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": false
+    },
+    {
+      "id": "over-anticoagulation",
+      "type": "Disease",
+      "is_target": false,
+      "is_anchor": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "Protein",
+      "target": "hypertension",
+      "source_type": "P",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.0014,
+      "hop": 1,
+      "anchor": "stat3",
+      "anchor_type": "gene",
+      "anchor_step": 6,
+      "anchor_label": "Inflammatory Transcription"
+    },
+    {
+      "source": "hypertension",
+      "target": "tnf-α",
+      "source_type": "Disease",
+      "target_type": "Cytokine",
+      "relation": "INVERSE_PROMOTES",
+      "attention_weight": 0.001607,
+      "hop": 2,
+      "anchor": "stat3",
+      "anchor_type": "gene",
+      "anchor_step": 6,
+      "anchor_label": "Inflammatory Transcription"
+    },
+    {
+      "source": "tnf-α",
+      "target": "ros generation",
+      "source_type": "Cytokine",
+      "target_type": "Cell",
+      "relation": "PROMOTES",
+      "attention_weight": 0.034758,
+      "hop": 3,
+      "anchor": "stat3",
+      "anchor_type": "gene",
+      "anchor_step": 6,
+      "anchor_label": "Inflammatory Transcription"
+    },
+    {
+      "source": "ros generation",
+      "target": "stat3",
+      "source_type": "Cell",
+      "target_type": "Protein",
+      "relation": "INVERSE_PROMOTES",
+      "attention_weight": 0.000356,
+      "hop": 4,
+      "anchor": "stat3",
+      "anchor_type": "gene",
+      "anchor_step": 6,
+      "anchor_label": "Inflammatory Transcription"
+    },
+    {
+      "source": "Protein",
+      "target": "hypertension",
+      "source_type": "P",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.0014,
+      "hop": 1,
+      "anchor": "fibrosis",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Fibrosis"
+    },
+    {
+      "source": "hypertension",
+      "target": "renal fibrosis",
+      "source_type": "Disease",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.003989,
+      "hop": 2,
+      "anchor": "fibrosis",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Fibrosis"
+    },
+    {
+      "source": "Protein",
+      "target": "hypertension",
+      "source_type": "P",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.0014,
+      "hop": 1,
+      "anchor": "endothelial",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Endothelial"
+    },
+    {
+      "source": "hypertension",
+      "target": "tnf-α",
+      "source_type": "Disease",
+      "target_type": "Cytokine",
+      "relation": "INVERSE_PROMOTES",
+      "attention_weight": 0.001607,
+      "hop": 2,
+      "anchor": "endothelial",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Endothelial"
+    },
+    {
+      "source": "tnf-α",
+      "target": "endothelial cell apoptosis",
+      "source_type": "Cytokine",
+      "target_type": "Cell",
+      "relation": "PROMOTES",
+      "attention_weight": 0.042525,
+      "hop": 3,
+      "anchor": "endothelial",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Endothelial"
+    },
+    {
+      "source": "Protein",
+      "target": "hypertension",
+      "source_type": "P",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.0014,
+      "hop": 1,
+      "anchor": "inflammat",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Inflammat"
+    },
+    {
+      "source": "hypertension",
+      "target": "renal fibrosis",
+      "source_type": "Disease",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.003989,
+      "hop": 2,
+      "anchor": "inflammat",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Inflammat"
+    },
+    {
+      "source": "renal fibrosis",
+      "target": "inflammation",
+      "source_type": "Disease",
+      "target_type": "Disease",
+      "relation": "INVERSE_PROMOTES",
+      "attention_weight": 0.021803,
+      "hop": 3,
+      "anchor": "inflammat",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Inflammat"
+    },
+    {
+      "source": "Protein",
+      "target": "hypertension",
+      "source_type": "P",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.0014,
+      "hop": 1,
+      "anchor": "thrombosis",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Thrombosis"
+    },
+    {
+      "source": "hypertension",
+      "target": "il-6",
+      "source_type": "Disease",
+      "target_type": "Cytokine",
+      "relation": "INVERSE_PROMOTES",
+      "attention_weight": 0.002261,
+      "hop": 2,
+      "anchor": "thrombosis",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Thrombosis"
+    },
+    {
+      "source": "il-6",
+      "target": "deep vein thrombosis",
+      "source_type": "Cytokine",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.005836,
+      "hop": 3,
+      "anchor": "thrombosis",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Thrombosis"
+    },
+    {
+      "source": "Protein",
+      "target": "hypertension",
+      "source_type": "P",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.0014,
+      "hop": 1,
+      "anchor": "cytokine",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Cytokine"
+    },
+    {
+      "source": "hypertension",
+      "target": "tnf-α",
+      "source_type": "Disease",
+      "target_type": "Cytokine",
+      "relation": "INVERSE_PROMOTES",
+      "attention_weight": 0.001607,
+      "hop": 2,
+      "anchor": "cytokine",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Cytokine"
+    },
+    {
+      "source": "tnf-α",
+      "target": "secretion of cytokines",
+      "source_type": "Cytokine",
+      "target_type": "Cell",
+      "relation": "PROMOTES",
+      "attention_weight": 0.012929,
+      "hop": 3,
+      "anchor": "cytokine",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Cytokine"
+    },
+    {
+      "source": "Protein",
+      "target": "aliskiren",
+      "source_type": "P",
+      "target_type": "Drug",
+      "relation": "INVERSE_INHIBITS",
+      "attention_weight": 0.021407,
+      "hop": 1,
+      "anchor": "fibrin",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Fibrin"
+    },
+    {
+      "source": "aliskiren",
+      "target": "angiotensin ii",
+      "source_type": "Drug",
+      "target_type": "Protein",
+      "relation": "DOWNREGULATES",
+      "attention_weight": 0.0,
+      "hop": 2,
+      "anchor": "fibrin",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Fibrin"
+    },
+    {
+      "source": "angiotensin ii",
+      "target": "endothelial activation",
+      "source_type": "Protein",
+      "target_type": "Cell",
+      "relation": "PROMOTES",
+      "attention_weight": 0.001737,
+      "hop": 3,
+      "anchor": "fibrin",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Fibrin"
+    },
+    {
+      "source": "endothelial activation",
+      "target": "fibrin accumulation",
+      "source_type": "Cell",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.002388,
+      "hop": 4,
+      "anchor": "fibrin",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Fibrin"
+    },
+    {
+      "source": "Protein",
+      "target": "hypertension",
+      "source_type": "P",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.0014,
+      "hop": 1,
+      "anchor": "coagulation",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Coagulation"
+    },
+    {
+      "source": "hypertension",
+      "target": "d-dimer",
+      "source_type": "Disease",
+      "target_type": "Metabolite",
+      "relation": "INVERSE_ASSOCIATED_WITH",
+      "attention_weight": 0.014944,
+      "hop": 2,
+      "anchor": "coagulation",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Coagulation"
+    },
+    {
+      "source": "d-dimer",
+      "target": "renal dysfunction",
+      "source_type": "Metabolite",
+      "target_type": "Disease",
+      "relation": "ASSOCIATED_WITH",
+      "attention_weight": 0.010935,
+      "hop": 3,
+      "anchor": "coagulation",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Coagulation"
+    },
+    {
+      "source": "renal dysfunction",
+      "target": "over-anticoagulation",
+      "source_type": "Disease",
+      "target_type": "Disease",
+      "relation": "PROMOTES",
+      "attention_weight": 0.000117,
+      "hop": 4,
+      "anchor": "coagulation",
+      "anchor_type": "term",
+      "anchor_step": 99,
+      "anchor_label": "Coagulation"
+    }
+  ]
+}

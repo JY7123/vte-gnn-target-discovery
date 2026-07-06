@@ -1,0 +1,171 @@
+# vte_gnn_target_discovery/config/anchor_config.yaml
+# Anchor configuration for Tempered HGT prior injection (3-layer system)
+
+# === Layer 1: Edge weight initialization bias (hard priors) ===
+# Verified mechanism axes — initial weight multiplier, cosine-annealed to 0
+hard_priors:
+  verified_mechanisms:
+    - source_type: "Gene"
+      target_type: "Gene"
+      relation: "REGULATES"
+      pairs:
+        - [FUT8, Lgals3]    # FUT8 glycosylates Lgals3
+        - [Lgals3, CD44]     # Lgals3 binds CD44
+        - [Lgals3, ITGB1]    # Lgals3 binds integrin beta-1
+        - [F11, F2]          # FXI activates thrombin
+        - [KNG1, F11]        # KNG1 → FXI pathway
+        - [LRP4, F2]         # LRP4 ↔ thrombin interaction
+      initial_weight_multiplier: 3.0  # up to 5x for strongest evidence
+      decay: "cosine_annealing"       # decays to 0 by epoch end
+
+  # Pair-level weight tuning
+  pair_multiplier_override:
+    FUT8_Lgals3: 5.0           # strongest evidence (double-hit from Project 1)
+    Lgals3_CD44: 4.0
+    Lgals3_ITGB1: 4.0
+    F11_F2: 3.5
+    KNG1_F11: 3.0
+    LRP4_F2: 3.0
+
+# === Layer 2: Attention temperature per relation (soft constraints) ===
+temperature_init:
+  verified_mechanism:
+    tau_init: 0.5
+    relations: ["REGULATES", "ACTIVATES", "BINDS_TO", "INHIBITS"]
+    description: "Sharpened attention for known mechanism edges"
+  pathway_anchor:
+    tau_init: 0.7
+    relations: ["PARTICIPATES_IN", "ENCODES"]
+    description: "Moderately focused attention for pathway-level edges"
+  standard:
+    tau_init: 1.0
+    relations: ["ASSOCIATED_WITH", "INTERACTS_WITH", "UPREGULATES", "DOWNREGULATES"]
+    description: "Neutral temperature for unclassified edges"
+  concept_noise:
+    tau_init: 2.0
+    relations: ["PROMOTES", "TARGETS"]
+    description: "Flattened attention to suppress concept-level noise"
+  negative_anchor:
+    tau_init: 4.0
+    relations: []
+    description: "Heavily flattened attention for known false targets (no negative-evidence edges in current KG)"
+
+# === Layer 3: GNNExplainer anchor alignment targets ===
+gnnexplainer_anchors:
+  positive_anchors:
+    - "FUT8"
+    - "Lgals3"
+    - "CD44"
+    - "ITGB1"
+    - "F11"
+    - "KNG1"
+    - "F2"
+    - "LRP4"
+  negative_anchors:
+    - "Padi4"      # Project 1 falsified target
+    - "Hmgb1"      # Project 1 falsified target
+  pathway_anchors:
+    - "TNF"
+    - "TLR4"
+    - "MAPK1"
+    - "MAPK3"
+    - "NFKB1"
+    - "RELA"
+
+# === Entity type mapping (Neo4j labels -> PyG node types) ===
+# All 14 labels present in the actual Neo4j database (verified 2026-06-09).
+entity_types:
+  - Entity       # generic/fallback label
+  - Article      # publication nodes (may have pmid, title, abstract)
+  - Gene
+  - Protein
+  - Cytokine
+  - Cell
+  - Pathway
+  - Disease
+  - Drug
+  - Metabolite
+  - Hormone
+  - Process
+  - ECM
+  - Concept
+
+# === Edge type definitions ===
+# High-priority edge type triples for model construction. The actual KG has 550+
+# relationship types across 14 labels; the exporter dynamically discovers valid
+# (src, rel, dst) combinations at runtime. This list defines the subset used for
+# link prediction training — add/remove triples to focus on specific prediction tasks.
+edge_types:
+  # Core gene/protein regulation
+  - [Gene, BINDS_TO, Gene]
+  - [Gene, REGULATES, Gene]
+  - [Gene, UPREGULATES, Gene]
+  - [Gene, DOWNREGULATES, Gene]
+  - [Gene, ACTIVATES, Gene]
+  - [Gene, INHIBITS, Gene]
+  - [Gene, ENCODES, Protein]
+  - [Protein, BINDS_TO, Protein]
+  - [Protein, INTERACTS_WITH, Protein]
+  - [Protein, ACTIVATES, Protein]
+  - [Protein, INHIBITS, Protein]
+  - [Protein, UPREGULATES, Protein]
+  - [Protein, DOWNREGULATES, Protein]
+  # Gene/Protein → Disease associations (key for target discovery)
+  - [Gene, ASSOCIATED_WITH, Disease]
+  - [Gene, PROMOTES, Disease]
+  - [Gene, INHIBITS, Disease]
+  - [Gene, CONTRIBUTES_TO, Disease]
+  - [Gene, PROTECTS, Disease]
+  - [Protein, ASSOCIATED_WITH, Disease]
+  - [Protein, CONTRIBUTES_TO, Disease]
+  # Drug → target
+  - [Drug, TARGETS, Protein]
+  - [Drug, TREATS, Disease]
+  - [Drug, INHIBITS, Protein]
+  # Pathway membership
+  - [Protein, PARTICIPATES_IN, Pathway]
+  - [Gene, PARTICIPATES_IN, Pathway]
+  # Cytokine signaling
+  - [Cytokine, ACTIVATES, Protein]
+  - [Cytokine, UPREGULATES, Gene]
+  - [Cytokine, ASSOCIATED_WITH, Disease]
+  # Cell-level
+  - [Cell, EXPRESSES, Protein]
+  - [Cell, ASSOCIATED_WITH, Disease]
+  # Metabolite/Hormone
+  - [Metabolite, ASSOCIATED_WITH, Disease]
+  - [Hormone, REGULATES, Gene]
+  # Process/Concept relationships
+  - [Process, ASSOCIATED_WITH, Disease]
+  - [Concept, RELATED_TO, Disease]
+
+# === Publication date fields for temporal split ===
+# NOTE: The current Neo4j KG does NOT have publication_date on relationships or
+# nodes. Article nodes only carry pmid/title (no pub_date). Temporal splitting
+# must therefore use a heuristic proxy (e.g. pmid-based year lookup) or be
+# deferred until the KG is enriched with publication timestamps.
+temporal:
+  date_field: "publication_date"       # not present in current KG
+  fallback: null                       # all pub_date values will be null
+  train_cutoff: "2024-12-31"
+  val_start: "2025-01-01"
+  val_end: "2025-06-30"
+  test_start: "2025-07-01"
+  test_end: "2026-06-30"
+
+# === Hub node protection parameters ===
+hub_protection:
+  degree_threshold: 1000
+  known_hubs:
+    - "Thrombin"       # degree ~1742
+    - "Thrombosis"     # degree ~2944
+    - "Inflammation"
+    - "F2"
+    - "VTE"
+
+# === Negative sampling anchors ===
+negative_sampling:
+  falsified_targets: ["Padi4", "Hmgb1"]
+  cross_tissue_negatives:
+    - ["CNS_specific_proteins", "Venous_thrombosis"]
+    - ["Hepatocyte_specific", "Deep_vein_thrombosis"]
