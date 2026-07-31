@@ -194,4 +194,4 @@ If you use this code, please cite:
 
 > [Authors]. Temporally Evaluated Heterogeneous Graph Learning Prioritizes Cell-Type-Specific Inflammatory and Fibrotic Programs in Venous Thromboembolism. (2026).
 
-The code is archived at Zenodo: 10.5281/zenodo.21225701 (v1.0) and 10.5281/zenodo.21724152 (v2.0).
+The code is archived at Zenodo: https://doi.org/10.5281/zenodo.21724152
