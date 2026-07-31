@@ -2,7 +2,7 @@
 
 This directory contains the complete codebase for reproducing results reported in:
 
-> **"Graph Neural Network-Driven Discovery of Hidden Molecular Drivers of Venous Wall Inflammation and Fibrosis"**
+> **"Temporally Evaluated Heterogeneous Graph Learning Prioritizes Cell-Type-Specific Inflammatory and Fibrotic Programs in Venous Thromboembolism"**
 
 ---
 
@@ -45,15 +45,18 @@ The pre-processed knowledge graph (`heterodata.pt`) and PCA features (`features_
 # Train the main Tempered HGT model (PCA 128d features)
 python train_full_v2.py
 
-# Run ablation experiments (Pure HGT, RGCN, HAN baselines)
-python training/baseline_trainer.py
+# Run KGE baselines (TransE, DistMult, ComplEx, RotatE)
+python scripts/run_baselines_full.py
 
 # Generate hidden target predictions
 python hidden_target_hunter.py
 
-# Render all paper figures
-python render_paper_figures.py
-Rscript render_figure2.R
+# Render all paper figures (Figures 1-5)
+Rscript scripts/render_figure1_kg_temporal.R
+Rscript scripts/render_figure2_benchmark.R
+Rscript scripts/render_figure3_target_ranking.R
+Rscript scripts/render_figure4_scRNA_mapping.R
+Rscript scripts/render_figure5_cross_species.R
 ```
 
 ### From raw Neo4j knowledge graph (full reproduction)
@@ -157,16 +160,18 @@ The core contribution is the **Tempered Heterogeneous Graph Transformer**, defin
 2. **Layer 2 (Soft)**: Per-relation τ autonomously suppresses noisy relation types (emergent)
 3. **Layer 3 (Interpretability)**: Attention-guided BFS for mechanism cascade mapping
 
-## Metrics
+## Key Results (Leakage-Free Evaluation, Mean ± SD across 5 seeds)
 
-| Model | AUROC | MRR | Hits@10 |
-|-------|-------|-----|---------|
-| Tempered HGT (PCA 128d) | 0.925 | 0.232 | 0.314 |
-| Tempered HGT (random 128d) | 0.827 | 0.093 | 0.140 |
-| Tempered HGT (random 64d) | 0.837 | 0.080 | — |
-| Pure HGT (τ≡1.0) | 0.821 | 0.085 | 0.122 |
-| RGCN | 0.772 | 0.071 | 0.105 |
-| HAN (3 meta-paths) | 0.758 | 0.068 | 0.098 |
+| Model | Test AUROC | Filtered MRR | Filtered Hits@10 |
+|-------|-----------|-------------|-----------------|
+| **Tempered HGT** | **0.741 ± 0.075** | **0.086 ± 0.029** | **0.184 ± 0.068** |
+| RotatE (best KGE baseline) | — | 0.035 | 0.060 |
+| TransE | — | 0.017 | 0.068 |
+| DistMult | — | — | 0.054 |
+| ComplEx | — | 0.017 | — |
+| **TemperedHGT vs RotatE** | — | **2.5× improvement** | **3.1× improvement** |
+
+Top-ranked target: **SMAD4** (Rank #1, entity-resolved).
 
 ## Tests
 
@@ -183,6 +188,6 @@ This code is provided for academic and research purposes. See LICENSE file for d
 
 If you use this code, please cite:
 
-> [Authors]. Graph Neural Network-Driven Discovery of Hidden Molecular Drivers of Venous Wall Inflammation and Fibrosis. *Nature Communications* (2026).
+> [Authors]. Temporally Evaluated Heterogeneous Graph Learning Prioritizes Cell-Type-Specific Inflammatory and Fibrotic Programs in Venous Thromboembolism. (2026).
 
-The code is archived at Zenodo: 10.5281/zenodo.21225701
+The code is archived at Zenodo: 10.5281/zenodo.21225701 (v1.0) and will be updated for v2.0.

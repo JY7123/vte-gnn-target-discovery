@@ -44,15 +44,20 @@ python train_full_v2.py
 # ── 5. Generate figures ──
 echo ""
 echo "[5/5] Generating paper figures..."
-python render_paper_figures.py
-echo "  Python figures complete."
-
-# Figure 2 in R (if Rscript available)
 if command -v Rscript &> /dev/null; then
-    Rscript render_figure2.R
-    echo "  Figure 2 (R) complete."
+    Rscript scripts/render_figure1_kg_temporal.R
+    Rscript scripts/render_figure2_benchmark.R
+    Rscript scripts/render_figure3_target_ranking.R
+    Rscript scripts/render_figure4_scRNA_mapping.R
+    Rscript scripts/render_figure5_cross_species.R
+    echo "  All Figures 1-5 complete."
 else
-    echo "  [SKIP] Rscript not found — Figure 2 can be generated separately with: Rscript render_figure2.R"
+    echo "  [SKIP] Rscript not found. Figures can be generated separately with:"
+    echo "    Rscript scripts/render_figure1_kg_temporal.R"
+    echo "    Rscript scripts/render_figure2_benchmark.R"
+    echo "    Rscript scripts/render_figure3_target_ranking.R"
+    echo "    Rscript scripts/render_figure4_scRNA_mapping.R"
+    echo "    Rscript scripts/render_figure5_cross_species.R"
 fi
 
 echo ""
