@@ -12,7 +12,7 @@ This directory contains the complete codebase for reproducing results reported i
 - **RAM**: ≥ 32 GB recommended (16 GB minimum)
 - **GPU**: Optional (CPU training supported, ~40 min per model on modern CPU)
 - **Python**: 3.12
-- **R**: 4.4+ (for Figure 2 only; packages: ggplot2, dplyr, tidyr, jsonlite, patchwork, scales)
+- **R**: 4.4+ (packages: ggplot2, dplyr, tidyr, jsonlite, patchwork, scales, fgsea, gridExtra)
 
 ## Quick Start (5 minutes)
 
@@ -82,61 +82,65 @@ python data/build_dataset.py
 
 # 6. Train + evaluate + render (same as above)
 python train_full_v2.py
-python render_paper_figures.py
+Rscript scripts/render_figure1_kg_temporal.R
+Rscript scripts/render_figure2_benchmark.R
+Rscript scripts/render_figure3_target_ranking.R
+Rscript scripts/render_figure4_scRNA_mapping.R
+Rscript scripts/render_figure5_cross_species.R
 ```
 
 ## Repository Structure
 
 ```
 vte_gnn_target_discovery/
-├── config/                     # YAML configuration files
-│   ├── anchor_config.yaml      # Biological prior: anchor genes, cascade, edge multipliers
-│   └── ablation_config.yaml    # Ablation mode definitions
+├── config/
+│   └── anchor_config.yaml      # Biological prior: anchor genes, cascade, edge multipliers
 │
-├── data/                       # Data pipeline modules
-│   ├── neo4j_to_pyg.py         # Neo4j → PyG HeteroData exporter (multi-label aware)
+├── data/                       # Data pipeline
+│   ├── neo4j_to_pyg.py         # Neo4j → PyG HeteroData exporter
 │   ├── node_features.py        # PubMedBERT + Node2Vec feature generation
-│   ├── negative_sampling.py    # Degree-preserving + hard negative sampling
-│   ├── temporal_split.py       # PMID-based prospective temporal splitting
+│   ├── negative_sampling.py    # Degree-preserving negative sampling
+│   ├── temporal_split.py       # Stratified + temporal split logic
 │   ├── pmid_date_lookup.py     # NCBI E-utilities PMID → date resolution
 │   ├── build_dataset.py        # Assemble train/val/test splits
-│   ├── ablation_injection.py   # False positive injection for ablation
+│   ├── baselines/              # KGE baseline benchmark results (JSON/CSV)
 │   └── processed/              # ← Place downloaded .pt files here
 │
 ├── models/                     # Neural network architectures
-│   ├── tempered_hgt.py         # TemperedHGT: core model with learnable τ
-│   ├── encoders.py             # PubMedBERT encoder + InnerProductDecoder
-│   └── baselines.py            # RGCN, HAN baseline implementations
+│   ├── tempered_hgt.py         # TemperedHGT with learnable τ
+│   └── encoders.py             # PubMedBERT encoder + InnerProductDecoder
 │
 ├── training/                   # Training infrastructure
-│   ├── link_prediction.py      # LinkPredictionTrainer (BCE + early stopping)
-│   ├── baseline_trainer.py     # FairTrainer: unified hyperparameter-locked training
+│   ├── link_prediction.py      # Leakage-free train/eval (msg_ei / eval_ei separation)
+│   ├── baselines.py            # TransE, DistMult, ComplEx, RotatE implementations
 │   ├── edge_bias.py            # CosineAnnealingDecay + EdgeBiasInitializer
-│   └── metrics.py              # AUROC, MRR, Hits@K computation
+│   └── metrics.py              # Filtered MRR, Hits@K, AUROC, per-relation breakdown
 │
-├── explainability/             # Model interpretation
-│   ├── gnnexplainer_vte.py     # VTEExplainer: attention-based GNN explanation
-│   ├── alignment_engine.py     # AnchorAlignmentEngine: cascade step mapping
-│   ├── contradiction_gate.py   # Path contradiction detection
-│   └── subgraph_extractor.py   # JSON/CSV → Cytoscape export
+├── scripts/                    # Figure rendering + manuscript build tools
+│   ├── render_figure1_kg_temporal.R   # Figure 1: KG construction + temporal split
+│   ├── render_figure2_benchmark.R     # Figure 2: Benchmark comparison
+│   ├── render_figure3_target_ranking.R # Figure 3: Target ranking (SMAD4 Rank #1)
+│   ├── render_figure4_scRNA_mapping.R  # Figure 4: scRNA cell-type mapping
+│   ├── render_figure5_cross_species.R  # Figure 5: Cross-species GSEA
+│   ├── build_atvb_manuscript.py        # Markdown → docx manuscript builder
+│   ├── build_cover_letter.py           # Cover letter generator
+│   ├── insert_citations_clean.py       # Citation insertion framework
+│   ├── export_baseline_data.py         # Baseline metrics export
+│   └── export_scRNA_for_R.py           # scRNA data export for R plotting
 │
-├── validation/                 # External validation
-│   ├── literature_validation.py # PubMed novelty classification
-│   ├── cross_check_mr.py       # Mendelian randomization cross-validation
-│   ├── error_correction.py     # Prior error correction quantification
-│   └── aggregate_results.py    # Comparison tables + LaTeX export
+├── manuscript/                 # Manuscript source
+│   ├── manuscript_draft.md     # Full manuscript with numbered citations
+│   ├── references_final.md     # Vancouver-format reference list (29 verified refs)
+│   └── supplementary_tables.md # Table S1: data lineage + script-figure mapping
 │
-├── tests/                      # 124 unit + integration tests (pytest)
-│   ├── test_tempered_hgt.py    # Core model correctness
-│   ├── test_neo4j_to_pyg.py    # Exporter multi-label handling
-│   ├── test_temporal_split.py  # Prospective validation integrity
-│   ├── test_literature_validation.py
-│   └── ... (20 test files)
+├── tests/                      # Unit + integration tests
+│   ├── test_training.py        # Training pipeline correctness
+│   ├── test_no_leakage.py      # Data leakage detection
+│   └── ... (20 test files, 124 pass)
 │
 ├── train_full_v2.py            # Main training entry point
-├── hidden_target_hunter.py     # Target discovery + ranking pipeline
-├── render_paper_figures.py     # Figure 1, 3, 4, 5 generation (Python)
-├── render_figure2.R            # Figure 2 generation (R/ggplot2)
+├── hidden_target_hunter.py     # Global target discovery + ranking
+├── render_supp_fig1.R          # Supplementary Figure S1
 ├── reproduce.sh / reproduce.bat # One-click reproduction
 ├── environment.yml             # Conda environment specification
 └── README.md                   # This file
