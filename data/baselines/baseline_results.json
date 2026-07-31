@@ -1,0 +1,67 @@
+{
+  "TransE": {
+    "filtered_mrr": 0.0168,
+    "tail_mrr": 0.0271,
+    "head_mrr": 0.0065,
+    "tail_hits@1": 0.0027,
+    "tail_hits@3": 0.0283,
+    "tail_hits@10": 0.0675,
+    "head_hits@1": 0.0007,
+    "head_hits@3": 0.0081,
+    "head_hits@10": 0.0155,
+    "n_triples": 1482,
+    "train_time_min": 2.1
+  },
+  "DistMult": {
+    "filtered_mrr": 0.0319,
+    "tail_mrr": 0.0277,
+    "head_mrr": 0.0362,
+    "tail_hits@1": 0.0148,
+    "tail_hits@3": 0.031,
+    "tail_hits@10": 0.054,
+    "head_hits@1": 0.0216,
+    "head_hits@3": 0.0405,
+    "head_hits@10": 0.0601,
+    "n_triples": 1482,
+    "train_time_min": 1.9
+  },
+  "ComplEx": {
+    "filtered_mrr": 0.0167,
+    "tail_mrr": 0.0281,
+    "head_mrr": 0.0054,
+    "tail_hits@1": 0.0182,
+    "tail_hits@3": 0.031,
+    "tail_hits@10": 0.0439,
+    "head_hits@1": 0.0034,
+    "head_hits@3": 0.0061,
+    "head_hits@10": 0.0081,
+    "n_triples": 1482,
+    "train_time_min": 1.9
+  },
+  "RotatE": {
+    "filtered_mrr": 0.0345,
+    "tail_mrr": 0.0325,
+    "head_mrr": 0.0365,
+    "tail_hits@1": 0.0189,
+    "tail_hits@3": 0.0317,
+    "tail_hits@10": 0.0601,
+    "head_hits@1": 0.0229,
+    "head_hits@3": 0.0371,
+    "head_hits@10": 0.0601,
+    "n_triples": 1482,
+    "train_time_min": 1.9
+  },
+  "TemperedHGT": {
+    "filtered_mrr": 0.0857,
+    "tail_mrr": 0.0857,
+    "head_mrr": 0.0857,
+    "tail_hits@1": null,
+    "tail_hits@3": null,
+    "tail_hits@10": 0.1841,
+    "head_hits@1": null,
+    "head_hits@3": null,
+    "head_hits@10": 0.1841,
+    "auroc": 0.7409,
+    "train_time_min": 1.4
+  }
+}

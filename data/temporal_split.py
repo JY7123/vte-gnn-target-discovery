@@ -198,3 +198,107 @@ class TemporalSplitter:
         else:
             report["transductive_fraction"] = 0.0
         return report
+
+
+class RandomStratifiedSplitter:
+    """Random stratified edge split preserving per-relation distribution.
+
+    Used when temporal split is infeasible (no publication dates in KG).
+    Splits edges 80/10/10 per edge type. Handles edge types with few edges
+    gracefully (all-to-train if < 10 edges).
+
+    The split is seeded for reproducibility and records a hash of the
+    resulting partition.
+    """
+
+    def __init__(self, train_frac: float = 0.8, val_frac: float = 0.1,
+                 test_frac: float = 0.1, seed: int = 42,
+                 min_edges_for_split: int = 10,
+                 edge_types: Optional[List[Tuple]] = None):
+        assert abs(train_frac + val_frac + test_frac - 1.0) < 1e-9
+        self.train_frac = train_frac
+        self.val_frac = val_frac
+        self.test_frac = test_frac
+        self.seed = seed
+        self.min_edges_for_split = min_edges_for_split
+        self.edge_types = [tuple(et) for et in edge_types] if edge_types else None
+
+    def split(self, data: HeteroData) -> Tuple[Dict, Dict, Dict]:
+        """Split edges per type into train/val/test.
+
+        If edge_types filter is set, only those edge types are split.
+
+        Returns:
+            train_ei: {edge_type: edge_index [2, N_train]}
+            val_ei:   {edge_type: edge_index [2, N_val]}
+            test_ei:  {edge_type: edge_index [2, N_test]}
+        """
+        generator = torch.Generator()
+        generator.manual_seed(self.seed)
+
+        train_ei, val_ei, test_ei = {}, {}, {}
+
+        edge_types_iter = self.edge_types if self.edge_types else data.edge_types
+        for edge_type in edge_types_iter:
+            if edge_type not in data.edge_types:
+                continue
+            ei = data[edge_type].edge_index
+
+            # Deduplicate: remove repeated (src, dst) pairs before splitting
+            unique_pairs = set()
+            unique_indices = []
+            for j in range(ei.shape[1]):
+                pair = (int(ei[0, j]), int(ei[1, j]))
+                if pair not in unique_pairs:
+                    unique_pairs.add(pair)
+                    unique_indices.append(j)
+            if len(unique_indices) < ei.shape[1]:
+                ei = ei[:, unique_indices]
+
+            n_edges = ei.shape[1]
+
+            if n_edges < self.min_edges_for_split:
+                train_ei[edge_type] = ei
+                continue
+
+            n_val = max(1, int(n_edges * self.val_frac))
+            n_test = max(1, int(n_edges * self.test_frac))
+            n_train = n_edges - n_val - n_test
+
+            perm = torch.randperm(n_edges, generator=generator)
+            train_idx = perm[:n_train]
+            val_idx = perm[n_train:n_train + n_val]
+            test_idx = perm[n_train + n_val:]
+
+            train_ei[edge_type] = ei[:, train_idx]
+            val_ei[edge_type] = ei[:, val_idx]
+            test_ei[edge_type] = ei[:, test_idx]
+
+        return train_ei, val_ei, test_ei
+
+    def split_and_report(self, data: HeteroData) -> dict:
+        """Split and return summary report dict."""
+        train_ei, val_ei, test_ei = self.split(data)
+
+        def _count(ei_dict):
+            return sum(e.shape[1] for e in ei_dict.values())
+
+        total_ets = self.edge_types if self.edge_types else data.edge_types
+        return {
+            "split_method": "random_stratified",
+            "seed": self.seed,
+            "train_frac": self.train_frac,
+            "val_frac": self.val_frac,
+            "test_frac": self.test_frac,
+            "train_edges": _count(train_ei),
+            "val_edges": _count(val_ei),
+            "test_edges": _count(test_ei),
+            "train_edge_types": len(train_ei),
+            "val_edge_types": len(val_ei),
+            "test_edge_types": len(test_ei),
+            "edge_types_without_split": sum(
+                1 for et in total_ets
+                if et in data.edge_types and et in train_ei
+                and et not in val_ei and et not in test_ei
+            ),
+        }

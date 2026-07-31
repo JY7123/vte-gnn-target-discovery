@@ -111,7 +111,14 @@ class TestLinkPredictionTrainer:
         neg_ei = {et: torch.tensor([[5, 6, 7, 8, 9], [5, 6, 7, 8, 9]])}
         val_ei = {et: torch.tensor([[10], [5]])}
 
-        result = trainer.fit(tiny_data, train_ei, val_ei, neg_ei, verbose=False)
+        result = trainer.fit(
+            tiny_data,
+            train_ei=train_ei,
+            val_ei=val_ei,
+            train_neg_ei=neg_ei,
+            val_neg_ei=neg_ei,
+            verbose=False,
+        )
         assert "best_epoch" in result
         assert "best_val_mrr" in result
         assert len(result["history"]) > 0

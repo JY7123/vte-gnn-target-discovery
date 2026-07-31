@@ -1,0 +1,1332 @@
+[
+  {
+    "canonical_name": "smad4",
+    "original_name": "smad4",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 89.6456527709961,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 1
+  },
+  {
+    "canonical_name": "san gene programme",
+    "original_name": "san gene programme",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 75.54974365234375,
+    "relation": "INHIBITS",
+    "is_par2": false,
+    "rank": 2
+  },
+  {
+    "canonical_name": "vwf transcription",
+    "original_name": "vwf transcription",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 70.17051696777344,
+    "relation": "INHIBITS",
+    "is_par2": false,
+    "rank": 3
+  },
+  {
+    "canonical_name": "ace2",
+    "original_name": "ace2",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 68.9692153930664,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 4
+  },
+  {
+    "canonical_name": "tlr4",
+    "original_name": "tlr4",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 64.77067565917969,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 5
+  },
+  {
+    "canonical_name": "p-selectin",
+    "original_name": "p-selectin",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 63.49908447265625,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 6
+  },
+  {
+    "canonical_name": "pomc gene transcription",
+    "original_name": "pomc gene transcription",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 62.75389862060547,
+    "relation": "PROMOTES",
+    "is_par2": false,
+    "rank": 7
+  },
+  {
+    "canonical_name": "tlr2",
+    "original_name": "tlr2",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 62.003746032714844,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 8
+  },
+  {
+    "canonical_name": "factor v leiden mutation",
+    "original_name": "factor v leiden mutation",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 59.61445236206055,
+    "relation": "INHIBITS",
+    "is_par2": false,
+    "rank": 9
+  },
+  {
+    "canonical_name": "enos",
+    "original_name": "enos",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 59.40867614746094,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 10
+  },
+  {
+    "canonical_name": "dnmt3a",
+    "original_name": "dnmt3a",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 56.866172790527344,
+    "relation": "INHIBITS",
+    "is_par2": false,
+    "rank": 11
+  },
+  {
+    "canonical_name": "tissue factor",
+    "original_name": "tissue factor",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 56.02115249633789,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 12
+  },
+  {
+    "canonical_name": "mir-155",
+    "original_name": "mir-155",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 55.11213302612305,
+    "relation": "INHIBITS",
+    "is_par2": false,
+    "rank": 13
+  },
+  {
+    "canonical_name": "vegfr2",
+    "original_name": "vegfr2",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 51.49870300292969,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 14
+  },
+  {
+    "canonical_name": "prolidase",
+    "original_name": "prolidase",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 50.518150329589844,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 15
+  },
+  {
+    "canonical_name": "thrombin",
+    "original_name": "thrombin",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 50.08003234863281,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 16
+  },
+  {
+    "canonical_name": "gata2",
+    "original_name": "gata2",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 49.93696212768555,
+    "relation": "PROMOTES",
+    "is_par2": false,
+    "rank": 17
+  },
+  {
+    "canonical_name": "catalytic subunit crucial to gpi biosynthesis",
+    "original_name": "catalytic subunit crucial to gpi biosynthesis",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 49.79216766357422,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 18
+  },
+  {
+    "canonical_name": "egfr",
+    "original_name": "egfr",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 47.57861328125,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 19
+  },
+  {
+    "canonical_name": "factor x",
+    "original_name": "factor x",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 47.1424560546875,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 20
+  },
+  {
+    "canonical_name": "nf-¦Êb",
+    "original_name": "nf-¦Êb",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 46.35332107543945,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 21
+  },
+  {
+    "canonical_name": "tissue factor gene expression under hypoxia",
+    "original_name": "tissue factor gene expression under hypoxia",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 44.98830795288086,
+    "relation": "INHIBITS",
+    "is_par2": false,
+    "rank": 22
+  },
+  {
+    "canonical_name": "runx2",
+    "original_name": "runx2",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 44.463134765625,
+    "relation": "PROMOTES",
+    "is_par2": false,
+    "rank": 23
+  },
+  {
+    "canonical_name": "prkca",
+    "original_name": "prkca",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 44.43742752075195,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 24
+  },
+  {
+    "canonical_name": "factor xa (fxa) or thrombin",
+    "original_name": "factor xa (fxa) or thrombin",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 44.00638961791992,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 25
+  },
+  {
+    "canonical_name": "fxa",
+    "original_name": "fxa",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 43.151702880859375,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 26
+  },
+  {
+    "canonical_name": "largest upregulated gene co-expression module",
+    "original_name": "largest upregulated gene co-expression module",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 42.59695816040039,
+    "relation": "INHIBITS",
+    "is_par2": false,
+    "rank": 27
+  },
+  {
+    "canonical_name": "ace2 expression",
+    "original_name": "ace2 expression",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 42.450103759765625,
+    "relation": "PROMOTES",
+    "is_par2": false,
+    "rank": 28
+  },
+  {
+    "canonical_name": "vegfr",
+    "original_name": "vegfr",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 42.40786361694336,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 29
+  },
+  {
+    "canonical_name": "pai-1",
+    "original_name": "pai-1",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 42.13526153564453,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 30
+  },
+  {
+    "canonical_name": "pdgfr",
+    "original_name": "pdgfr",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 41.68466567993164,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 31
+  },
+  {
+    "canonical_name": "hif1a",
+    "original_name": "hif1a",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 41.53061294555664,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 32
+  },
+  {
+    "canonical_name": "dux4/pax7 gene signature",
+    "original_name": "dux4/pax7 gene signature",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 40.873077392578125,
+    "relation": "INHIBITS",
+    "is_par2": false,
+    "rank": 33
+  },
+  {
+    "canonical_name": "proto-oncogene",
+    "original_name": "proto-oncogene",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 40.52216720581055,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 34
+  },
+  {
+    "canonical_name": "are-bearing genes",
+    "original_name": "are-bearing genes",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 40.405120849609375,
+    "relation": "PROMOTES",
+    "is_par2": false,
+    "rank": 35
+  },
+  {
+    "canonical_name": "thrombin generation",
+    "original_name": "thrombin generation",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 40.109962463378906,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 36
+  },
+  {
+    "canonical_name": "chop expression",
+    "original_name": "chop expression",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 39.72099685668945,
+    "relation": "PROMOTES",
+    "is_par2": false,
+    "rank": 37
+  },
+  {
+    "canonical_name": "factor xi",
+    "original_name": "factor xi",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 39.645225524902344,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 38
+  },
+  {
+    "canonical_name": "factor xa",
+    "original_name": "factor xa",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 39.23103332519531,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 39
+  },
+  {
+    "canonical_name": "vegfr3",
+    "original_name": "vegfr3",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 38.65920639038086,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 40
+  },
+  {
+    "canonical_name": "sflt1",
+    "original_name": "sflt1",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 38.39033126831055,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 41
+  },
+  {
+    "canonical_name": "c-kit",
+    "original_name": "c-kit",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 38.268558502197266,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 42
+  },
+  {
+    "canonical_name": "vegfr1",
+    "original_name": "vegfr1",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 37.53263473510742,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 43
+  },
+  {
+    "canonical_name": "cdkn2a",
+    "original_name": "cdkn2a",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 37.51628875732422,
+    "relation": "PROMOTES",
+    "is_par2": false,
+    "rank": 44
+  },
+  {
+    "canonical_name": "5¦Á-reductase",
+    "original_name": "5¦Á-reductase",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 37.50893783569336,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 45
+  },
+  {
+    "canonical_name": "f8 gene",
+    "original_name": "f8 gene",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 37.32974624633789,
+    "relation": "PROMOTES",
+    "is_par2": false,
+    "rank": 46
+  },
+  {
+    "canonical_name": "tf",
+    "original_name": "tf",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 37.08062744140625,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 47
+  },
+  {
+    "canonical_name": "topoisomerase i and ii",
+    "original_name": "topoisomerase i and ii",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 35.6300048828125,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 48
+  },
+  {
+    "canonical_name": "epo",
+    "original_name": "epo",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 35.45872497558594,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 49
+  },
+  {
+    "canonical_name": "crp",
+    "original_name": "crp",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 35.35210418701172,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 50
+  },
+  {
+    "canonical_name": "antithrombin",
+    "original_name": "antithrombin",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 34.92129898071289,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 51
+  },
+  {
+    "canonical_name": "kit",
+    "original_name": "kit",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 34.91473388671875,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 52
+  },
+  {
+    "canonical_name": "pdgfr-¦Á",
+    "original_name": "pdgfr-¦Á",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 34.91168212890625,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 53
+  },
+  {
+    "canonical_name": "factor vii",
+    "original_name": "factor vii",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 34.723331451416016,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 54
+  },
+  {
+    "canonical_name": "largest downregulated gene co-expression module",
+    "original_name": "largest downregulated gene co-expression module",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 34.71712875366211,
+    "relation": "PROMOTES",
+    "is_par2": false,
+    "rank": 55
+  },
+  {
+    "canonical_name": "protein tyrosine kinases",
+    "original_name": "protein tyrosine kinases",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 34.69758605957031,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 56
+  },
+  {
+    "canonical_name": "endoglin",
+    "original_name": "endoglin",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 34.46173858642578,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 57
+  },
+  {
+    "canonical_name": "¦Áv¦Â3",
+    "original_name": "¦Áv¦Â3",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 34.396644592285156,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 58
+  },
+  {
+    "canonical_name": "pdgfr-¦Â",
+    "original_name": "pdgfr-¦Â",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 34.17460632324219,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 59
+  },
+  {
+    "canonical_name": "hent1",
+    "original_name": "hent1",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 34.111793518066406,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 60
+  },
+  {
+    "canonical_name": "fibrinogen",
+    "original_name": "fibrinogen",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 33.73514938354492,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 61
+  },
+  {
+    "canonical_name": "il6 expression",
+    "original_name": "il6 expression",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 33.67980194091797,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 62
+  },
+  {
+    "canonical_name": "cx3cr1 expression",
+    "original_name": "cx3cr1 expression",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 33.64497375488281,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 63
+  },
+  {
+    "canonical_name": "plasmin",
+    "original_name": "plasmin",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 33.23680114746094,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 64
+  },
+  {
+    "canonical_name": "factor viii",
+    "original_name": "factor viii",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 33.02256774902344,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 65
+  },
+  {
+    "canonical_name": "plasminogen",
+    "original_name": "plasminogen",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 32.9702262878418,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 66
+  },
+  {
+    "canonical_name": "fva/fviiia/fxa",
+    "original_name": "fva/fviiia/fxa",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 32.603729248046875,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 67
+  },
+  {
+    "canonical_name": "hepcidin expression",
+    "original_name": "hepcidin expression",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 32.43342208862305,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 68
+  },
+  {
+    "canonical_name": "sry protein",
+    "original_name": "sry protein",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 32.42101287841797,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 69
+  },
+  {
+    "canonical_name": "pi3k",
+    "original_name": "pi3k",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 32.38267135620117,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 70
+  },
+  {
+    "canonical_name": "k-ras",
+    "original_name": "k-ras",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 32.04850387573242,
+    "relation": "PROMOTES",
+    "is_par2": false,
+    "rank": 71
+  },
+  {
+    "canonical_name": "mir-106b-5p",
+    "original_name": "mir-106b-5p",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 31.990442276000977,
+    "relation": "INHIBITS",
+    "is_par2": false,
+    "rank": 72
+  },
+  {
+    "canonical_name": "peroxisome proliferator-activated receptor-gamma",
+    "original_name": "peroxisome proliferator-activated receptor-gamma",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 31.972545623779297,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 73
+  },
+  {
+    "canonical_name": "tie-2",
+    "original_name": "tie-2",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 31.804052352905273,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 74
+  },
+  {
+    "canonical_name": "factor ix",
+    "original_name": "factor ix",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 31.498397827148438,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 75
+  },
+  {
+    "canonical_name": "mitogen-activated protein kinase (mapk) a",
+    "original_name": "mitogen-activated protein kinase (mapk) a",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 31.48392677307129,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 76
+  },
+  {
+    "canonical_name": "mapk",
+    "original_name": "mapk",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 31.211872100830078,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 77
+  },
+  {
+    "canonical_name": "tbp",
+    "original_name": "tbp",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 31.118120193481445,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 78
+  },
+  {
+    "canonical_name": "chi3l1",
+    "original_name": "chi3l1",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 31.053813934326172,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 79
+  },
+  {
+    "canonical_name": "factor xia",
+    "original_name": "factor xia",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 31.03816795349121,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 80
+  },
+  {
+    "canonical_name": "factor va",
+    "original_name": "factor va",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 30.7567138671875,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 81
+  },
+  {
+    "canonical_name": "pdpn promoter methylation",
+    "original_name": "pdpn promoter methylation",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 30.24922752380371,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 82
+  },
+  {
+    "canonical_name": "induction of ncrnas associated with p53-dependent apoptosis",
+    "original_name": "induction of ncrnas associated with p53-dependent apoptosis",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 29.992694854736328,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 83
+  },
+  {
+    "canonical_name": "tfpi",
+    "original_name": "tfpi",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 29.912378311157227,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 84
+  },
+  {
+    "canonical_name": "jak",
+    "original_name": "jak",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 29.651063919067383,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 85
+  },
+  {
+    "canonical_name": "coagulation factors",
+    "original_name": "coagulation factors",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 29.569324493408203,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 86
+  },
+  {
+    "canonical_name": "anxa5",
+    "original_name": "anxa5",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 29.229597091674805,
+    "relation": "PROMOTES",
+    "is_par2": false,
+    "rank": 87
+  },
+  {
+    "canonical_name": "mir-137",
+    "original_name": "mir-137",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 29.216894149780273,
+    "relation": "INHIBITS",
+    "is_par2": false,
+    "rank": 88
+  },
+  {
+    "canonical_name": "cdkn2b",
+    "original_name": "cdkn2b",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 29.013078689575195,
+    "relation": "PROMOTES",
+    "is_par2": false,
+    "rank": 89
+  },
+  {
+    "canonical_name": "prothrombin",
+    "original_name": "prothrombin",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 28.980501174926758,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 90
+  },
+  {
+    "canonical_name": "fbxw7-185aa",
+    "original_name": "fbxw7-185aa",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 28.62415885925293,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 91
+  },
+  {
+    "canonical_name": "fviii",
+    "original_name": "fviii",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 28.47390365600586,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 92
+  },
+  {
+    "canonical_name": "hnf4a",
+    "original_name": "hnf4a",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 28.132749557495117,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 93
+  },
+  {
+    "canonical_name": "serpinc1 mrna expression",
+    "original_name": "serpinc1 mrna expression",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 27.92481803894043,
+    "relation": "INHIBITS",
+    "is_par2": false,
+    "rank": 94
+  },
+  {
+    "canonical_name": "ret",
+    "original_name": "ret",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 27.821619033813477,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 95
+  },
+  {
+    "canonical_name": "par-1",
+    "original_name": "par-1",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 27.550230026245117,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 96
+  },
+  {
+    "canonical_name": "c-myc",
+    "original_name": "c-myc",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 27.521589279174805,
+    "relation": "PROMOTES",
+    "is_par2": false,
+    "rank": 97
+  },
+  {
+    "canonical_name": "vwf",
+    "original_name": "vwf",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 27.432451248168945,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 98
+  },
+  {
+    "canonical_name": "met",
+    "original_name": "met",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 27.405927658081055,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 99
+  },
+  {
+    "canonical_name": "angiopoietin-1 promoter",
+    "original_name": "angiopoietin-1 promoter",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 27.212556838989258,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 100
+  },
+  {
+    "canonical_name": "vamp8",
+    "original_name": "vamp8",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 27.155664443969727,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 101
+  },
+  {
+    "canonical_name": "alk1",
+    "original_name": "alk1",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 27.1337947845459,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 102
+  },
+  {
+    "canonical_name": "jak2",
+    "original_name": "jak2",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 27.103797912597656,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 103
+  },
+  {
+    "canonical_name": "mmp-9",
+    "original_name": "mmp-9",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 27.061628341674805,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 104
+  },
+  {
+    "canonical_name": "microrna-claudin-14 operon",
+    "original_name": "microrna-claudin-14 operon",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 26.46586036682129,
+    "relation": "PROMOTES",
+    "is_par2": false,
+    "rank": 105
+  },
+  {
+    "canonical_name": "slc44a3 expression",
+    "original_name": "slc44a3 expression",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 26.43668556213379,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 106
+  },
+  {
+    "canonical_name": "mmps",
+    "original_name": "mmps",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 26.430912017822266,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 107
+  },
+  {
+    "canonical_name": "dsur expression",
+    "original_name": "dsur expression",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 26.37173080444336,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 108
+  },
+  {
+    "canonical_name": "srf",
+    "original_name": "srf",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 26.269474029541016,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 109
+  },
+  {
+    "canonical_name": "¦Á1b-adrenergic receptor",
+    "original_name": "¦Á1b-adrenergic receptor",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 26.24822235107422,
+    "relation": "PROMOTES",
+    "is_par2": false,
+    "rank": 110
+  },
+  {
+    "canonical_name": "ect2",
+    "original_name": "ect2",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 25.97673225402832,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 111
+  },
+  {
+    "canonical_name": "par-4",
+    "original_name": "par-4",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 25.908994674682617,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 112
+  },
+  {
+    "canonical_name": "mir-424/503 promoter",
+    "original_name": "mir-424/503 promoter",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 25.769128799438477,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 113
+  },
+  {
+    "canonical_name": "von willebrand factor",
+    "original_name": "von willebrand factor",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 25.759395599365234,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 114
+  },
+  {
+    "canonical_name": "hla-drb1 shared epitope",
+    "original_name": "hla-drb1 shared epitope",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 25.739166259765625,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 115
+  },
+  {
+    "canonical_name": "nox2",
+    "original_name": "nox2",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 25.730941772460938,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 116
+  },
+  {
+    "canonical_name": "thrombomodulin sensitivity",
+    "original_name": "thrombomodulin sensitivity",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 25.691852569580078,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 117
+  },
+  {
+    "canonical_name": "edn1",
+    "original_name": "edn1",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 25.6533203125,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 118
+  },
+  {
+    "canonical_name": "caspases",
+    "original_name": "caspases",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 25.61859893798828,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 119
+  },
+  {
+    "canonical_name": "trpm7",
+    "original_name": "trpm7",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 25.567337036132812,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 120
+  },
+  {
+    "canonical_name": "p230 protein",
+    "original_name": "p230 protein",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 25.376047134399414,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 121
+  },
+  {
+    "canonical_name": "vav",
+    "original_name": "vav",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 25.005887985229492,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 122
+  },
+  {
+    "canonical_name": "hif",
+    "original_name": "hif",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 24.985071182250977,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 123
+  },
+  {
+    "canonical_name": "mir-9-5p",
+    "original_name": "mir-9-5p",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 24.916419982910156,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 124
+  },
+  {
+    "canonical_name": "podoplanin expression",
+    "original_name": "podoplanin expression",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 24.801973342895508,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 125
+  },
+  {
+    "canonical_name": "stat5",
+    "original_name": "stat5",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 24.793701171875,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 126
+  },
+  {
+    "canonical_name": "et-1 mrna expression",
+    "original_name": "et-1 mrna expression",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 24.281593322753906,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 127
+  },
+  {
+    "canonical_name": "foxo1",
+    "original_name": "foxo1",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 24.054981231689453,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 128
+  },
+  {
+    "canonical_name": "enac",
+    "original_name": "enac",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 24.030118942260742,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 129
+  },
+  {
+    "canonical_name": "grb2",
+    "original_name": "grb2",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 24.01287078857422,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 130
+  },
+  {
+    "canonical_name": "f8 gene expression",
+    "original_name": "f8 gene expression",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 23.96807098388672,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 131
+  },
+  {
+    "canonical_name": "fxia",
+    "original_name": "fxia",
+    "src_type": "Protein",
+    "disease": "venous thromboembolic events",
+    "score": 23.96002197265625,
+    "relation": "ASSOCIATED_WITH",
+    "is_par2": false,
+    "rank": 132
+  },
+  {
+    "canonical_name": "st2l mrna transcription",
+    "original_name": "st2l mrna transcription",
+    "src_type": "Gene",
+    "disease": "venous thromboembolic events",
+    "score": 23.87506866455078,
+    "relation": "CONTRIBUTES_TO",
+    "is_par2": false,
+    "rank": 133
+  }
+]

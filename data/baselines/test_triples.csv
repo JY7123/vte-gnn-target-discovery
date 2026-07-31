@@ -1,0 +1,1483 @@
+head,relation,tail,head_name,tail_name,relation_name
+24020,9,23666,mir-671,cdr1as,BINDS_TO
+22522,9,24815,mirna,3′-untranslated region (3′-utr) of target mrna,BINDS_TO
+24704,9,25441,gas5,mir-194-3p,BINDS_TO
+23666,9,23667,cdr1as,mir-7,BINDS_TO
+24878,9,24879,cardiac muscle specific regulatory region,actn2,BINDS_TO
+23623,9,23624,hsa-mir-3148,prkca,BINDS_TO
+22924,16,22125,evi1,gata2,REGULATES
+23666,16,24019,cdr1as,mir-7 stability,REGULATES
+24840,16,23132,mmp9 promoter polymorphism,mmp9 expression,REGULATES
+24103,17,23382,ctnnb1,mir-483-3p,UPREGULATES
+22548,17,22549,stat6,gata3,UPREGULATES
+22312,17,24642,mir-9,mmp10,UPREGULATES
+20914,17,21658,prothrombin g20210a mutation,prothrombin gene expression,UPREGULATES
+22286,17,21091,pai-1 4g allele,pai-1 transcription,UPREGULATES
+22952,17,22953,znf217 copy number amplification,znf217 rna expression,UPREGULATES
+24299,17,21360,usp8 mutation,mgmt expression,UPREGULATES
+23120,11,23123,mir-27b,angptl3,DOWNREGULATES
+22782,11,23948,mir-145-5p,actb,DOWNREGULATES
+22295,11,24138,mir-150,c-myb,DOWNREGULATES
+22218,11,24857,f2 gene mutation,f2 mrna expression,DOWNREGULATES
+21787,11,21788,adrb2 haplotype a-c,translational efficiency of adrb2,DOWNREGULATES
+22441,11,24735,mir-181a-5p,f11 gene expression,DOWNREGULATES
+23104,11,23103,let-7e,neat1,DOWNREGULATES
+23074,11,23075,ppargc-1a and ppargc-1b,"ndufa3, sdha, and atp5a1",DOWNREGULATES
+21454,11,21455,vkorc1 g3673a,vkorc1 gene expression,DOWNREGULATES
+21708,7,23437,tbx5,san gene programme,ACTIVATES
+23627,14,23628,microrna-24,chi3l1,INHIBITS
+22852,14,22853,mir-1246,f8,INHIBITS
+22312,14,21949,mir-9,claudin-14 expression,INHIBITS
+21834,14,21835,dnmt3a,runx1 expression,INHIBITS
+22313,14,21949,mir-374,claudin-14 expression,INHIBITS
+24492,14,24246,mir-200c,zeb1,INHIBITS
+39041,22,25969,nedd9,p-selectin,BINDS_TO
+29548,22,28966,nmo-igg,aquaporin-4,BINDS_TO
+31865,22,29549,anti-aqp4 antibodies,aqp4,BINDS_TO
+26827,22,26628,c3,cd11b,BINDS_TO
+31461,22,32078,rip1,rip3,BINDS_TO
+25887,22,27841,protein s,tyro3,BINDS_TO
+25987,22,27216,apc,apoer2,BINDS_TO
+33098,22,33099,cd11b-cd18,icam2,BINDS_TO
+36964,22,34408,sars-cov-2 spike glycoprotein,ace-2,BINDS_TO
+25911,22,37622,erα,gαi,BINDS_TO
+26000,22,26245,antibodies,heparin-pf4 complex,BINDS_TO
+26411,22,26409,pa d683k mutant,antxr2,BINDS_TO
+30729,22,32823,icam-2,lfa-1,BINDS_TO
+26368,22,37711,hit antibodies,pf4-gag complex,BINDS_TO
+26676,22,25996,sp1,nf-κb,BINDS_TO
+30575,22,26177,mechanosome,pecam-1,BINDS_TO
+27435,22,27436,mcfd2,lman1,BINDS_TO
+25975,22,25977,hrgp,tsp type i repeats,BINDS_TO
+30734,22,26657,high molecular weight kininogen,upar,BINDS_TO
+26635,22,27685,fxiii,vitronectin,BINDS_TO
+34542,22,34543,epac1,anxa2,BINDS_TO
+26368,22,31015,hit antibodies,fcγiia receptors,BINDS_TO
+29373,22,25858,fnbp,fibrinogen,BINDS_TO
+34528,22,34529,anti-domain 1 antibodies,cardiolipin-bound β2 glycoprotein i,BINDS_TO
+26195,22,26594,fviia,endothelial cell protein c receptor,BINDS_TO
+37417,22,37416,fundc1,lc3,BINDS_TO
+30594,22,26253,anti-pf4/heparin antibody,pf4/heparin complex,BINDS_TO
+25839,22,34759,antiphospholipid antibodies,vascular proteins,BINDS_TO
+35535,22,26073,peptide hc816–837,factor xa,BINDS_TO
+28295,22,29889,bmp6,bmpr1 and bmpr2,BINDS_TO
+35626,22,26106,fhl2,tf,BINDS_TO
+26814,22,26430,factor ix gla domain,factor xia,BINDS_TO
+25834,22,30736,angiotensin ii,angiotensin receptor 2,BINDS_TO
+32519,22,25969,crizanlizumab,p-selectin,BINDS_TO
+30367,22,27107,rhogdiα,rhoa,BINDS_TO
+31482,22,26837,west nile virus (wnv) nonstructural protein 1,factor h,BINDS_TO
+29301,22,37193,romiplostim,cmpl,BINDS_TO
+28700,22,28701,pdzk1,hip,BINDS_TO
+27831,22,31122,gpvi,fcγ chain,BINDS_TO
+33845,22,33847,tand-scfv sca-1+gpiib/iiia,activated gpiib/iiia,BINDS_TO
+26241,22,27685,gpiib/iiia,vitronectin,BINDS_TO
+26004,22,26657,fxii,upar,BINDS_TO
+26948,22,27903,ps,macrophage scavenger receptors,BINDS_TO
+37662,22,26648,pdi family enzymes,integrin αiibβ3,BINDS_TO
+25858,22,25832,fibrinogen,thrombin,BINDS_TO
+26014,22,38758,statins,β2-integrin,BINDS_TO
+36787,22,38228,sars-cov-2 spike protein,ace2 protein,BINDS_TO
+30098,22,27836,lactoferrin,heparan sulfate proteoglycans,BINDS_TO
+30129,22,32098,igg,fcrn,BINDS_TO
+37933,22,37934,s1 subunit,host cell receptor,BINDS_TO
+27849,22,27850,bapineuzumab,β-amyloid peptide,BINDS_TO
+25960,22,32823,icam-1,lfa-1,BINDS_TO
+33932,22,33933,kirs,hla-class i,BINDS_TO
+33477,22,33478,pp2b-aα,munc18c,BINDS_TO
+28866,22,25968,abt-510,cd36,BINDS_TO
+30254,22,27936,abnormal vwf multimers,glycoprotein ib,BINDS_TO
+31645,22,25858,integrins β2 and β3,fibrinogen,BINDS_TO
+25853,22,31491,plasminogen,c4bp,BINDS_TO
+25911,22,28515,erα,ap-1,BINDS_TO
+25830,22,26195,tissue factor,fviia,BINDS_TO
+32379,22,29646,nivolumab,pd-1,BINDS_TO
+35534,22,26073,peptide hc796–835,factor xa,BINDS_TO
+28367,22,34517,hif2α,hifβ,BINDS_TO
+34174,22,25858,fibrin monomer,fibrinogen,BINDS_TO
+37350,22,37351,mpn400,human igg,BINDS_TO
+38824,22,38825,anti-b antibody,b antigen,BINDS_TO
+25880,22,27927,factor xii,cytokeratin 1,BINDS_TO
+29650,22,29651,heparin-pf4-antibody complexes,platelet fcγiia receptors,BINDS_TO
+25969,22,33069,p-selectin,psgl1,BINDS_TO
+25892,22,35591,vwf,gp ib-ix-v,BINDS_TO
+39333,22,25881,β3,von willebrand factor,BINDS_TO
+25839,22,26020,antiphospholipid antibodies,β2gpi,BINDS_TO
+26421,22,26656,fsap,alpha-2-antiplasmin,BINDS_TO
+25951,22,37477,rage,diaph1,BINDS_TO
+33037,22,33038,ttf-taa,ng2,BINDS_TO
+35302,22,25853,ixonnexin,plasminogen,BINDS_TO
+29097,22,29096,grb2,shc,BINDS_TO
+26509,22,25832,par-1,thrombin,BINDS_TO
+27855,22,33764,ige,fcεri,BINDS_TO
+34559,22,34560,ttc7a,pi4kiiiα,BINDS_TO
+26012,22,28206,bnp,npr-a,BINDS_TO
+26130,22,25830,rfviia,tissue factor,BINDS_TO
+37019,22,36710,sars-cov-2 s protein,ace2 receptor,BINDS_TO
+33205,22,25832,ufh-at complex,thrombin,BINDS_TO
+25987,22,26594,apc,endothelial cell protein c receptor,BINDS_TO
+33255,22,33256,tymp,src family kinase,BINDS_TO
+36741,22,36742,exfoliatin toxin a,desmoglein 1,BINDS_TO
+33967,22,27827,rgd peptides,αvβ3-integrin,BINDS_TO
+34859,22,34860,activating angiotensin ii type 1 autoantibodies,angiotensin 1 receptor,BINDS_TO
+36870,22,36375,drsp,mr,BINDS_TO
+27597,22,35509,vimentin,dectin-1,BINDS_TO
+36964,22,37106,sars-cov-2 spike glycoprotein,angiotensin-converting enzyme 2 (ace2) receptor,BINDS_TO
+28007,22,25878,nitrophorin 2,factor ix,BINDS_TO
+35445,22,25853,uk,plasminogen,BINDS_TO
+30260,22,28437,smad2 and smad3,smad4,BINDS_TO
+30298,22,30299,α2-ap,plm,BINDS_TO
+26368,22,40104,hit antibodies,pf4/gag complexes,BINDS_TO
+26825,22,35705,c3b,crig,BINDS_TO
+36219,22,29514,mogamulizumab,ccr4,BINDS_TO
+35117,22,35118,α6β4 integrin,plectin,BINDS_TO
+26229,22,36834,fxa,spike protein,BINDS_TO
+36787,22,36710,sars-cov-2 spike protein,ace2 receptor,BINDS_TO
+31565,22,26177,scfv/epcr,pecam-1,BINDS_TO
+30050,22,26506,dc13 pfemp1,epcr,BINDS_TO
+29059,22,28283,jaks,cytokine receptors,BINDS_TO
+25881,22,35846,von willebrand factor,gpib-ix-v and integrin αiibβ3,BINDS_TO
+30098,22,36964,lactoferrin,sars-cov-2 spike glycoprotein,BINDS_TO
+25911,22,26676,erα,sp1,BINDS_TO
+30129,22,39206,igg,platelet fcγ receptor,BINDS_TO
+25887,22,32371,protein s,c4b binding protein,BINDS_TO
+28007,22,26308,nitrophorin 2,factor ixa,BINDS_TO
+27572,22,35508,ne,f-actin,BINDS_TO
+37949,22,36710,s1 domain,ace2 receptor,BINDS_TO
+36980,22,26757,emibetuzumab,met,BINDS_TO
+31109,22,26911,protein s shbg-like domain,tfpi,BINDS_TO
+36446,22,36447,iga anti-b2gp1 antibodies,"epitopes in domains 3, 4, and 5 of b2gp1",BINDS_TO
+25834,22,38084,angiotensin ii,angiotensin ii receptor type 1,BINDS_TO
+26754,22,26755,fcαri,fcr γ-chain,BINDS_TO
+37031,22,37045,viral spike protein,ace-2 receptor,BINDS_TO
+25858,22,25853,fibrinogen,plasminogen,BINDS_TO
+26086,22,28277,cd40l,cd40,BINDS_TO
+26214,22,28037,gas6,mertk,BINDS_TO
+36787,22,37273,sars-cov-2 spike protein,angiotensin-converting enzyme-2,BINDS_TO
+27215,22,25892,glycoprotein iib/iiia,vwf,BINDS_TO
+32993,22,25881,gp ib-ix-v receptor complex,von willebrand factor,BINDS_TO
+37034,22,37229,s protein,cd147,BINDS_TO
+31046,22,31047,glyr antibodies,glycine receptor-α1,BINDS_TO
+38645,22,38646,quinine-type antibodies,gpib/ix and gpiib/iiia complexes,BINDS_TO
+32478,22,26197,platelet-activating antibodies,pf4/heparin complexes,BINDS_TO
+31626,22,30595,iaip,histone h4,BINDS_TO
+32817,22,26073,rcetp,factor xa,BINDS_TO
+37589,22,37008,α4β7-integrin,madcam-1,BINDS_TO
+36213,22,26318,von willenbrand factor,gpibα,BINDS_TO
+25894,22,35244,fibronectin,14-3-3 proteins,BINDS_TO
+26658,22,37324,supar,αvβ3 integrins,BINDS_TO
+34809,22,34810,common gamma chain (γc) receptor,jak3,BINDS_TO
+26347,22,25987,sepcr,apc,BINDS_TO
+40063,22,34527,fc region of cetuximab,fcγ receptors,BINDS_TO
+33484,22,29727,igg4 autoantibody,pla2r,BINDS_TO
+31966,22,31969,tcf7,groucho co-repressors,BINDS_TO
+26374,22,25892,gpiib-iiia,vwf,BINDS_TO
+27584,22,26896,denosumab,rankl,BINDS_TO
+36618,22,36620,lrrfip1/gcf2,fli-1,BINDS_TO
+28028,22,37597,tcr,tumor peptides,BINDS_TO
+38129,22,26701,dap3,fadd,BINDS_TO
+25922,22,26093,protein c,thrombomodulin,BINDS_TO
+38501,22,26241,s. aureus isdb,gpiib/iiia,BINDS_TO
+26506,22,31159,epcr,pfemp1,BINDS_TO
+26000,22,29627,antibodies,gpib/ix complex,BINDS_TO
+27188,22,27189,platelet p-selectin,microparticle psgl-1,BINDS_TO
+27013,22,26093,major basic protein,thrombomodulin,BINDS_TO
+32911,22,26431,transferrin,factor xiia,BINDS_TO
+26252,22,26254,anti-pf4/heparin antibodies,pf4/ufh complex,BINDS_TO
+30129,22,26256,igg,pf4,BINDS_TO
+37031,22,26264,viral spike protein,ace2,BINDS_TO
+26014,22,37073,statins,sars-cov-2 main protease,BINDS_TO
+25917,22,33764,igg autoantibodies,fcεri,BINDS_TO
+37933,22,26264,s1 subunit,ace2,BINDS_TO
+37035,22,38228,sars-cov-2 spike (s) protein,ace2 protein,BINDS_TO
+29886,22,25830,recombinant activated factor vii,tissue factor,BINDS_TO
+37799,22,26264,sars-cov-2 s glycoprotein,ace2,BINDS_TO
+26979,22,26545,protein disulfide isomerase,αiibβ3,BINDS_TO
+31055,22,26506,s360a-pc,epcr,BINDS_TO
+26225,22,34230,activated fxiii,fibrin fibres,BINDS_TO
+26957,22,33365,tlr2,versican,BINDS_TO
+27098,22,27101,cryab,crystallins,BINDS_TO
+26506,22,25875,epcr,activated protein c,BINDS_TO
+26200,22,31519,hemoglobin,gp1bα,BINDS_TO
+25875,22,29619,activated protein c,par-1 or egfr,BINDS_TO
+26649,26,32323,plcγ2,lyn,INTERACTS_WITH
+36787,26,37230,sars-cov-2 spike protein,dpp4,INTERACTS_WITH
+26649,26,39111,plcγ2,p85 of pi3k,INTERACTS_WITH
+37076,20,27018,proteins derived from the endothelial cells,prekallikrein,ACTIVATES
+36036,20,26280,bim,bax,ACTIVATES
+31521,20,26806,btk,mapk,ACTIVATES
+25832,20,26331,thrombin,par4,ACTIVATES
+30365,20,30358,b-raf v600e mutation,b-raf,ACTIVATES
+25830,20,26479,tissue factor,coagulation factor vii,ACTIVATES
+26308,20,25919,factor ixa,factor x,ACTIVATES
+26229,20,26802,fxa,par1,ACTIVATES
+40075,20,40076,nardilysin,alpha-secretase activity of adam10,ACTIVATES
+35706,20,26829,c3b bound to c4b and c2b,c5,ACTIVATES
+25839,20,27185,antiphospholipid antibodies,tissue factors,ACTIVATES
+27924,20,26586,tlrs,adam17,ACTIVATES
+33621,20,28517,kallikreins,ic3b,ACTIVATES
+26229,20,35604,fxa,protease-activated receptor,ACTIVATES
+27937,20,26421,histones,fsap,ACTIVATES
+33004,20,33005,adenosine a2b receptor,cftr cl- channel,ACTIVATES
+29157,20,29158,ppar-α,malonyl-coa decarboxylase,ACTIVATES
+26270,20,26614,akt,mtor,ACTIVATES
+26421,20,28330,fsap,pro-urokinase,ACTIVATES
+26064,20,26806,vegfr-2,mapk,ACTIVATES
+27978,20,25853,plasminogen activators,plasminogen,ACTIVATES
+25852,20,25853,tpa,plasminogen,ACTIVATES
+27018,20,25853,prekallikrein,plasminogen,ACTIVATES
+26496,20,26497,asc pyroptosome,caspase-1,ACTIVATES
+25832,20,27141,thrombin,erk1/2,ACTIVATES
+26037,20,39804,plasmin,pro-mmps,ACTIVATES
+28302,20,27296,fiia,fvii,ACTIVATES
+27251,20,25919,intrinsic tenase,factor x,ACTIVATES
+34220,20,26520,neutral proteases,matrix metalloproteinases,ACTIVATES
+27461,20,25853,urokinase-type plasminogen activator,plasminogen,ACTIVATES
+26930,20,25879,kallikrein,factor xi,ACTIVATES
+35415,20,25996,14-3-3ε,nf-κb,ACTIVATES
+30009,20,27518,anti-aqp4 antibody,complement,ACTIVATES
+26163,20,26167,notch3,cbf1,ACTIVATES
+28995,20,26403,lopap,prothrombin,ACTIVATES
+26037,20,26509,plasmin,par-1,ACTIVATES
+26379,20,35207,insulin,creb phosphorylation,ACTIVATES
+38315,20,30604,ctrp3,sirt1,ACTIVATES
+25900,20,25902,viral hemagglutinin,phospholipase c,ACTIVATES
+27206,20,26513,ang ii,enac,ACTIVATES
+26106,20,26228,tf,fix,ACTIVATES
+28704,20,27093,phbsp,endothelial nitric oxide synthase,ACTIVATES
+26270,20,35252,akt,endothelial nos,ACTIVATES
+29294,20,26330,thbd-thrombin complex,tafi,ACTIVATES
+26270,20,26279,akt,bad,ACTIVATES
+30107,20,26675,tβr1,smad3,ACTIVATES
+26759,20,30112,ras,myc,ACTIVATES
+35025,20,30999,irhom2,tace,ACTIVATES
+25834,20,37124,angiotensin ii,nhe,ACTIVATES
+26013,20,28206,anp,npr-a,ACTIVATES
+27256,20,25996,age-modified hsa,nf-κb,ACTIVATES
+30219,20,30220,src family tyrosine kinases,fc receptor,ACTIVATES
+26863,20,26802,matrix metalloproteases,par1,ACTIVATES
+26200,20,26281,hemoglobin,bak,ACTIVATES
+25858,20,27831,fibrinogen,gpvi,ACTIVATES
+26379,20,37905,insulin,system l amino acid transporter,ACTIVATES
+30360,20,30362,mek2,erk2,ACTIVATES
+26317,20,25919,fviii,factor x,ACTIVATES
+25830,20,25832,tissue factor,thrombin,ACTIVATES
+25832,20,26330,thrombin,tafi,ACTIVATES
+36272,20,26145,pkb/akt,enos,ACTIVATES
+32078,20,32079,rip3,mlkl,ACTIVATES
+26649,20,26390,plcγ2,pkc,ACTIVATES
+37205,20,27787,netrin-1,p38,ACTIVATES
+27021,20,28592,erythropoietin receptor,janus kinase 2,ACTIVATES
+38255,20,27981,e protein,nlrp3 inflammasome,ACTIVATES
+25880,20,25879,factor xii,factor xi,ACTIVATES
+36864,20,26403,sc variant ile1-ala2,prothrombin,ACTIVATES
+25830,20,27324,tissue factor,protease-activated receptors,ACTIVATES
+29011,20,25919,factor viia-tf complex,factor x,ACTIVATES
+26345,20,26269,jak2,pi3k,ACTIVATES
+29661,20,29667,antiβ2-gpi antibodies,complement c3 and c5,ACTIVATES
+26509,20,27141,par-1,erk1/2,ACTIVATES
+26905,20,26227,tf-fviia complex,fx,ACTIVATES
+25987,20,32171,apc,protease-activated receptor 3,ACTIVATES
+26106,20,26195,tf,fviia,ACTIVATES
+26269,20,26270,pi3k,akt,ACTIVATES
+27044,20,27826,rituximab,caspase,ACTIVATES
+33112,20,25922,thrombin-thrombomodulin-endothelial protein c receptor complex,protein c,ACTIVATES
+25832,20,25877,thrombin,factor viii,ACTIVATES
+27493,20,25982,coagulation factor xa,par-2,ACTIVATES
+36896,20,39795,ace2 downregulation,adam-17/tace,ACTIVATES
+30264,20,30265,β2sp,smad3 and smad4,ACTIVATES
+26037,20,27042,plasmin,tissue-type plasminogen activator,ACTIVATES
+27959,20,27413,hbsp,stat3,ACTIVATES
+26709,20,26710,caspase-9,caspase-7,ACTIVATES
+31327,20,25995,nmmhc iia,tlr4,ACTIVATES
+25839,20,25996,antiphospholipid antibodies,nf-κb,ACTIVATES
+31821,20,26829,cathepsin d,c5,ACTIVATES
+30691,20,29460,tgf-β receptor type i,smad2,ACTIVATES
+31288,20,31286,ercc-1,top-1,ACTIVATES
+27892,20,38828,tf/fviia complex,β1-integrins,ACTIVATES
+27144,20,27145,tissue kallikrein,proteinase-activated receptor 1,ACTIVATES
+26037,20,33111,plasmin,carboxypeptidase b2,ACTIVATES
+25834,20,37669,angiotensin ii,calcium/calmodulin-dependent phosphorylation of myosin light chain kinase,ACTIVATES
+29886,20,25919,recombinant activated factor vii,factor x,ACTIVATES
+29239,20,25996,s100a8/a9,nf-κb,ACTIVATES
+26037,20,26004,plasmin,fxii,ACTIVATES
+26494,20,34828,pstpip1,pyrin inflammasome,ACTIVATES
+31260,20,26497,nlrp3,caspase-1,ACTIVATES
+32372,20,27678,glp-1 receptor agonists,pka,ACTIVATES
+29178,20,29179,β-catenin,tcf/lef transcription factors,ACTIVATES
+26106,20,25919,tf,factor x,ACTIVATES
+31441,20,25902,cell surface receptors,phospholipase c,ACTIVATES
+28502,20,26228,fviia-tf complex,fix,ACTIVATES
+27184,20,26045,thrombin-thrombomodulin complexes,pc,ACTIVATES
+27802,20,27807,prox-1,adrenomedullin,ACTIVATES
+25875,20,26509,activated protein c,par-1,ACTIVATES
+32844,20,36774,eml4-alk,alk,ACTIVATES
+31428,20,31429,prorenin,prr,ACTIVATES
+26828,20,26829,c5 convertase,c5,ACTIVATES
+26272,20,25853,rtpa,plasminogen,ACTIVATES
+26197,20,27518,pf4/heparin complexes,complement,ACTIVATES
+30773,20,26514,capns1,calpain,ACTIVATES
+26634,20,25922,thrombin-thrombomodulin complex,protein c,ACTIVATES
+27577,20,25982,tf-fviia-fxa complex,par-2,ACTIVATES
+25832,20,26092,thrombin,coagulation factor v,ACTIVATES
+32334,20,32336,cd prr,renal medullary enac,ACTIVATES
+30432,20,26145,ampk,enos,ACTIVATES
+31371,20,25878,extrinsic tenase,factor ix,ACTIVATES
+26548,20,26646,par2,p38 mapk,ACTIVATES
+26064,20,26269,vegfr-2,pi3k,ACTIVATES
+28525,20,26284,granzyme b,caspases,ACTIVATES
+26497,20,32734,caspase-1,pro-il-1β,ACTIVATES
+25839,20,26391,antiphospholipid antibodies,coagulation factors,ACTIVATES
+26064,20,27580,vegfr-2,fak,ACTIVATES
+25880,20,27018,factor xii,prekallikrein,ACTIVATES
+25996,20,25954,nf-κb,inos,ACTIVATES
+36894,20,36893,sulfhydration of kir6.1,katp channel,ACTIVATES
+38927,20,38029,aggregated amylin,hypoxia-inducible transcription factors,ACTIVATES
+34690,20,27413,jak1/2,stat3,ACTIVATES
+30251,20,25853,thrombolytic drugs,plasminogen,ACTIVATES
+26741,20,26270,ghrelin,akt,ACTIVATES
+26252,20,27555,anti-pf4/heparin antibodies,fcγriia,ACTIVATES
+27105,20,33508,habp2,single-chain urokinase-type plasminogen activator,ACTIVATES
+25830,20,27163,tissue factor,coagulation factor viia,ACTIVATES
+26106,20,26227,tf,fx,ACTIVATES
+25832,20,25882,thrombin,tissue plasminogen activator,ACTIVATES
+26819,20,26821,c1s,c4,ACTIVATES
+26270,20,26145,akt,enos,ACTIVATES
+30135,25,25875,api m358r,activated protein c,INHIBITS
+37403,25,26765,gbps,furin,INHIBITS
+34621,25,34622,hh ligands,ptch,INHIBITS
+26981,25,26982,cd55,c3 convertases,INHIBITS
+35780,25,34103,bdkrb2,at2r expression,INHIBITS
+26035,25,28131,apl,akt activation,INHIBITS
+28967,25,26431,c1-inh,factor xiia,INHIBITS
+26347,25,35306,sepcr,apc anti-thrombotic activity,INHIBITS
+25898,25,39059,antithrombin,thrombin and fxa,INHIBITS
+26911,25,36093,tfpi,tissue factor-activated factor vii,INHIBITS
+26264,25,25834,ace2,angiotensin ii,INHIBITS
+37791,25,37229,meclizumab,cd147,INHIBITS
+26478,25,25882,plasminogen activator inhibitor type 1,tissue plasminogen activator,INHIBITS
+31439,25,25832,ar-h067637,thrombin,INHIBITS
+28558,25,31467,p16 ink4a,cdk6,INHIBITS
+28900,25,25908,otamixaban,thrombin generation,INHIBITS
+29156,25,25830,protein s/tfpi complex,tissue factor,INHIBITS
+26724,25,28373,casr,basolateral 50-ps k channels,INHIBITS
+32479,25,29646,immune checkpoint inhibitors,pd-1,INHIBITS
+26035,25,31039,apl,annexin,INHIBITS
+25922,25,25832,protein c,thrombin,INHIBITS
+36758,25,37706,crizotinib,ros1,INHIBITS
+34423,25,25908,thrombomodulin alfa,thrombin generation,INHIBITS
+26036,25,25908,antithrombin iii,thrombin generation,INHIBITS
+25987,25,27517,apc,viiia,INHIBITS
+28000,25,25920,factor v b domain,factor v,INHIBITS
+28967,25,26819,c1-inh,c1s,INHIBITS
+29363,25,31433,tlr9,hmgb-1,INHIBITS
+30862,25,26037,α2ap,plasmin,INHIBITS
+31412,25,26727,calcineurin a β,nkcc2,INHIBITS
+33880,25,27199,pai,upa,INHIBITS
+26698,25,30565,pp1,nek2,INHIBITS
+39854,25,26930,aat m358r,kallikrein,INHIBITS
+31868,25,25832,peptide s2,thrombin,INHIBITS
+28967,25,26037,c1-inh,plasmin,INHIBITS
+26951,25,26342,autoantibodies against adamts13,adamts13,INHIBITS
+27664,25,27663,cdk4/ccnd2/cdk6 complexes,rb,INHIBITS
+30018,25,30019,serpina10,activated factor z,INHIBITS
+35663,25,26229,zpi-pz complex,fxa,INHIBITS
+25987,25,29565,apc,fva and fviiia,INHIBITS
+37004,25,27678,c1,pka,INHIBITS
+26812,25,33608,α-thrombin,adamts13 cleavage of vwf,INHIBITS
+30298,25,38806,α2-ap,µplm,INHIBITS
+26405,25,26404,pai-2,u-pa,INHIBITS
+27137,25,33238,abciximab,glycoprotein iib/iiia receptor,INHIBITS
+25922,25,26417,protein c,factors that activate thrombin,INHIBITS
+30635,25,30636,azd7762,chk1 kinase,INHIBITS
+28825,25,25878,inhibitors,factor ix,INHIBITS
+34146,25,33476,pdx1 downregulation,insulin production,INHIBITS
+29342,25,28623,elafin,proteinase 3,INHIBITS
+35978,25,35979,grβ,grα,INHIBITS
+28267,25,34216,asparaginase,antithrombin synthesis,INHIBITS
+33161,25,26155,apatinib,vegfr2,INHIBITS
+25839,25,26067,antiphospholipid antibodies,protein c activity,INHIBITS
+35978,25,35980,grβ,gata3 transcriptional activity,INHIBITS
+26911,25,27116,tfpi,extrinsic fxase complex,INHIBITS
+26035,25,26083,apl,annexin v function,INHIBITS
+31018,25,30990,anti-protein s antibody,activated protein c anticoagulant effect,INHIBITS
+35263,25,35264,ampk phosphorylation,inflammasome activity,INHIBITS
+27413,25,32976,stat3,16-kda prolactin,INHIBITS
+29816,25,27045,rkip,erk,INHIBITS
+35663,25,25908,zpi-pz complex,thrombin generation,INHIBITS
+25887,25,25908,protein s,thrombin generation,INHIBITS
+31782,25,26903,3f7 antibody,fxiia,INHIBITS
+35126,25,27009,tfpi2 peptides,heparanase,INHIBITS
+32851,25,29197,pdks,ldh,INHIBITS
+25887,25,26229,protein s,fxa,INHIBITS
+37113,25,33748,hpv e7 protein,rb protein,INHIBITS
+26093,25,28329,thrombomodulin,erk1/2 phosphorylation,INHIBITS
+38601,25,26911,hypoxia inducible factor-2,tfpi,INHIBITS
+26884,25,26229,zpi,fxa,INHIBITS
+26332,25,26195,at,fviia,INHIBITS
+36758,25,26194,crizotinib,c-met,INHIBITS
+26014,25,27640,statins,rock activity,INHIBITS
+26790,25,26791,hepcidin,ferroportin,INHIBITS
+38428,25,25996,nsp3,nf-κb,INHIBITS
+34761,25,26802,vorapaxar,par1,INHIBITS
+26326,25,27178,bortezomib,"il-6-induced activation of erk, stat3, and akt",INHIBITS
+25887,25,33390,protein s,coagulation factor ixa,INHIBITS
+36834,25,26264,spike protein,ace2,INHIBITS
+27289,25,25908,tm,thrombin generation,INHIBITS
+29021,25,27944,arginase,inos expression,INHIBITS
+28635,25,26767,timp-1,mmp,INHIBITS
+33389,25,26905,fxa-tfpi complex,tf-fviia complex,INHIBITS
+25898,25,33832,antithrombin,"thrombin and activated coagulation factors ix, x, xi, xii",INHIBITS
+34222,25,26229,tfpi-1,fxa,INHIBITS
+35389,25,35390,arg378cys mutation,c1-inhibitor secretion,INHIBITS
+25839,25,31555,antiphospholipid antibodies,protein c and s,INHIBITS
+35254,25,25999,lunathrombase,cox-1,INHIBITS
+33556,25,26714,stub1,tf expression,INHIBITS
+33840,25,25908,corn trypsin inhibitor,thrombin generation,INHIBITS
+30492,25,32242,fetuin-a,insulin receptor tyrosine kinase activity,INHIBITS
+28623,25,28792,proteinase 3,thrombin activation of protease activated receptor-1,INHIBITS
+29548,25,29550,nmo-igg,aqp4 function,INHIBITS
+25987,25,39490,apc,lps-induced expression of vcam-1,INHIBITS
+25898,25,25880,antithrombin,factor xii,INHIBITS
+37503,25,26073,ac-ap6,factor xa,INHIBITS
+26614,25,39583,mtor,pkcε ser729 phosphorylation,INHIBITS
+33536,25,33537,p110,drp1-fis1 interaction,INHIBITS
+26784,25,34493,androgen receptor,early growth response protein 1 expression,INHIBITS
+36929,25,25832,dtip,thrombin,INHIBITS
+30031,25,27405,serpinb12,trypsin,INHIBITS
+26405,25,27978,pai-2,plasminogen activators,INHIBITS
+25898,25,27703,antithrombin,factor viia-tissue factor complex,INHIBITS
+28825,25,30564,inhibitors,fviii activity,INHIBITS
+37684,25,37685,per/cry heterodimer,clock/bmal1 complex,INHIBITS
+28183,25,26037,alpha 2-antiplasmin,plasmin,INHIBITS
+36773,25,36774,lorlatinib,alk,INHIBITS
+27229,25,27230,mgcd0103,hdac,INHIBITS
+27082,25,26345,socs3,jak2,INHIBITS
+30479,25,28930,evolocumab,pcsk9,INHIBITS
+28912,25,28913,cediranib,"vegf receptors -1, -2, and -3",INHIBITS
+27257,25,27230,vorinostat,hdac,INHIBITS
+31753,25,36212,liraglutide,lc3-β formation,INHIBITS
+29955,25,36744,speb,desmoglein 3,INHIBITS
+25983,25,27093,endothelin-1,endothelial nitric oxide synthase,INHIBITS
+32889,25,32891,maternal anti-ro/ssa and anti-la/ssb autoantibodies,l-type calcium channel currents,INHIBITS
+28129,25,28131,dab2ip,akt activation,INHIBITS
+30101,25,29303,alpha-1-antitrypsin,elastase,INHIBITS
+38564,25,38566,nb93,pai-1/pa interaction,INHIBITS
+27793,25,27794,pdi,tf procoagulant function,INHIBITS
+28806,25,28805,syndecan-1,α1-antitrypsin,INHIBITS
+31734,25,31735,bms-936559,pd-l1 binding to pd-1 and cd80,INHIBITS
+25935,25,25832,pai-1,thrombin,INHIBITS
+30101,25,25832,alpha-1-antitrypsin,thrombin,INHIBITS
+30432,25,25996,ampk,nf-κb,INHIBITS
+26829,28,26106,c5,tf,UPREGULATES
+25832,28,29247,thrombin,smooth muscle α-actin,UPREGULATES
+33838,28,29105,platelet-derived factor v,tfpiα,UPREGULATES
+27130,28,25969,gal-1,p-selectin,UPREGULATES
+28228,28,28230,follitropin alpha,inhibin a,UPREGULATES
+26455,28,25877,desmopressin,factor viii,UPREGULATES
+25911,28,26145,erα,enos,UPREGULATES
+25839,28,36073,antiphospholipid antibodies,ceacam-1,UPREGULATES
+26030,28,25935,bevacizumab,pai-1,UPREGULATES
+25839,28,26070,antiphospholipid antibodies,beta-2 glycoprotein i,UPREGULATES
+35674,28,31773,3f-pcc,vitamin k-dependent clotting factors,UPREGULATES
+29178,28,31966,β-catenin,tcf7,UPREGULATES
+36787,28,37039,sars-cov-2 spike protein,ace2 proteolytic activity,UPREGULATES
+34520,28,34524,endothelial hif1α,plasminogen activator inhibitor (pai) 1,UPREGULATES
+25832,28,30811,thrombin,intercellular adhesion molecule-1 (icam-1) expression,UPREGULATES
+31349,28,31350,hypoxia-inducible factor 1-α,cd105,UPREGULATES
+27296,28,26614,fvii,mtor,UPREGULATES
+38811,28,39957,reduced ace-2,angiotensin ii (ang-ii) activity,UPREGULATES
+32267,28,26106,histamine h1 receptor,tf,UPREGULATES
+26016,28,26080,crp,e-selectin,UPREGULATES
+26469,28,26472,anti‐β2 gpi antibodies,il-18 receptor 1,UPREGULATES
+36787,28,39729,sars-cov-2 spike protein,glut-4,UPREGULATES
+26199,28,27021,rhuepo,erythropoietin receptor,UPREGULATES
+26646,28,34961,p38 mapk,enac expression,UPREGULATES
+29457,28,26200,epoetin-α,hemoglobin,UPREGULATES
+26664,28,34231,pai-1 deficiency,plasminogen activator inhibitor-2,UPREGULATES
+25996,28,25952,nf-κb,vcam-1,UPREGULATES
+39354,28,30241,cya,p-erk1/2,UPREGULATES
+25996,28,26106,nf-κb,tf,UPREGULATES
+27581,28,25952,astf,vcam-1,UPREGULATES
+39928,28,27319,y15,sod,UPREGULATES
+25996,28,26655,nf-κb,survivin,UPREGULATES
+26463,28,26655,ang-1,survivin,UPREGULATES
+26672,28,33368,hif,glut3,UPREGULATES
+26061,28,28916,hif-1α,trpc6,UPREGULATES
+26676,28,26972,sp1,mmp-2,UPREGULATES
+26030,28,34716,bevacizumab,pantothenate kinase 3,UPREGULATES
+26270,28,26090,akt,cftr,UPREGULATES
+33451,28,26897,thrombin receptor deficiency,opg,UPREGULATES
+28930,28,39838,pcsk9,sra,UPREGULATES
+25839,28,36071,antiphospholipid antibodies,activated mac-1,UPREGULATES
+25996,28,25830,nf-κb,tissue factor,UPREGULATES
+28472,28,25894,p2y12,fibronectin,UPREGULATES
+30595,28,25830,histone h4,tissue factor,UPREGULATES
+34079,28,27162,l-selectin n138g,mac-1,UPREGULATES
+28930,28,25968,pcsk9,cd36,UPREGULATES
+36173,28,25998,s100a8 protein,mmps,UPREGULATES
+26106,24,31090,tf,tsp,DOWNREGULATES
+26389,24,26883,infliximab,c-reactive protein,DOWNREGULATES
+25832,24,35528,thrombin,phospho-cofilin,DOWNREGULATES
+26311,24,25922,l-asparaginase,protein c,DOWNREGULATES
+26264,24,27206,ace2,ang ii,DOWNREGULATES
+35690,24,27944,sphk1,inos expression,DOWNREGULATES
+34537,24,26855,canakinumab,hscrp,DOWNREGULATES
+30541,24,30542,α2-antiplasmin deficiency or inactivation,matrix metalloproteinase-9 expression,DOWNREGULATES
+27736,24,26024,podoplanin,e-cadherin,DOWNREGULATES
+28359,24,32100,f508del-cftr,half-life of cftr at plasma membrane,DOWNREGULATES
+26342,24,32029,adamts13,vwf function,DOWNREGULATES
+38394,24,38395,chip,procoagulant molecules,DOWNREGULATES
+36085,24,26087,bl6,pparγ,DOWNREGULATES
+30604,24,25969,sirt1,p-selectin,DOWNREGULATES
+32400,24,32401,sr-bi carboxy-terminal deletion,sr-bi expression,DOWNREGULATES
+28149,24,35133,trap,cd42a,DOWNREGULATES
+26030,24,26931,bevacizumab,hmgb1,DOWNREGULATES
+28267,24,25878,asparaginase,factor ix,DOWNREGULATES
+26455,24,25935,desmopressin,pai-1,DOWNREGULATES
+26464,24,26506,cxcr4,epcr,DOWNREGULATES
+30695,24,30697,nmdar1,hdac1,DOWNREGULATES
+26664,24,30035,pai-1 deficiency,serping1,DOWNREGULATES
+26173,24,31110,cell-free hemoglobin,hemopexin,DOWNREGULATES
+30930,24,25834,losartan,angiotensin ii,DOWNREGULATES
+27257,24,27711,vorinostat,cyclin e,DOWNREGULATES
+27296,24,31127,fvii,lc3a/b-ii,DOWNREGULATES
+26030,24,28824,bevacizumab,vegf protein expression,DOWNREGULATES
+30604,24,26456,sirt1,psgl-1,DOWNREGULATES
+34079,24,26076,l-selectin n138g,l-selectin,DOWNREGULATES
+25875,24,29947,activated protein c,activated factor viii,DOWNREGULATES
+28132,24,26024,ezh2,e-cadherin,DOWNREGULATES
+30604,24,33591,sirt1,p16,DOWNREGULATES
+26342,24,31438,adamts13,ulvwf,DOWNREGULATES
+32028,24,25959,wnt3a,icam-1 expression,DOWNREGULATES
+39912,24,39913,mmp-10,mpd-l1 level,DOWNREGULATES
+25834,24,26087,angiotensin ii,pparγ,DOWNREGULATES
+25753,8,57031,sftpb thr131ile,copd,ASSOCIATED_WITH
+23433,8,62489,snp in ctla-4,igg4-rd,ASSOCIATED_WITH
+22977,8,59601,non-o blood groups,gastric cancer,ASSOCIATED_WITH
+21681,8,58021,vhl r200w heterozygosity,protection from anemia,ASSOCIATED_WITH
+22118,8,59104,hp2-2 genotype,coronary artery disease (cad) risk,ASSOCIATED_WITH
+24750,8,66386,hmga2 expression,chromosomal rearrangement,ASSOCIATED_WITH
+24243,8,55981,zfpm2,type 2 diabetes,ASSOCIATED_WITH
+23164,8,55686,plg mutations,plasminogen deficiency,ASSOCIATED_WITH
+23746,8,60529,pros1 gene variant,venous thromboembolism (vte) risk,ASSOCIATED_WITH
+22029,8,57469,adamts13 mrna expression,transient ischemic attack,ASSOCIATED_WITH
+23989,8,55792,ifr5,antiphospholipid syndrome,ASSOCIATED_WITH
+24508,8,65449,cyp2c19 lof alleles,higher rates of cardiovascular events,ASSOCIATED_WITH
+24612,8,56837,high vte polygenic risk score,increased vte risk,ASSOCIATED_WITH
+23267,8,62055,triple-negative status,poorest overall survival,ASSOCIATED_WITH
+22977,8,56235,non-o blood groups,vte risk,ASSOCIATED_WITH
+25422,8,68979,flnc mutation,higher risk of heart failure,ASSOCIATED_WITH
+20909,8,55630,fcγriia and iiia double negative genotype,earlier incidence of clinical symptoms,ASSOCIATED_WITH
+22995,8,60830,hla-drb1,sarcoidosis,ASSOCIATED_WITH
+22009,8,65494,fxiii val34leu polymorphism,repeated implantation failure,ASSOCIATED_WITH
+22616,8,60615,genetic variations in innate immunity pathway,coronary arterial calcification,ASSOCIATED_WITH
+25320,8,68515,hla-cw1502,protection from sars infection,ASSOCIATED_WITH
+23987,8,55792,hla-dr haplotypes,antiphospholipid syndrome,ASSOCIATED_WITH
+22997,8,62479,genetic factors,impaired angiogenesis,ASSOCIATED_WITH
+23614,8,56174,fvii c.-323p0/10 snp,thrombosis risk,ASSOCIATED_WITH
+20871,8,55527,factor v leiden mutation,deep venous thrombosis,ASSOCIATED_WITH
+21696,8,58053,homozygosity for tmthfr polymorphism,cerebral venous sinus thrombosis,ASSOCIATED_WITH
+25746,8,69961,mthfr c677t homozygous genotype,renal toxicity,ASSOCIATED_WITH
+21188,8,56575,htert,familial ipf,ASSOCIATED_WITH
+23285,8,64639,elane mutation,maturation arrest,ASSOCIATED_WITH
+21613,8,57742,rs6025,acute rejection,ASSOCIATED_WITH
+25666,8,69811,ifnl3-rs12979860 c allele,baseline mixed cryoglobulinemia,ASSOCIATED_WITH
+23727,8,63218,syt-ssx fusion gene,synovial sarcoma,ASSOCIATED_WITH
+21127,8,58503,factor ii mutation,fetal loss risk,ASSOCIATED_WITH
+25755,8,57031,hmox1 30-repeat allele,copd,ASSOCIATED_WITH
+20931,8,55600,prothrombin g20210a,portal vein thrombosis,ASSOCIATED_WITH
+20987,8,55508,gpx-3 deficiency,prothrombotic state,ASSOCIATED_WITH
+23747,8,63269,idh mutation,leukemic transformation,ASSOCIATED_WITH
+20932,8,55748,mthfr c677t,thromboembolic events,ASSOCIATED_WITH
+24603,8,65818,tnfsf11 snps,aimss,ASSOCIATED_WITH
+23632,8,56529,tm gene polymorphisms,carotid atherosclerosis,ASSOCIATED_WITH
+25310,8,55675,tbxa2r,cardiovascular disease,ASSOCIATED_WITH
+22870,8,57139,calr mutation,myelofibrosis,ASSOCIATED_WITH
+24327,8,55865,il-6 gene -572c/g polymorphism,vte,ASSOCIATED_WITH
+20871,8,56307,factor v leiden mutation,venous thrombosis after tha,ASSOCIATED_WITH
+21679,8,55528,serpinc1,venous thrombosis,ASSOCIATED_WITH
+21204,8,56590,jak2v617f mutation,essential thrombocythemia,ASSOCIATED_WITH
+23430,8,62486,trpa1 rs11988795 g allele,neuropathic pain,ASSOCIATED_WITH
+21204,8,56631,jak2v617f mutation,myeloproliferative process,ASSOCIATED_WITH
+22233,8,57043,fibrinogen aα thr312ala polymorphism,cteph,ASSOCIATED_WITH
+21674,8,55528,abo,venous thrombosis,ASSOCIATED_WITH
+25695,8,63957,il-6 gene variants,higher risk of vte,ASSOCIATED_WITH
+25110,8,56065,trisomy of chromosome 8,behçet's disease,ASSOCIATED_WITH
+24296,8,64753,mir-193a,acute exacerbation risk,ASSOCIATED_WITH
+20981,8,62764,jak2 v617f mutation,increased morbidity and mortality,ASSOCIATED_WITH
+25424,8,68978,pln mutation,higher risk of ventricular arrhythmias and sudden cardiac death,ASSOCIATED_WITH
+25803,8,55672,ptgs2 -765c variant allele,ischemic stroke,ASSOCIATED_WITH
+24304,8,64786,vegf deficiency,renal thrombotic microangiopathy,ASSOCIATED_WITH
+20955,8,66088,prothrombin gene mutation,primary uedvt,ASSOCIATED_WITH
+24576,8,58177,chip-like mutations,poor prognosis,ASSOCIATED_WITH
+23234,8,55544,ps-k196e mutation,venous thromboembolism,ASSOCIATED_WITH
+24738,8,56235,pai gene polymorphism,vte risk,ASSOCIATED_WITH
+20871,8,59973,factor v leiden mutation,cerebrovascular accident,ASSOCIATED_WITH
+22204,8,59369,hla-b*1502,sjs/ten,ASSOCIATED_WITH
+24659,8,55544,f2 rs1799963,venous thromboembolism,ASSOCIATED_WITH
+22986,8,61439,mutation type,hemophilia a severity,ASSOCIATED_WITH
+23292,8,62116,cyp2c19 * 2 variant,clopidogrel resistance,ASSOCIATED_WITH
+23387,8,62327,high copy numbers of c4a,sle protection,ASSOCIATED_WITH
+23600,8,62916,mthfr 2572 c > a polymorphism,increased risk of cardioembolic stroke,ASSOCIATED_WITH
+21207,8,56648,plp1 mutation type,neuronal loss pattern,ASSOCIATED_WITH
+20926,8,62432,factor v leiden polymorphism,thrombosed varicose veins,ASSOCIATED_WITH
+23366,8,55529,methylenetetrahydrofolate reductase c677t polymorphism,thrombophilia,ASSOCIATED_WITH
+21523,8,56290,mir-21,endometriosis,ASSOCIATED_WITH
+23085,8,55544,fga-fgg,venous thromboembolism,ASSOCIATED_WITH
+20945,8,55506,mthfr c677t polymorphism,hyperhomocysteinemia,ASSOCIATED_WITH
+23380,8,55513,pcsk9 gene,thrombosis,ASSOCIATED_WITH
+22561,8,60414,tafi – 1690 a/g polymorphism,atherosclerotic cerebral infarction,ASSOCIATED_WITH
+23322,8,62193,sele gene,icas,ASSOCIATED_WITH
+21072,8,56313,procr rs2069948 minor allele,incident stroke,ASSOCIATED_WITH
+21014,8,56946,fv leiden mutation,apc resistance,ASSOCIATED_WITH
+23747,8,57041,idh mutation,bleeding complications,ASSOCIATED_WITH
+22954,8,56290,egfr gene amplification,endometriosis,ASSOCIATED_WITH
+23742,8,59767,protein s heerlen mutation,venous thrombosis risk,ASSOCIATED_WITH
+22637,8,60654,hmox-1 expression,tricuspid regurgitation severity,ASSOCIATED_WITH
+23324,8,62193,mmp-9 gene,icas,ASSOCIATED_WITH
+20930,8,55748,factor v leiden g1691a,thromboembolic events,ASSOCIATED_WITH
+25649,8,69755,lta gene polymorphism,less variation in warfarin doses,ASSOCIATED_WITH
+22360,8,58251,egfr mutation,lung adenocarcinoma,ASSOCIATED_WITH
+20981,8,61681,jak2 v617f mutation,mpn disease burden,ASSOCIATED_WITH
+23658,8,63053,rs1799853,venous thromboembolism development,ASSOCIATED_WITH
+24312,8,55786,dq593039,pulmonary hypertension,ASSOCIATED_WITH
+22257,8,56031,complement factor h polymorphism,age-related macular degeneration,ASSOCIATED_WITH
+20973,8,55642,gene locus on chromosome 18,thrombosis susceptibility,ASSOCIATED_WITH
+23707,8,63133,cpb2 thr325ile variant,reduced risk of venous thrombosis in europeans,ASSOCIATED_WITH
+20877,8,59099,factor v leiden,atypical timing of ivh,ASSOCIATED_WITH
+24400,8,65143,xpo5 rs11077a > c polymorphism,increased risk for vte,ASSOCIATED_WITH
+21330,8,56861,interleukin-10 rs1800872,idiopathic venous thromboembolism,ASSOCIATED_WITH
+21716,8,55605,fvl mutation,arterial thrombosis,ASSOCIATED_WITH
+24072,8,64027,vwf c.2880g>a variant,reduced frequency in type 1 vwd,ASSOCIATED_WITH
+22870,8,55683,calr mutation,thrombotic events,ASSOCIATED_WITH
+24442,8,65225,hla-dqw5,eims in crohn's disease,ASSOCIATED_WITH
+23431,8,62486,trpa1 rs13255063 tt genotype,neuropathic pain,ASSOCIATED_WITH
+22374,8,59891,kif5a mutation,hereditary spastic paraplegia,ASSOCIATED_WITH
+21253,8,56899,col4a1 mutations,hemorrhage,ASSOCIATED_WITH
+23263,8,62051,pik3ca mutations,vascular malformations,ASSOCIATED_WITH
+20876,8,60839,g20210a prothrombin gene mutation,upper-extremity deep vein thrombosis,ASSOCIATED_WITH
+23800,8,61460,terc,emphysema pathogenesis,ASSOCIATED_WITH
+23571,8,55534,abo gene rs495828/rs2519093 polymorphism,thrombus formation,ASSOCIATED_WITH
+22594,8,60533,rasa1 gene mutations,parkes weber syndrome,ASSOCIATED_WITH
+21645,8,55981,apoe ε4 allele,type 2 diabetes,ASSOCIATED_WITH
+22710,8,55513,epcr 6936ag genotype,thrombosis,ASSOCIATED_WITH
+25434,8,55690,thbd gene rs1962 c allele,sepsis,ASSOCIATED_WITH
+21339,8,65018,braf v600e mutation,cutaneous involvement and treatment-refractory disease,ASSOCIATED_WITH
+23001,8,61488,lyn gene promoter polymorphism,increased autoantibody titers,ASSOCIATED_WITH
+23834,8,55672,pitx2,ischemic stroke,ASSOCIATED_WITH
+23293,8,62116,cyp3a4 * 1g variant,clopidogrel resistance,ASSOCIATED_WITH
+20880,8,55529,protein c gene mutations,thrombophilia,ASSOCIATED_WITH
+21688,8,65415,sfrp4,low trabecular bone mass,ASSOCIATED_WITH
+21321,8,56859,nos3,incident hypertension,ASSOCIATED_WITH
+24190,8,58260,pik3ca,klippel-trénaunay syndrome,ASSOCIATED_WITH
+24116,8,64145,sh2b3,large artery stroke,ASSOCIATED_WITH
+22355,8,55545,cbs gene deficiency,retinal vein occlusion,ASSOCIATED_WITH
+24504,8,57248,notch3 gene mutation,cadasil,ASSOCIATED_WITH
+20877,8,55645,factor v leiden,severe placental abruption,ASSOCIATED_WITH
+20911,8,55642,fxii gene,thrombosis susceptibility,ASSOCIATED_WITH
+20877,8,55544,factor v leiden,venous thromboembolism,ASSOCIATED_WITH
+24116,8,64146,sh2b3,small vessel stroke,ASSOCIATED_WITH
+23287,8,62104,comt variants,cisplatin-induced ototoxicity,ASSOCIATED_WITH
+24944,8,57047,myeloid markers gene expression,toxicity,ASSOCIATED_WITH
+21008,8,56132,ab genotype of psgl-1,thrombosis in antiphospholipid syndrome,ASSOCIATED_WITH
+25318,8,68515,hla-a*0201,protection from sars infection,ASSOCIATED_WITH
+24242,8,55981,serpine2,type 2 diabetes,ASSOCIATED_WITH
+21537,8,57549,mbl deficiency,inflammatory skin disease,ASSOCIATED_WITH
+21490,8,57341,bmp-15 mutations,poi,ASSOCIATED_WITH
+20914,8,56235,prothrombin g20210a mutation,vte risk,ASSOCIATED_WITH
+24403,8,56660,grik5,vascular permeability,ASSOCIATED_WITH
+24324,8,64843,splicing factor mutation,reduced transformation-free survival,ASSOCIATED_WITH
+23249,8,60167,f5 gene variant rs6025,cancer-related venous thromboembolism,ASSOCIATED_WITH
+20981,8,55760,jak2 v617f mutation,fibrosis,ASSOCIATED_WITH
+23609,8,62942,fv leiden polymorphism,fewer pregnancies,ASSOCIATED_WITH
+21737,8,58246,α-thalassemia,disease severity,ASSOCIATED_WITH
+21168,8,55972,hsp90ab1,tissue remodeling,ASSOCIATED_WITH
+21386,8,57055,susceptibility genes,causation of mgus and mm,ASSOCIATED_WITH
+23375,8,56040,serpinc1 mutation,antithrombin deficiency,ASSOCIATED_WITH
+20928,8,57123,epo,central macular edema,ASSOCIATED_WITH
+24967,8,67283,jak2 v617f allelic burden >50%,higher lactate dehydrogenase levels,ASSOCIATED_WITH
+20914,8,55765,prothrombin g20210a mutation,thrombotic complications,ASSOCIATED_WITH
+22589,8,60524,il-6 gene polymorphism,cardiovascular events death,ASSOCIATED_WITH
+25436,8,55690,thbd gene rs1042580 c allele,sepsis,ASSOCIATED_WITH
+23961,8,55848,mir-15a-5p,embolic stroke,ASSOCIATED_WITH
+25258,8,55544,mir-205-5p,venous thromboembolism,ASSOCIATED_WITH
+20928,8,55545,epo,retinal vein occlusion,ASSOCIATED_WITH
+23264,8,57453,mir-92b,lymph node metastasis,ASSOCIATED_WITH
+21040,8,55666,e-selectin s128r mutation,coronary heart disease,ASSOCIATED_WITH
+21708,8,63082,tbx5,cardiac and skeletal development,ASSOCIATED_WITH
+23875,8,62078,eng upregulation,increased angiogenesis,ASSOCIATED_WITH
+22138,8,63390,edn1,d+hus,ASSOCIATED_WITH
+20962,8,55977,cfh,macular degeneration,ASSOCIATED_WITH
+22478,8,60196,h5 haplotype,severe neutropenia,ASSOCIATED_WITH
+20932,8,65196,mthfr c677t,down syndrome,ASSOCIATED_WITH
+24538,8,65540,brca2 mutations,luminal b-like tumors,ASSOCIATED_WITH
+24262,8,64665,pik3cd,hyper-igm syndrome,ASSOCIATED_WITH
+20871,8,57926,factor v leiden mutation,venous thromboembolic disorders,ASSOCIATED_WITH
+21536,8,57547,gene,essential tremor,ASSOCIATED_WITH
+25824,8,56340,apoe ε2/ε4 polymorphism,cerebral amyloid angiopathy,ASSOCIATED_WITH
+21920,8,63453,asxl1 mutation,inferior survival,ASSOCIATED_WITH
+24510,8,63546,abcb1 3435 tt genotype,higher risk of cardiovascular events,ASSOCIATED_WITH
+22499,8,60254,nos3 g894t g allele,higher homa-ir,ASSOCIATED_WITH
+25254,8,68230,apoe ε2ε3 genotype,ischaemic heart disease,ASSOCIATED_WITH
+21316,8,56850,pon1 gln192arg,recurrent vte,ASSOCIATED_WITH
+23630,8,62985,tm gene c1418t polymorphism,lower fever incidence,ASSOCIATED_WITH
+24303,8,64785,"mutations of tie2, notch3, thrombomodulin, and transforming growth factor beta receptor",development of varicose veins,ASSOCIATED_WITH
+24554,8,60362,hla-dra expression,sepsis severity,ASSOCIATED_WITH
+25403,8,58693,c5 2404-g allele,lupus nephritis,ASSOCIATED_WITH
+25455,8,55979,mthfr rs1801131 polymorphism,breast cancer,ASSOCIATED_WITH
+22851,8,55769,mir-328,atrial fibrillation,ASSOCIATED_WITH
+22417,8,59986,ikzf1,acute lymphoblastic leukemia,ASSOCIATED_WITH
+21514,8,55544,abo gene,venous thromboembolism,ASSOCIATED_WITH
+21630,8,56250,pai-1 4g/5g polymorphism,recurrent pregnancy loss,ASSOCIATED_WITH
+21523,8,56614,mir-21,pts,ASSOCIATED_WITH
+23748,8,57041,combined asxl1 and jak2v617f mutations,bleeding complications,ASSOCIATED_WITH
+21698,8,58055,a allele of rs2227631,increased risk of osteonecrosis of the femoral head,ASSOCIATED_WITH
+20981,8,61680,jak2 v617f mutation,low jak2 mutation load,ASSOCIATED_WITH
+23376,8,62306,cr1 genotype,extravascular hemolysis,ASSOCIATED_WITH
+23832,8,55595,alox5ap,atherosclerosis,ASSOCIATED_WITH
+23834,8,55769,pitx2,atrial fibrillation,ASSOCIATED_WITH
+21798,8,55544,abo rs8176719,venous thromboembolism,ASSOCIATED_WITH
+20967,8,56250,apoe,recurrent pregnancy loss,ASSOCIATED_WITH
+24188,8,55513,compound heterozygous/homozygous potassium atp channel mutations,thrombosis,ASSOCIATED_WITH
+21329,8,56861,interleukin-1 beta rs1143634,idiopathic venous thromboembolism,ASSOCIATED_WITH
+21583,8,57626,mmachc mutation,cblc disease,ASSOCIATED_WITH
+21369,8,56995,cyp2c9 *2 and *3 variants,increased risk of bleeding,ASSOCIATED_WITH
+21635,8,55544,rs7025486[a],venous thromboembolism,ASSOCIATED_WITH
+20966,8,55979,chek2,breast cancer,ASSOCIATED_WITH
+23265,8,56919,neanderthal alleles,hypercoagulation,ASSOCIATED_WITH
+22577,8,60505,hla-b40,increased risk of ild in rheumatoid arthritis,ASSOCIATED_WITH
+21553,8,57586,mcm4 mutation,mammary tumors,ASSOCIATED_WITH
+22585,15,68210,tmprss2,sars-cov-2 s protein-mediated viral entry,PROMOTES
+24044,15,56160,mir-221/222,invasion,PROMOTES
+21205,15,55513,factor v leiden homozygosity,thrombosis,PROMOTES
+20871,15,55527,factor v leiden mutation,deep venous thrombosis,PROMOTES
+24373,15,65065,mir-514a-5p,pte development,PROMOTES
+21716,15,55513,fvl mutation,thrombosis,PROMOTES
+20871,15,55544,factor v leiden mutation,venous thromboembolism,PROMOTES
+21364,15,64882,mir-126,thrombus recanalization,PROMOTES
+24221,15,64586,nlrc4 gene mutation,il-18 overproduction,PROMOTES
+20872,15,55786,bmpr2 mutation,pulmonary hypertension,PROMOTES
+20945,15,55812,mthfr c677t polymorphism,coronary artery disease,PROMOTES
+25256,15,55513,β-fibrinogen haeiii polymorphism,thrombosis,PROMOTES
+25036,15,60820,lncrpph1,proliferation and metastasis,PROMOTES
+25284,15,68367,pnpla3,hcc risk,PROMOTES
+20871,15,55520,factor v leiden mutation,fibrin deposition,PROMOTES
+23933,15,63636,somatic mutations,clonal hematopoiesis,PROMOTES
+22636,15,56929,slc44a2,fibrin accumulation,PROMOTES
+22378,15,59906,h3k9ac,etp tm+,PROMOTES
+20987,15,55513,gpx-3 deficiency,thrombosis,PROMOTES
+20871,15,55513,factor v leiden mutation,thrombosis,PROMOTES
+20877,15,59440,factor v leiden,fibrin production,PROMOTES
+22661,15,55639,mir-155,inflammation,PROMOTES
+22585,15,69371,tmprss2,sars-cov-2 fusion with cellular membranes,PROMOTES
+20871,15,55528,factor v leiden mutation,venous thrombosis,PROMOTES
+20888,15,55543,combined factor vii and protein c deficiency,intrauterine coagulopathy,PROMOTES
+22503,15,55534,β-fibrinogen 455 g-a polymorphism,thrombus formation,PROMOTES
+24714,15,66229,mas receptor genetic deletion,pulmonary remodeling,PROMOTES
+20871,15,56262,factor v leiden mutation,lung metastasis,PROMOTES
+23432,15,62488,hla alleles,susceptibility to type 1 autoimmune pancreatitis,PROMOTES
+24511,15,55513,thrombomodulin deficiency,thrombosis,PROMOTES
+24329,15,56400,mir-205,thrombus resolution,PROMOTES
+24674,15,67977,ace2 expression,local viral infection and replication,PROMOTES
+20927,15,55506,mthfr c677t mutation,hyperhomocysteinemia,PROMOTES
+20981,15,69612,jak2 v617f mutation,vascular events risk,PROMOTES
+23099,15,61715,myeloid tumor-suppressor genes,progression to more aggressive disorders,PROMOTES
+21318,15,56851,estrogen receptor β (βer) deletion,platelet thrombogenicity,PROMOTES
+21921,15,58668,il-6 -634 g allele,renal disease progression,PROMOTES
+24814,15,55568,mir-9-5p,angiogenesis,PROMOTES
+23910,15,55928,early growth response protein 1,tissue factor expression,PROMOTES
+25033,15,59858,lncrna 91h,invasion and metastasis,PROMOTES
+20871,15,55515,factor v leiden mutation,deep vein thrombosis,PROMOTES
+22603,15,55760,mthfr 677tt,fibrosis,PROMOTES
+21041,15,56247,hcii deficiency,aortic plaque formation,PROMOTES
+25463,15,56160,mirna-339-5p,invasion,PROMOTES
+24677,15,66397,ace2 knockdown,severe symptoms in ards,PROMOTES
+21631,15,56860,p53 deletion/mutation,tumor progression,PROMOTES
+21127,15,55529,factor ii mutation,thrombophilia,PROMOTES
+22364,15,59857,malat1,tumour growth and metastasis,PROMOTES
+25064,13,67556,psgl-1 deficiency,acute pancreatitis development,INHIBITS
+21172,13,55971,c-myc,wound healing,INHIBITS
+24132,13,57411,ifih1,hypothyroidism,INHIBITS
+22407,13,56062,gli1 knockdown,tumor growth,INHIBITS
+21364,13,61180,mir-126,inflammatory gene expression,INHIBITS
+21107,13,63210,par4 deficiency,thromboplastin-induced pulmonary embolism,INHIBITS
+22025,13,58893,mcp-1 knockout,ia formation,INHIBITS
+24668,13,55582,fxiii v34l variant,fibrinolysis,INHIBITS
+22031,13,55672,factor xi deficiency,ischemic stroke,INHIBITS
+21142,13,60115,app,cerebral thrombosis,INHIBITS
+22298,13,55895,il6 −174 gg genotype,septic shock,INHIBITS
+23022,13,60622,pad4 deficiency,thrombotic response,INHIBITS
+21029,13,56191,β-fibrinogen -455a allele,thrombosis risk associated with obesity,INHIBITS
+23022,13,56187,pad4 deficiency,pregnancy loss,INHIBITS
+21321,13,57465,nos3,cardiac remodeling,INHIBITS
+21086,13,55809,par2 deficiency,insulin resistance,INHIBITS
+24043,13,55568,mir-124,angiogenesis,INHIBITS
+22636,13,60163,slc44a2,neutrophil count,INHIBITS
+21875,13,55582,hrg,fibrinolysis,INHIBITS
+24095,13,61014,stat6 silencing,lethality,INHIBITS
+23840,13,55615,npy,inflammatory response,INHIBITS
+24260,13,64652,blocking tim1 expression,mpp-induced damages in heart and liver,INHIBITS
+26883,21,55528,c-reactive protein,venous thrombosis,ASSOCIATED_WITH
+31325,21,55635,scd40,endothelial dysfunction,ASSOCIATED_WITH
+35103,21,56667,vwf propeptide,endothelial cell damage,ASSOCIATED_WITH
+31923,21,56668,antiestrogen receptor antibodies,disease activity,ASSOCIATED_WITH
+25882,21,61266,tissue plasminogen activator,increased risk of intracerebral hemorrhage,ASSOCIATED_WITH
+28632,21,57941,hla b51 positivity,severe disease,ASSOCIATED_WITH
+25887,21,60667,protein s,catheter-related thrombosis,ASSOCIATED_WITH
+25963,21,56551,sicam-1,risk of ischemic stroke,ASSOCIATED_WITH
+35286,21,64231,iga anti-beta-2-glycoprotein-i antibodies,graft thrombosis,ASSOCIATED_WITH
+26169,21,58464,antiprothrombin antibodies,la hypoprothrombinemia syndrome,ASSOCIATED_WITH
+26347,21,55513,sepcr,thrombosis,ASSOCIATED_WITH
+38533,21,56163,c4d,thrombotic microangiopathy,ASSOCIATED_WITH
+26635,21,60592,fxiii,type-2 immune response,ASSOCIATED_WITH
+25834,21,67955,angiotensin ii,ards pathophysiology,ASSOCIATED_WITH
+25876,21,63096,factor vii,chronic subdural hematoma pathophysiology and recurrence,ASSOCIATED_WITH
+29839,21,63554,serum albumin levels,reduced survival,ASSOCIATED_WITH
+34460,21,63526,aurora kinase overexpression,therapeutic resistance,ASSOCIATED_WITH
+26855,21,67258,hscrp,cvst,ASSOCIATED_WITH
+31920,21,61064,anti-th/to,worst survival rate,ASSOCIATED_WITH
+27619,21,69742,fgfr2,poor cancer-specific survival,ASSOCIATED_WITH
+26853,21,61286,tafi antigen levels,advanced stages of bc,ASSOCIATED_WITH
+28498,21,60180,par-4,gc aggressiveness,ASSOCIATED_WITH
+40005,21,57604,angiotensin-converting-enzyme inhibitor,angioedema,ASSOCIATED_WITH
+25839,21,62117,antiphospholipid antibodies,idiopathic pulmonary arterial hypertension,ASSOCIATED_WITH
+25830,21,55552,tissue factor,thromboembolism,ASSOCIATED_WITH
+25858,21,59695,fibrinogen,iugr,ASSOCIATED_WITH
+30229,21,55760,galectin-3,fibrosis,ASSOCIATED_WITH
+25873,21,55515,protein c deficiency,deep vein thrombosis,ASSOCIATED_WITH
+36446,21,55513,iga anti-b2gp1 antibodies,thrombosis,ASSOCIATED_WITH
+29025,21,58246,inflammatory markers,disease severity,ASSOCIATED_WITH
+25858,21,61735,fibrinogen,larger tumor size,ASSOCIATED_WITH
+26317,21,55748,fviii,thromboembolic events,ASSOCIATED_WITH
+32928,21,62030,anti-ro/ss-a,sjogren's syndrome,ASSOCIATED_WITH
+29175,21,63860,tat,severity of dic,ASSOCIATED_WITH
+26763,21,57197,anti-plasminogen antibodies,fibrinoid necrosis,ASSOCIATED_WITH
+30015,21,57631,serpina3,alzheimer’s disease,ASSOCIATED_WITH
+39099,21,55595,rspo2,atherosclerosis,ASSOCIATED_WITH
+25872,21,55716,antithrombin iii deficiency,advanced liver fibrosis staging,ASSOCIATED_WITH
+26658,21,62381,supar,sepsis-induced ards,ASSOCIATED_WITH
+25896,21,55725,lupus anticoagulant,vascular thrombosis,ASSOCIATED_WITH
+39047,21,68807,serum neurofilament light chain,higher modified rankin scale (mrs) at discharge,ASSOCIATED_WITH
+25839,21,67323,antiphospholipid antibodies,acute stroke,ASSOCIATED_WITH
+39050,21,59169,aha level,inflammatory activity,ASSOCIATED_WITH
+25896,21,55576,lupus anticoagulant,hypercoagulable state,ASSOCIATED_WITH
+26096,21,55513,high avidity anti-ß2-gpi antibodies,thrombosis,ASSOCIATED_WITH
+25879,21,55513,factor xi,thrombosis,ASSOCIATED_WITH
+28082,21,57820,neutrophil elastase,pulmonary vascular permeability,ASSOCIATED_WITH
+31086,21,60310,matrilin-3,hand oa,ASSOCIATED_WITH
+31921,21,61065,anti-u3 rnp,muscle involvement,ASSOCIATED_WITH
+25858,21,56822,fibrinogen,la/laa thrombus,ASSOCIATED_WITH
+36590,21,55513,low protein z level,thrombosis,ASSOCIATED_WITH
+25881,21,65163,von willebrand factor,factor viii inhibitor development,ASSOCIATED_WITH
+38157,21,67617,traf1,cerebral ischemia-reperfusion injury,ASSOCIATED_WITH
+25839,21,61911,antiphospholipid antibodies,pregnancy morbidity,ASSOCIATED_WITH
+27182,21,61283,osteocalcin,bone metabolism,ASSOCIATED_WITH
+35103,21,55607,vwf propeptide,myocardial infarction,ASSOCIATED_WITH
+26643,21,58459,cyp2c9,cyclosporine nephrotoxicity,ASSOCIATED_WITH
+25882,21,59846,tissue plasminogen activator,neurologic deterioration,ASSOCIATED_WITH
+30562,21,63069,sp-selectin,presence of carotid plaque,ASSOCIATED_WITH
+25908,21,56235,thrombin generation,vte risk,ASSOCIATED_WITH
+25881,21,55528,von willebrand factor,venous thrombosis,ASSOCIATED_WITH
+38220,21,67695,igm anti-phosphatidylserine/prothrombin,pulse wave velocity in pe group,ASSOCIATED_WITH
+26763,21,57199,anti-plasminogen antibodies,reduced renal function,ASSOCIATED_WITH
+27659,21,60811,tp53,adrenocortical tumors,ASSOCIATED_WITH
+37043,21,66207,anti-pp1pk antibody titer,risk of miscarriage,ASSOCIATED_WITH
+27259,21,57558,her2,aggressive course,ASSOCIATED_WITH
+40052,21,69988,pmtor decrease,increased time to progression,ASSOCIATED_WITH
+29524,21,60984,p-selectin inhibition,reduced thrombus weight,ASSOCIATED_WITH
+34309,21,61543,durvalumab,thyroiditis,ASSOCIATED_WITH
+26016,21,62729,crp,secondary headache,ASSOCIATED_WITH
+38394,21,69130,chip,increased risk of all-cause mortality,ASSOCIATED_WITH
+33719,21,62810,α2-hs glycoprotein,spasticity,ASSOCIATED_WITH
+27884,21,55544,plasma fn level,venous thromboembolism,ASSOCIATED_WITH
+26357,21,56824,jak2v617f,endothelial cell involvement in malignant process,ASSOCIATED_WITH
+25920,21,58246,factor v,disease severity,ASSOCIATED_WITH
+32300,21,56233,factor xi activity,dvt,ASSOCIATED_WITH
+25948,21,57267,troponin,rv dysfunction,ASSOCIATED_WITH
+25839,21,57236,antiphospholipid antibodies,recurrent fetal loss,ASSOCIATED_WITH
+33193,21,62336,leukotoxin,septic thrombus formation,ASSOCIATED_WITH
+30229,21,56098,galectin-3,oxidative stress,ASSOCIATED_WITH
+25873,21,55887,protein c deficiency,cerebral venous thrombosis,ASSOCIATED_WITH
+26016,21,62374,crp,endometrial cancer risk,ASSOCIATED_WITH
+35150,21,56018,elevated mv-tf activity,venous thromboembolic events,ASSOCIATED_WITH
+25995,21,55607,tlr4,myocardial infarction,ASSOCIATED_WITH
+30352,21,55639,tissue factor activation,inflammation,ASSOCIATED_WITH
+30398,21,55773,anti-beta-2-glycoprotein i iga d4/5,stroke,ASSOCIATED_WITH
+25983,21,62362,endothelin-1,scd morbidity,ASSOCIATED_WITH
+25858,21,55672,fibrinogen,ischemic stroke,ASSOCIATED_WITH
+25976,21,59465,tsp-1,prognosis,ASSOCIATED_WITH
+26050,21,55516,c reactive protein,pulmonary embolism,ASSOCIATED_WITH
+31918,21,56193,anticentromere antibodies,pulmonary arterial hypertension,ASSOCIATED_WITH
+26841,21,55516,factor xii deficiency,pulmonary embolism,ASSOCIATED_WITH
+26855,21,55865,hscrp,vte,ASSOCIATED_WITH
+25858,21,59688,fibrinogen,hemodynamic impairment,ASSOCIATED_WITH
+36680,21,57147,antimyeloperoxidase (mpo) antibodies,gpa,ASSOCIATED_WITH
+38447,21,58246,lag-3,disease severity,ASSOCIATED_WITH
+25877,21,58909,factor viii,multifocal osteonecrosis,ASSOCIATED_WITH
+25877,21,57387,factor viii,csvt,ASSOCIATED_WITH
+25952,21,55870,vcam-1,survival,ASSOCIATED_WITH
+28221,21,57563,vegf over-expression,"active stage of disease, ocular involvement and acute thrombosis",ASSOCIATED_WITH
+30249,21,59447,kit receptor tyrosine kinases,melanoma development,ASSOCIATED_WITH
+26200,21,65197,hemoglobin,paod,ASSOCIATED_WITH
+29104,21,58381,residual adamts13 activity,severity of congenital thrombotic thrombocytopenic purpura,ASSOCIATED_WITH
+30999,21,56804,tace,abdominal aortic aneurysm,ASSOCIATED_WITH
+28610,21,60702,cd55 deficiency,protein-losing enteropathy,ASSOCIATED_WITH
+25874,21,56174,protein s deficiency,thrombosis risk,ASSOCIATED_WITH
+26012,21,57071,bnp,cardioembolic stroke,ASSOCIATED_WITH
+33200,21,68876,lactate dehydrogenase,length of hospital stay,ASSOCIATED_WITH
+27760,21,55940,pedf,amd,ASSOCIATED_WITH
+25858,21,60291,fibrinogen,distant metastasis,ASSOCIATED_WITH
+26161,21,55869,cda expression and activity,progression rate,ASSOCIATED_WITH
+36710,21,67490,ace2 receptor,susceptibility to severe covid-19,ASSOCIATED_WITH
+31191,21,60423,activated caspase-1,ruptured plaque,ASSOCIATED_WITH
+27364,21,66225,tf overexpression,covid-19 pathogenesis,ASSOCIATED_WITH
+36990,21,62053,low podoplanin expression,better prognosis,ASSOCIATED_WITH
+26855,21,56391,hscrp,endocrine damage,ASSOCIATED_WITH
+29574,21,57911,egfr expression,decreased survival,ASSOCIATED_WITH
+25920,21,55528,factor v,venous thrombosis,ASSOCIATED_WITH
+39407,21,69222,fibrinogen alpha chain inhibition,reduced risk of large-artery stroke,ASSOCIATED_WITH
+36738,21,65803,exfoliatins,dermatological manifestations,ASSOCIATED_WITH
+26670,21,64729,hif-2α,thrombogenic attributes,ASSOCIATED_WITH
+25881,21,55769,von willebrand factor,atrial fibrillation,ASSOCIATED_WITH
+32608,21,56062,tf activation,tumor growth,ASSOCIATED_WITH
+26052,21,63720,hla-b51,severe behcet's disease,ASSOCIATED_WITH
+26312,21,65990,shbg,carotid plaque burden,ASSOCIATED_WITH
+36510,21,65507,high rock activity,arteriovenous shunt dysfunction,ASSOCIATED_WITH
+25828,21,55942,anticardiolipin antibodies,coagulopathy,ASSOCIATED_WITH
+25858,21,55528,fibrinogen,venous thrombosis,ASSOCIATED_WITH
+26287,21,62651,agt,cerebrovascular damage,ASSOCIATED_WITH
+27293,21,55927,ho-1,interstitial lung disease,ASSOCIATED_WITH
+27806,21,65745,vegf-d,non-response to afatinib/gemcitabine/cisplatin therapy,ASSOCIATED_WITH
+28789,21,58096,membrane-bound proteinase 3,history of thrombosis,ASSOCIATED_WITH
+28778,21,58053,deficiency of fibrinogen,cerebral venous sinus thrombosis,ASSOCIATED_WITH
+25858,21,61737,fibrinogen,cancer-specific mortality,ASSOCIATED_WITH
+31240,21,55792,anti-β2 glycoprotein-i antibodies,antiphospholipid syndrome,ASSOCIATED_WITH
+38942,21,68668,stnfr-i,dlco% predicted,ASSOCIATED_WITH
+26093,21,63595,thrombomodulin,caprini score,ASSOCIATED_WITH
+25839,21,55710,antiphospholipid antibodies,preeclampsia,ASSOCIATED_WITH
+27693,21,56250,ctla-4,recurrent pregnancy loss,ASSOCIATED_WITH
+28269,21,58798,aβ40,caa,ASSOCIATED_WITH
+32479,21,56252,immune checkpoint inhibitors,vasculitis,ASSOCIATED_WITH
+38861,21,55528,anti-beta 2 glycoprotein i iga,venous thrombosis,ASSOCIATED_WITH
+25874,21,55672,protein s deficiency,ischemic stroke,ASSOCIATED_WITH
+26751,21,55595,human protein s,atherosclerosis,ASSOCIATED_WITH
+28775,21,58053,deficiency of antithrombin iii,cerebral venous sinus thrombosis,ASSOCIATED_WITH
+27533,21,56920,fibrinogen level,pneumonia severity,ASSOCIATED_WITH
+31972,21,61139,vegfr-2 overexpression,lymph nodal metastases,ASSOCIATED_WITH
+26855,21,56387,hscrp,gastrointestinal lupus manifestations,ASSOCIATED_WITH
+36511,21,65507,high galectin-3 levels,arteriovenous shunt dysfunction,ASSOCIATED_WITH
+36747,21,55538,bk1r,multiple sclerosis,ASSOCIATED_WITH
+33107,21,62260,iga-containing immune complexes,hsp pathogenesis,ASSOCIATED_WITH
+27531,21,56920,crp level,pneumonia severity,ASSOCIATED_WITH
+26016,21,63475,crp,risk of death,ASSOCIATED_WITH
+26016,21,62413,crp,atherosclerosis development and progression,ASSOCIATED_WITH
+25870,21,55544,coagulation factor viii,venous thromboembolism,ASSOCIATED_WITH
+25839,21,59240,antiphospholipid antibodies,raynaud’s phenomenon,ASSOCIATED_WITH
+33211,21,59484,clusterin,lvef,ASSOCIATED_WITH
+26103,21,55790,anti-ps/pt ab,peripheral ischaemia,ASSOCIATED_WITH
+26821,21,55513,c4,thrombosis,ASSOCIATED_WITH
+26036,21,55576,antithrombin iii,hypercoagulable state,ASSOCIATED_WITH
+25884,21,55532,antiphospholipids,recurrent thrombosis,ASSOCIATED_WITH
+25969,21,65885,p-selectin,ankle-brachial index reduction,ASSOCIATED_WITH
+37963,21,67338,tf haploinsufficiency,impaired thrombus formation,ASSOCIATED_WITH
+36813,21,55672,dabigatran plasma concentrations,ischemic stroke,ASSOCIATED_WITH
+26841,21,58171,factor xii deficiency,chronic thromboembolic pulmonary hypertension,ASSOCIATED_WITH
+29172,21,60921,decreased levels of protein c,development of portal vein thrombosis,ASSOCIATED_WITH
+29770,21,68669,scd14,iso↓dlco,ASSOCIATED_WITH
+35180,21,55544,cyproterone acetate,venous thromboembolism,ASSOCIATED_WITH
+26569,21,57136,protein z,venous thromboembolic diseases,ASSOCIATED_WITH
+25858,21,55508,fibrinogen,prothrombotic state,ASSOCIATED_WITH
+31255,21,60507,anti-ccp antibodies,development of airway disease,ASSOCIATED_WITH
+36220,21,62521,cardiac troponin,cardiac injury,ASSOCIATED_WITH
+25858,21,55534,fibrinogen,thrombus formation,ASSOCIATED_WITH
+30272,21,64989,alt,rv global longitudinal strain decrease,ASSOCIATED_WITH
+34506,21,56254,apob,fetal growth restriction,ASSOCIATED_WITH
+29596,21,55605,low antithrombin levels,arterial thrombosis,ASSOCIATED_WITH
+25830,21,57656,tissue factor,thromboembolism (te) incidence,ASSOCIATED_WITH
+29553,21,60390,ranibizumab,ocular inflammation,ASSOCIATED_WITH
+33083,21,55551,reduced protein s levels,hypercoagulability,ASSOCIATED_WITH
+29548,21,58808,nmo-igg,clinical severity,ASSOCIATED_WITH
+26808,21,56367,platelet fviii,increased embolic events,ASSOCIATED_WITH
+26016,21,67085,crp,covid-19 severity,ASSOCIATED_WITH
+26262,21,55933,vasopressin,skin necrosis,ASSOCIATED_WITH
+36692,21,58451,seh,acute kidney injury,ASSOCIATED_WITH
+28811,21,58121,cox-2 overexpression,platinum resistance,ASSOCIATED_WITH
+25879,21,55528,factor xi,venous thrombosis,ASSOCIATED_WITH
+26093,21,55527,thrombomodulin,deep venous thrombosis,ASSOCIATED_WITH
+25858,21,55639,fibrinogen,inflammation,ASSOCIATED_WITH
+28277,21,65120,cd40,b-cell neoplasms,ASSOCIATED_WITH
+34569,21,63596,thrombosis markers,caprini risk stratification,ASSOCIATED_WITH
+26097,21,55949,anca,vasculitic disorders,ASSOCIATED_WITH
+37127,21,55617,cd133/1,endothelial damage,ASSOCIATED_WITH
+25969,21,56404,p-selectin,thrombophilic state,ASSOCIATED_WITH
+25877,21,55699,factor viii,diastolic dysfunction,ASSOCIATED_WITH
+26285,21,55513,anticardiolipin antibody,thrombosis,ASSOCIATED_WITH
+27009,21,55760,heparanase,fibrosis,ASSOCIATED_WITH
+34492,21,63546,soluble fibrin monomer complex (sfmc) >12 μg/ml,higher risk of cardiovascular events,ASSOCIATED_WITH
+39409,21,69221,fibrinogen gamma chain inhibition,reduced risk of cardioembolic stroke,ASSOCIATED_WITH
+30231,21,55683,anticoagulant antibodies,thrombotic events,ASSOCIATED_WITH
+33831,21,55748,lower α2-macroglobulin levels,thromboembolic events,ASSOCIATED_WITH
+34082,21,56918,alb,ascites,ASSOCIATED_WITH
+37014,21,55893,isoagglutinin,hemolysis,ASSOCIATED_WITH
+25874,21,55747,protein s deficiency,arterial occlusion,ASSOCIATED_WITH
+25877,21,55666,factor viii,coronary heart disease,ASSOCIATED_WITH
+26823,21,55513,c4b,thrombosis,ASSOCIATED_WITH
+37909,21,67289,higher sp-d levels,poor outcomes (prolonged mechanical ventilation and death),ASSOCIATED_WITH
+37322,21,59081,ace/ace2 ratio,kidney damage,ASSOCIATED_WITH
+38272,21,67808,platelet c4d,venous events,ASSOCIATED_WITH
+26256,21,63251,pf4,crohn disease activity,ASSOCIATED_WITH
+25873,21,55600,protein c deficiency,portal vein thrombosis,ASSOCIATED_WITH
+25858,21,57845,fibrinogen,pathologic clot formation,ASSOCIATED_WITH
+27009,21,56195,heparanase,diabetes,ASSOCIATED_WITH
+29274,21,55527,pvl,deep venous thrombosis,ASSOCIATED_WITH
+29755,21,58643,anti-nuclear antibodies,heart disease,ASSOCIATED_WITH
+39410,21,61455,factor ii (prothrombin) inhibition,reduced risk of venous thromboembolism,ASSOCIATED_WITH
+30459,21,59665,igm aoxcl,increased risk of cvd,ASSOCIATED_WITH
+26689,21,55710,sflt-1,preeclampsia,ASSOCIATED_WITH
+34405,21,63485,granulin,elevated ldl-c,ASSOCIATED_WITH
+35259,21,69182,matrix metalloproteinase proteins,blood-brain barrier integrity loss,ASSOCIATED_WITH
+39438,21,55710,factor ii activity,preeclampsia,ASSOCIATED_WITH
+26016,21,57003,crp,death,ASSOCIATED_WITH
+31895,21,61024,ntprobnp,cardiac arrhythmias,ASSOCIATED_WITH
+26391,21,61943,coagulation factors,frailty,ASSOCIATED_WITH
+35473,21,64442,hla-b27,henoch-schonlein purpura,ASSOCIATED_WITH
+26264,21,55515,ace2,deep vein thrombosis,ASSOCIATED_WITH
+38394,21,67126,chip,atherosclerotic cardiovascular disease,ASSOCIATED_WITH
+26569,21,61555,protein z,myocardium injury,ASSOCIATED_WITH
+32921,21,56156,abo system,cardiovascular diseases,ASSOCIATED_WITH
+26569,21,60871,protein z,inflammation response,ASSOCIATED_WITH
+27901,21,57343,vegfr activity,medullary thyroid cancer pathogenesis,ASSOCIATED_WITH
+27271,21,55513,serum albumin level,thrombosis,ASSOCIATED_WITH
+27289,21,59438,tm,bleeding tendency,ASSOCIATED_WITH
+25983,21,56184,endothelin-1,pulmonary vasoconstriction,ASSOCIATED_WITH
+28557,21,56082,fgl2,vascular injury,ASSOCIATED_WITH
+31196,21,60428,p-anca,pouchitis,ASSOCIATED_WITH
+29738,21,59009,gpib-ix,lps-induced mortality,ASSOCIATED_WITH
+26036,21,55551,antithrombin iii,hypercoagulability,ASSOCIATED_WITH
+25913,21,55545,activated factor vii,retinal vein occlusion,ASSOCIATED_WITH
+40045,21,55605,igg anti-factor xii,arterial thrombosis,ASSOCIATED_WITH
+34711,21,55792,antiphospholipid antibody,antiphospholipid syndrome,ASSOCIATED_WITH
+26025,21,56324,t-pa,hyperfibrinolysis,ASSOCIATED_WITH
+25969,21,55623,p-selectin,preretinal neovascular formation,ASSOCIATED_WITH
+37673,21,67000,anti-scl-70 antibodies,immune-mediated necrotising myopathy,ASSOCIATED_WITH
+26883,21,69990,c-reactive protein,accelerated decline in fev1,ASSOCIATED_WITH
+38220,21,67694,igm anti-phosphatidylserine/prothrombin,ankle-brachial index,ASSOCIATED_WITH
+26827,21,55513,c3,thrombosis,ASSOCIATED_WITH
+26050,21,55515,c reactive protein,deep vein thrombosis,ASSOCIATED_WITH
+28807,21,59628,met amplification,aggressive phenotype,ASSOCIATED_WITH
+36811,21,65892,edoxaban concentration,risk of stroke or systemic embolic events,ASSOCIATED_WITH
+25874,21,55515,protein s deficiency,deep vein thrombosis,ASSOCIATED_WITH
+29365,21,55976,rf,rheumatoid arthritis,ASSOCIATED_WITH
+26563,21,55513,cypd,thrombosis,ASSOCIATED_WITH
+34065,21,55802,l-fabp,mortality,ASSOCIATED_WITH
+25887,21,59498,protein s,coagulopathy pathogenesis,ASSOCIATED_WITH
+26989,21,62962,fibrinogen concentration,fibrinolysis rate,ASSOCIATED_WITH
+36822,21,55544,r147w mutation in apc,venous thromboembolism,ASSOCIATED_WITH
+30229,21,62108,galectin-3,fibrogenesis,ASSOCIATED_WITH
+31667,21,55528,peak thrombin,venous thrombosis,ASSOCIATED_WITH
+25839,21,55767,antiphospholipid antibodies,cerebral infarction,ASSOCIATED_WITH
+28779,21,58053,deficiency of plasminogen,cerebral venous sinus thrombosis,ASSOCIATED_WITH
+28843,21,58146,thromboxane synthase,poor prognosis in cancer,ASSOCIATED_WITH
+26883,21,62346,c-reactive protein,acute exacerbation of idiopathic interstitial pneumonia,ASSOCIATED_WITH
+25983,21,55934,endothelin-1,acute lung injury,ASSOCIATED_WITH
+25920,21,56049,factor v,acquired activated protein c resistance,ASSOCIATED_WITH
+25858,21,57231,fibrinogen,disease progression,ASSOCIATED_WITH
+29027,21,58319,proinsulin,delay in photoreceptor degeneration,ASSOCIATED_WITH
+30125,21,66336,inflammatory biomarkers,unfavorable clinical course,ASSOCIATED_WITH
+26119,21,57290,il-1 receptor antagonist,cm pathogenesis,ASSOCIATED_WITH
+33992,21,63090,pkcepsilon,major cardiovascular events,ASSOCIATED_WITH
+30498,21,59704,thrombin-activated fibrinolysis inhibitor,renal function impairment,ASSOCIATED_WITH
+26883,21,62702,c-reactive protein,poor outcomes,ASSOCIATED_WITH
+28811,21,57100,cox-2 overexpression,tumor invasiveness,ASSOCIATED_WITH
+25873,21,57387,protein c deficiency,csvt,ASSOCIATED_WITH
+26473,21,66160,albumin,thrombomodulin-mediated inhibition of thrombin generation,ASSOCIATED_WITH
+30959,21,60148,soluble endothelial selectin,pa/a≥0.92,ASSOCIATED_WITH
+26911,21,63836,tfpi,vte occurrence,ASSOCIATED_WITH
+38220,21,67693,igm anti-phosphatidylserine/prothrombin,pulse wave velocity,ASSOCIATED_WITH
+26123,21,55513,apolipoprotein c-iii,thrombosis,ASSOCIATED_WITH
+25881,21,55635,von willebrand factor,endothelial dysfunction,ASSOCIATED_WITH
+30048,21,59265,hscrp levels,risk reduction,ASSOCIATED_WITH
+26317,21,57895,fviii,poor overall survival,ASSOCIATED_WITH
+31644,21,60765,neutralizing antibody,clinical recovery,ASSOCIATED_WITH
+26925,21,57895,par2 expression,poor overall survival,ASSOCIATED_WITH
+31886,23,61013,connexin43 lateralization,dmd arrhythmogenesis,CONTRIBUTES_TO
+38115,23,67551,n-acetyl fdp-lysine modified fibrin,thrombus persistence,CONTRIBUTES_TO
+70131,6,35894,genistein,protein histidine kinase,TARGETS
+71123,5,34324,cobicistat,cytochrome p450 3a,INHIBITS
+70592,5,30573,doxorubicin,topoisomerase 2-beta,INHIBITS
+70371,5,28383,imatinib,tyrosine kinase,INHIBITS
+70322,5,26155,pazopanib,vegfr2,INHIBITS
+71029,5,27617,nintedanib,flt-3,INHIBITS
+70180,5,27939,rivaroxaban,fxiiia,INHIBITS
+70875,5,28606,pentamethylquercetin,plcγ2 phosphorylation,INHIBITS
+70904,5,32213,cftr inh 172,cftr chloride channel function,INHIBITS
+70576,5,30063,dinaciclib,cdk5,INHIBITS
+70399,5,27028,imids,vcam-1 expression,INHIBITS
+70330,5,26212,acetylsalicylic acid,heparinase,INHIBITS
+70528,5,39276,eplerenone,gal-3 secretion,INHIBITS
+71456,5,26972,huisheng oral solution,mmp-2,INHIBITS
+70332,5,29354,paracetamol,cyclooxygenase-2,INHIBITS
+70144,5,27388,sorafenib,raf kinase,INHIBITS
+70803,5,31543,selumetinib,mek-1/2,INHIBITS
+71024,5,32812,levoketoconazole,cyp21a2,INHIBITS
+71130,5,32364,avelumab,pd-1/pd-l1 interaction,INHIBITS
+71733,5,28607,anlotinib,fgfr,INHIBITS
+70800,5,36987,ibrutinib,hck,INHIBITS
+70331,5,28151,ketorolac,cyclooxygenase ii,INHIBITS
+71136,5,33602,riluzole,voltage-dependent sodium channel activity,INHIBITS
+70462,5,25876,coumadin,factor vii,INHIBITS
+70946,5,26075,gmi-1070,selectins,INHIBITS
+70099,5,25954,sildenafil,inos,INHIBITS
+71471,5,35551,entrectinib,trkc,INHIBITS
+71021,5,32810,etomidate,cyp11b1,INHIBITS
+70144,5,27551,sorafenib,pdgfr,INHIBITS
+71065,5,30225,cpi211,tp receptor,INHIBITS
+70143,5,27469,sunitinib,vegfr-1,INHIBITS
+71020,5,32811,metyrapone,cyp11b2,INHIBITS
+71033,5,32885,bepristats,pdi insulin reductase activity,INHIBITS
+70697,5,29528,dabrafenib,braf,INHIBITS
+70300,5,27870,rifampin,organic anion transporting polypeptide,INHIBITS
+71164,5,26418,cyasterone,cox-2,INHIBITS
+70309,5,25908,atorvastatin,thrombin generation,INHIBITS
+71303,5,34477,paritaprevir,hcv ns3 protease,INHIBITS
+70276,5,27550,xl-184,flt3,INHIBITS
+70384,5,28489,bay 41-2272,angiotensin converting enzyme synthesis,INHIBITS
+70095,5,34965,aspirin,cyclooxygenase-ii,INHIBITS
+70322,5,28052,pazopanib,pdgfr-β,INHIBITS
+70269,5,26073,ufh and lmwh,factor xa,INHIBITS
+71083,5,33163,bj-1108,phosphorylation of pi3k/akt,INHIBITS
+70573,5,32962,bisphosphonates,farnesyl-pyrophosphate synthase,INHIBITS
+70324,5,26369,vitamin k antagonists,vitamin k epoxide reductase complex,INHIBITS
+70987,5,32655,nppb,slc26a9-mediated cl- currents,INHIBITS
+71842,5,37829,hc067047,trpv4,INHIBITS
+71288,5,34382,hydrocortisone,il-1-induced mmp-9 expression,INHIBITS
+71914,5,37086,remdesivir triphosphate,rna-dependent rna polymerase,INHIBITS
+70322,5,27551,pazopanib,pdgfr,INHIBITS
+70984,5,32655,glyh-101,slc26a9-mediated cl- currents,INHIBITS
+72063,5,30898,sb225002,histone h3 citrullination,INHIBITS
+70597,5,25999,naproxen,cox-1,INHIBITS
+71166,5,38937,lenvatinib,fgf receptors 1-4,INHIBITS
+71012,5,32768,mdma,co-stimulatory molecules expression,INHIBITS
+70144,5,30275,sorafenib,vegf-r2,INHIBITS
+70375,5,32255,cape,ornithine carboxylase,INHIBITS
+70551,5,29867,sch79797,par-1 activity,INHIBITS
+70141,5,25999,celecoxib,cox-1,INHIBITS
+70909,5,26617,regorafenib,pdgfra,INHIBITS
+71213,5,26229,compound 6h,fxa,INHIBITS
+70881,5,25952,nf-κb inhibitor,vcam-1,INHIBITS
+70141,5,29178,celecoxib,β-catenin,INHIBITS
+71035,5,32906,psm2,aktser473 phosphorylation,INHIBITS
+71777,5,28606,columbianadin,plcγ2 phosphorylation,INHIBITS
+70121,5,28831,fondaparinux,activated factor xa,INHIBITS
+70337,5,28158,tan iia,caspase-3 activity,INHIBITS
+70143,5,33065,sunitinib,fms-like tyrosine kinase 3 receptor,INHIBITS
+70314,5,27985,enzastaurin,protein kinase c-beta,INHIBITS
+71233,5,25908,hes,thrombin generation,INHIBITS
+71733,5,27551,anlotinib,pdgfr,INHIBITS
+70572,5,30043,amino-bisphosphonates,farnesyl pyrophosphate synthase,INHIBITS
+70800,5,31521,ibrutinib,btk,INHIBITS
+71813,5,28094,bpi-9016m,axl,INHIBITS
+70412,5,31044,edoxaban,xa factor,INHIBITS
+71029,5,37289,nintedanib,fgf receptor,INHIBITS
+70931,5,26155,foretinib,vegfr2,INHIBITS
+70383,5,27416,axitinib,vegfr,INHIBITS
+71436,5,33312,dunye guanxinning,caspase-1 activity,INHIBITS
+70636,5,32756,metformin,mitochondrial complex i,INHIBITS
+70909,5,27551,regorafenib,pdgfr,INHIBITS
+71313,5,28073,methylene blue,nitric oxide synthase,INHIBITS
+70121,5,26229,fondaparinux,fxa,INHIBITS
+70219,5,25832,sulfated dehydropolymers,thrombin,INHIBITS
+70121,5,25832,fondaparinux,thrombin,INHIBITS
+70187,5,29690,doxycycline,rv gelatinolytic activity,INHIBITS
+71658,5,26757,capmatinib,met,INHIBITS
+70973,5,36803,nilotinib,specific potassium channel,INHIBITS
+71220,5,28060,"compounds 5, 9, and 21-23",fxa activity,INHIBITS
+70146,5,39508,eculizumab,c5b-9 generation,INHIBITS
+71727,5,35327,salidroside,phosphorylation of akt,INHIBITS
+71821,5,38988,ruscogenin,trap1,INHIBITS
+71521,5,30834,baricitinib,jak1/jak2,INHIBITS
+71529,5,28511,tofacitinib,jak1,INHIBITS
+70966,5,39140,roxadustat,hypoxia-inducible factor prolyl hydroxylase,INHIBITS
+72205,5,27469,ptk787/zk22854,vegfr-1,INHIBITS
+70330,5,30281,acetylsalicylic acid,platelet cyclooxygenase,INHIBITS
+70365,5,28130,cabozantinib,erk activation,INHIBITS
+70100,5,34030,imatinib mesylate,pdgfr-alpha,INHIBITS
+70386,5,30834,ruxolitinib,jak1/jak2,INHIBITS
+70129,5,38458,curcumin,dnmt activity,INHIBITS
+70251,5,39054,apixaban,factor x-a,INHIBITS
+72127,5,26621,rnai,hcii,INHIBITS
+70780,5,31407,3-pehpc,rab geranylgeranyl transferase,INHIBITS
+71733,5,26620,anlotinib,vegfr1,INHIBITS
+71029,5,27416,nintedanib,vegfr,INHIBITS
+70779,5,26345,azd1480,jak2,INHIBITS
+70403,5,26073,tinzaparin,factor xa,INHIBITS
+70596,5,26418,parecoxib,cox-2,INHIBITS
+70909,5,26619,regorafenib,ret,INHIBITS
+70397,5,28645,ptk/zk,vegfr-2 phosphorylation,INHIBITS
+70180,5,31687,rivaroxaban,formation of the prothrombinase complex,INHIBITS
+70748,5,31179,fr171113,plasma-evoked mcp-1 expression,INHIBITS
+70861,5,32834,vitamin k antagonist,activation of vitamin k-dependent proteins,INHIBITS
+70180,5,31737,rivaroxaban,activated coagulation factor x,INHIBITS
+70369,5,27094,hydroxyurea,ribonucleotide reductase,INHIBITS
+41294,2,25880,damaged granulocyte products,factor xii,ACTIVATES
+40148,2,28363,pro-inflammatory cytokines,ido,ACTIVATES
+40239,2,38443,gdf-15,alk type 1 receptors,ACTIVATES
+40819,2,32423,ifn gamma,stat-1 phosphorylation,ACTIVATES
+40228,2,26766,amf,rho-like gtpase,ACTIVATES
+40131,2,26810,il-1β,jnk,ACTIVATES
+40119,2,27787,tnf-α,p38,ACTIVATES
+40254,2,25911,epidermal growth factor,erα,ACTIVATES
+40135,2,29059,cytokines,jaks,ACTIVATES
+40141,2,26806,il-8,mapk,ACTIVATES
+40146,2,35865,il-2,stat5a/b,ACTIVATES
+40119,2,25953,tnf-α,mmp-9,ACTIVATES
+40119,2,31704,tnf-α,ido1,ACTIVATES
+40131,2,25996,il-1β,nf-κb,ACTIVATES
+40152,2,26345,gm-csf,jak2,ACTIVATES
+40159,2,36265,resistin,socs-3,ACTIVATES
+40131,2,28998,il-1β,mmp-1,ACTIVATES
+40118,4,21473,il-6,β-enac,UPREGULATES
+40131,4,25148,il-1β,leptin mrna expression,UPREGULATES
+40552,4,22022,il-33,st2l mrna expression,UPREGULATES
+40118,4,21474,il-6,γ-enac,UPREGULATES
+40131,4,20928,il-1β,epo,UPREGULATES
+40118,4,21475,il-6,prostasin,UPREGULATES
+40118,3,58908,il-6,immune suppression,ASSOCIATED_WITH
+40197,3,65559,visfatin,regression of skin lesions in late-stage systemic sclerosis,ASSOCIATED_WITH
+40135,3,55772,cytokines,hypertension,ASSOCIATED_WITH
+40873,3,68561,ip10,severity of covid-19 disease,ASSOCIATED_WITH
+40129,3,59511,mif,ae-ipf,ASSOCIATED_WITH
+40209,3,68561,mcp1,severity of covid-19 disease,ASSOCIATED_WITH
+40118,3,56078,il-6,severe disease course,ASSOCIATED_WITH
+40200,3,55568,pdgf,angiogenesis,ASSOCIATED_WITH
+40119,3,58333,tnf-α,poor outcome in subarachnoid hemorrhage,ASSOCIATED_WITH
+41495,3,59869,asprosin,fmd,ASSOCIATED_WITH
+40119,3,69415,tnf-α,atherosclerotic plaque progression and instability,ASSOCIATED_WITH
+40119,3,68812,tnf-α,cd/fnd,ASSOCIATED_WITH
+41296,3,68812,il12,cd/fnd,ASSOCIATED_WITH
+40199,3,56202,il-17,blood-brain barrier disruption,ASSOCIATED_WITH
+40118,3,58733,il-6,cognitive deficits,ASSOCIATED_WITH
+40128,3,62312,vegf,aggressiveness,ASSOCIATED_WITH
+40239,3,56822,gdf-15,la/laa thrombus,ASSOCIATED_WITH
+40119,3,67926,tnf-α,iris,ASSOCIATED_WITH
+40119,3,55544,tnf-α,venous thromboembolism,ASSOCIATED_WITH
+40121,3,62931,ifn-gamma,pathogenesis of behçet's disease,ASSOCIATED_WITH
+40114,3,58823,il-10,coagulation abnormality,ASSOCIATED_WITH
+40139,3,63508,il-18,macrophage activation syndrome,ASSOCIATED_WITH
+40119,3,55765,tnf-α,thrombotic complications,ASSOCIATED_WITH
+40133,3,59826,scd40l,nonfatal outcome,ASSOCIATED_WITH
+40116,3,58908,ifn-γ,immune suppression,ASSOCIATED_WITH
+40507,3,67545,ccl3,extensive lung tissue damage,ASSOCIATED_WITH
+40118,3,55895,il-6,septic shock,ASSOCIATED_WITH
+40155,3,59203,hgf,tissue fibrosis,ASSOCIATED_WITH
+40319,3,55802,plgf,mortality,ASSOCIATED_WITH
+40239,3,59078,gdf-15,multi-organ failure,ASSOCIATED_WITH
+40146,3,68561,il-2,severity of covid-19 disease,ASSOCIATED_WITH
+40118,3,55867,il-6,mace,ASSOCIATED_WITH
+40119,3,59139,tnf-α,pathogenesis of hypothermia,ASSOCIATED_WITH
+40118,3,57331,il-6,ppcm,ASSOCIATED_WITH
+40118,3,55822,il-6,coagulation,ASSOCIATED_WITH
+40119,3,66496,tnf-α,severe covid-19,ASSOCIATED_WITH
+40118,3,57206,il-6,severe lung damage,ASSOCIATED_WITH
+40139,3,58103,il-18,atherosclerosis progression,ASSOCIATED_WITH
+40138,3,60518,tnf,severe influenza,ASSOCIATED_WITH
+40114,3,66496,il-10,severe covid-19,ASSOCIATED_WITH
+40234,3,62741,erythropoietin,acute coronary stent thrombosis,ASSOCIATED_WITH
+40114,3,59767,il-10,venous thrombosis risk,ASSOCIATED_WITH
+40131,3,65403,il-1β,immune dysregulation,ASSOCIATED_WITH
+40118,3,67384,il-6,sars-cov-2 infection severity,ASSOCIATED_WITH
+40118,3,59430,il-6,coagulation cascade activity,ASSOCIATED_WITH
+40326,3,58079,il-13,ards,ASSOCIATED_WITH
+40118,3,66225,il-6,covid-19 pathogenesis,ASSOCIATED_WITH
+40222,3,55959,il-23,obesity,ASSOCIATED_WITH
+40118,3,55545,il-6,retinal vein occlusion,ASSOCIATED_WITH
+40126,3,56250,g-csf,recurrent pregnancy loss,ASSOCIATED_WITH
+40158,3,55516,adiponectin,pulmonary embolism,ASSOCIATED_WITH
+41459,3,68389,increased cytokine profiles,severe deterioration of patients,ASSOCIATED_WITH
+40234,3,55765,erythropoietin,thrombotic complications,ASSOCIATED_WITH
+40122,3,63198,thrombopoietin,thrombocytosis/thrombosis,ASSOCIATED_WITH
+40319,3,57323,plgf,rcvs,ASSOCIATED_WITH
+40874,3,66234,il-7,covid-19 disease severity,ASSOCIATED_WITH
+40118,3,67017,il-6,poor pregnancy outcomes,ASSOCIATED_WITH
+40114,3,67645,il-10,behçet's disease pathogenesis,ASSOCIATED_WITH
+40377,3,57577,vegf and angiopoietins,pathogenesis of cancer,ASSOCIATED_WITH
+40432,3,69741,fgf2,liver metastases,ASSOCIATED_WITH
+40254,3,64129,epidermal growth factor,development of ohss,ASSOCIATED_WITH
+40141,3,56232,il-8,dvt risk,ASSOCIATED_WITH
+40141,3,69015,il-8,progression of valve vegetations,ASSOCIATED_WITH
+40233,3,55513,c5a,thrombosis,ASSOCIATED_WITH
+40687,3,60148,macrophage derived chemokine,pa/a≥0.92,ASSOCIATED_WITH
+40119,3,56652,tnf-α,als,ASSOCIATED_WITH
+40298,3,65442,ifn-α,mucocutaneous engagement,ASSOCIATED_WITH
+40118,3,68500,il-6,clotting alterations,ASSOCIATED_WITH
+40809,3,61467,il-27,febrile reactions,ASSOCIATED_WITH
+40119,3,55976,tnf-α,rheumatoid arthritis,ASSOCIATED_WITH
+40118,3,63425,il-6,chronic immune-mediated diseases,ASSOCIATED_WITH
+40199,3,57221,il-17,acute inflammation,ASSOCIATED_WITH
+41508,3,68837,cxcl-10 and cxcl-9 declines,lymphopenia reversal,ASSOCIATED_WITH
+40141,3,55895,il-8,septic shock,ASSOCIATED_WITH
+40268,3,55568,stromal-derived factor-1,angiogenesis,ASSOCIATED_WITH
+40270,3,57331,tnfα,ppcm,ASSOCIATED_WITH
+40118,3,55515,il-6,deep vein thrombosis,ASSOCIATED_WITH
+40141,3,55544,il-8,venous thromboembolism,ASSOCIATED_WITH
+40118,3,56523,il-6,myocardial injury,ASSOCIATED_WITH
+40873,3,55513,ip10,thrombosis,ASSOCIATED_WITH
+40141,3,56140,il-8,tumour growth,ASSOCIATED_WITH
+42662,1,25830,mscs,tissue factor,EXPRESSES
+43199,1,25960,tumor cell,icam-1,EXPRESSES
+43326,1,40055,t-cells,granzymes and perforin,EXPRESSES
+47204,0,69051,cd8+ t lymphocytes,mild disease progression,ASSOCIATED_WITH
+43900,0,55786,cd8+ t-lymphocyte infiltration,pulmonary hypertension,ASSOCIATED_WITH
+45747,0,56250,increased th17 cells,recurrent pregnancy loss,ASSOCIATED_WITH
+41631,0,56233,neutrophils,dvt,ASSOCIATED_WITH
+49513,0,65355,s24-7 species,parasite burden,ASSOCIATED_WITH
+50000,0,65979,pat,risk of coronary atherosclerosis,ASSOCIATED_WITH
+42948,0,63289,fusobacterium species,lemierre's syndrome,ASSOCIATED_WITH
+41655,0,66863,platelets,systemic oxidative stress,ASSOCIATED_WITH
+49795,0,58688,nk cell count decrease,serious infection,ASSOCIATED_WITH
+43715,0,58408,immune activation and inflammation,serious non-aids diseases,ASSOCIATED_WITH
+42840,0,59946,dendritic cells,disease stage,ASSOCIATED_WITH
+44136,0,58983,regulatory t-cells,beneficial effects in cerebral ischemia,ASSOCIATED_WITH
+41633,0,55595,platelet activation,atherosclerosis,ASSOCIATED_WITH
+42595,0,56968,t-cell dysfunction,recurrence of fsgs,ASSOCIATED_WITH
+47345,0,62932,gammadelta t cells,immunopathogenesis of behçet's disease,ASSOCIATED_WITH
+42353,0,62346,white blood cell count,acute exacerbation of idiopathic interstitial pneumonia,ASSOCIATED_WITH
+44216,0,59141,reticulated platelets,enhanced thrombotic risk,ASSOCIATED_WITH
+51690,0,68190,neutrophil activation and adhesion,development of voc,ASSOCIATED_WITH
+43795,0,55908,immature platelets,thrombotic propensity,ASSOCIATED_WITH
+44388,0,63310,net,arterial events,ASSOCIATED_WITH
+52162,0,68832,preoperative neutrophil ratio,postoperative complications including pulmonary embolism,ASSOCIATED_WITH
+50335,0,58118,systemic lymphocyte counts,increased risk of venous thromboembolism,ASSOCIATED_WITH
+43585,0,55545,mean platelet volume,retinal vein occlusion,ASSOCIATED_WITH
+42391,0,56733,recruitment of inflammatory cells,deleterious microvascular responses to cvst,ASSOCIATED_WITH
+43622,0,63051,net formation,increased plasma mpo,ASSOCIATED_WITH
+41716,0,56051,leukocytosis,increased risk of thrombosis,ASSOCIATED_WITH
+42766,0,56337,cd8+ t cells,lung inflammation,ASSOCIATED_WITH
+51060,0,67085,double-negative b cell frequency,covid-19 severity,ASSOCIATED_WITH
+42064,0,58275,ros generation,oxidative protein damage,ASSOCIATED_WITH
+41655,0,55544,platelets,venous thromboembolism,ASSOCIATED_WITH
+52306,0,67085,th1 cell frequency,covid-19 severity,ASSOCIATED_WITH
+51957,0,68581,hepatocyte microvesicles,30-day mortality,ASSOCIATED_WITH
+49631,0,62924,pheochromocytoma,ivc thrombosis,ASSOCIATED_WITH
+42483,0,56252,lymphocytes,vasculitis,ASSOCIATED_WITH
+48234,0,63966,cellular response mediated by th1 lymphocytes,milder forms of clinical manifestations,ASSOCIATED_WITH
+43795,0,58531,immature platelets,cancer progression and metastasis,ASSOCIATED_WITH
+43369,0,69694,platelet hyperactivity,trauma-induced hypercoagulopathy,ASSOCIATED_WITH
+41713,0,62787,monocytes,clinical worsening,ASSOCIATED_WITH
+49597,0,62051,impaired vascular smooth muscle cell differentiation,vascular malformations,ASSOCIATED_WITH
+45555,0,61913,circulating tumor cells,elevated plasma d-dimer levels,ASSOCIATED_WITH
+43585,0,56443,mean platelet volume,arterial stiffness,ASSOCIATED_WITH
+51536,0,55513,increased platelet function,thrombosis,ASSOCIATED_WITH
+45567,0,58451,higher leucocyte count,acute kidney injury,ASSOCIATED_WITH
+43542,0,58030,granulocyte clone size,risk of thrombosis,ASSOCIATED_WITH
+41655,0,57345,platelets,nafld,ASSOCIATED_WITH
+51394,0,58299,endothelial cell infection,dilated cardiomyopathy,ASSOCIATED_WITH
+72306,18,55639,cyclophosphamide,inflammation,ASSOCIATED_WITH
+72735,18,68731,lp,anti-fibrinolytic activity,ASSOCIATED_WITH
+72261,18,57877,d-dimer,stroke risk,ASSOCIATED_WITH
+73747,18,60712,plasmin inhibitor,"increased renal failure, myocardial infarction, and mortality",ASSOCIATED_WITH
+74960,18,65533,bun/cr ratio,haemorrhagic transformation,ASSOCIATED_WITH
+72592,18,56193,arsenic,pulmonary arterial hypertension,ASSOCIATED_WITH
+72326,18,62238,elevated d-dimer levels,occurrence of venous thromboembolism,ASSOCIATED_WITH
+72261,18,68876,d-dimer,length of hospital stay,ASSOCIATED_WITH
+73251,18,58840,taurine deficiency,reproductive dysfunction,ASSOCIATED_WITH
+73820,18,55515,body weight loss,deep vein thrombosis,ASSOCIATED_WITH
+73357,18,57231,neopterin,disease progression,ASSOCIATED_WITH
+75118,18,66181,ang ii excess,mitochondrial oxidative damage,ASSOCIATED_WITH
+72401,18,66825,ros,asthma severity,ASSOCIATED_WITH
+72689,18,56483,age,increased thrombin generation,ASSOCIATED_WITH
+72571,18,63497,homocysteine level,massive and submassive pulmonary embolism,ASSOCIATED_WITH
+72586,18,55635,adma,endothelial dysfunction,ASSOCIATED_WITH
+72528,18,55809,vitamin d,insulin resistance,ASSOCIATED_WITH
+72237,18,55875,heparin,clot formation,ASSOCIATED_WITH
+72521,18,55552,anabolic androgenic steroids,thromboembolism,ASSOCIATED_WITH
+73080,18,60034,asymmetric dimethylarginine,vascular disease,ASSOCIATED_WITH
+72231,18,56114,homocysteine,vascular diseases,ASSOCIATED_WITH
+73220,18,58690,narcotic analgesics,mortality risk,ASSOCIATED_WITH
+75177,18,55528,low methionine concentration,venous thrombosis,ASSOCIATED_WITH
+73021,18,57411,liver iron concentration,hypothyroidism,ASSOCIATED_WITH
+72246,18,55551,estrogen,hypercoagulability,ASSOCIATED_WITH
+72237,18,66109,heparin,antiviral effect,ASSOCIATED_WITH
+72587,18,58222,dabigatran,severe bleeding complications,ASSOCIATED_WITH
+72450,18,56920,d-dimer level,pneumonia severity,ASSOCIATED_WITH
+72319,18,55513,vldl cholesterol,thrombosis,ASSOCIATED_WITH
+74641,18,64177,elevated plasma level of lipoprotein,calcific aortic stenosis,ASSOCIATED_WITH
+75205,18,57462,d-dimer levels > 1000 µg/l,increased risk of death,ASSOCIATED_WITH
+73446,18,55544,increased d-dimer levels,venous thromboembolism,ASSOCIATED_WITH
+73793,18,60921,increase in d-dimer,development of portal vein thrombosis,ASSOCIATED_WITH
+73234,18,59107,lipoprotein (a) [lp(a)],cardiovascular disease (cvd) and myocardial infarction,ASSOCIATED_WITH
+72727,18,68662,lactate,30-day mortality in acute mesenteric ischemia,ASSOCIATED_WITH
+74663,18,55528,lower egfr,venous thrombosis,ASSOCIATED_WITH
+73612,18,56370,opium,aspirin resistance,ASSOCIATED_WITH
+72261,18,61534,d-dimer,cryptogenic stroke,ASSOCIATED_WITH
+72261,18,67595,d-dimer,cardiac complications,ASSOCIATED_WITH
+72373,18,55516,oral contraceptive pills,pulmonary embolism,ASSOCIATED_WITH
+72246,18,64012,estrogen,vva symptoms,ASSOCIATED_WITH
+72509,18,56918,e2,ascites,ASSOCIATED_WITH
+72517,18,56459,serum estradiol,higher mortality rate,ASSOCIATED_WITH
+73872,18,57978,aas,infertility,ASSOCIATED_WITH
+72551,18,55639,glutamine,inflammation,ASSOCIATED_WITH
+72261,18,56063,d-dimer,thrombogenesis,ASSOCIATED_WITH
+74000,18,55809,ua,insulin resistance,ASSOCIATED_WITH
+72326,18,67929,elevated d-dimer levels,risk for pulmonary embolism,ASSOCIATED_WITH
+72261,18,65838,d-dimer,covid-19,ASSOCIATED_WITH
+72231,18,58677,homocysteine,crao-af,ASSOCIATED_WITH
+72349,18,55879,8-isoprostane,cv,ASSOCIATED_WITH
+72838,18,57941,d-dimer levels,severe disease,ASSOCIATED_WITH
+72490,18,55747,progestins,arterial occlusion,ASSOCIATED_WITH
+72617,18,55528,serotonin,venous thrombosis,ASSOCIATED_WITH
+72764,18,55600,bilirubin,portal vein thrombosis,ASSOCIATED_WITH
+72261,18,55683,d-dimer,thrombotic events,ASSOCIATED_WITH
+73772,18,55748,elevated d-dimer level,thromboembolic events,ASSOCIATED_WITH
+72690,18,58053,lipoprotein a,cerebral venous sinus thrombosis,ASSOCIATED_WITH
+72231,18,55595,homocysteine,atherosclerosis,ASSOCIATED_WITH
+72231,18,55498,homocysteine,retinal vascular occlusive disease,ASSOCIATED_WITH
+74496,18,56201,visceral fat mass,metabolic syndrome,ASSOCIATED_WITH
+72838,18,55683,d-dimer levels,thrombotic events,ASSOCIATED_WITH
+74947,18,60412,eoxpl,aaa,ASSOCIATED_WITH
+74643,18,64182,dhea-s,severe cap,ASSOCIATED_WITH
+72250,18,55527,tamoxifen,deep venous thrombosis,ASSOCIATED_WITH
+72626,18,55748,tranexamic acid,thromboembolic events,ASSOCIATED_WITH
+72231,18,55764,homocysteine,retinal artery occlusive disease,ASSOCIATED_WITH
+75544,18,57003,smvap index,death,ASSOCIATED_WITH
+72231,18,66420,homocysteine,peripheral arterial occlusive disease,ASSOCIATED_WITH
+72459,18,57833,thromboxane a2,acute lung injury and pulmonary hypertension,ASSOCIATED_WITH
+72865,18,58538,gemcitabine,vascular toxicity,ASSOCIATED_WITH
+72261,18,65758,d-dimer,mortality in covid-19,ASSOCIATED_WITH
+73650,18,55685,mtdna,systemic lupus erythematosus,ASSOCIATED_WITH
+73692,18,64302,platelet-activating factor,increased rv afterload,ASSOCIATED_WITH
+73965,18,55786,cell-free haemoglobin,pulmonary hypertension,ASSOCIATED_WITH
+72252,18,63660,raloxifene,increased risk of deep vein thrombosis,ASSOCIATED_WITH
+75107,18,66125,thiobarbituric acid reactive substances,lysis time,ASSOCIATED_WITH
+72261,18,63824,d-dimer,cancer metastasis and progression,ASSOCIATED_WITH
+72247,18,55533,hdl-cholesterol levels,chd risk,ASSOCIATED_WITH
+73055,18,55544,abo blood group,venous thromboembolism,ASSOCIATED_WITH
+73897,18,56770,fasting glycemia,peak thrombin generation,ASSOCIATED_WITH
+72689,18,58207,age,cerebral atrophy,ASSOCIATED_WITH
+75772,18,69435,embolized fat amount,fes severity,ASSOCIATED_WITH
+72233,18,55510,lipoprotein,ischaemic stroke,ASSOCIATED_WITH
+72261,18,62798,d-dimer,concealed crf,ASSOCIATED_WITH
+75267,18,61461,low fibrinogen level,bleeding events,ASSOCIATED_WITH
+72727,18,62094,lactate,peripheral perfusion,ASSOCIATED_WITH
+72261,18,67391,d-dimer,severe illness risk,ASSOCIATED_WITH
+72261,18,56148,d-dimer,hypercoagulability state,ASSOCIATED_WITH
+72271,18,55527,malondialdehyde,deep venous thrombosis,ASSOCIATED_WITH
+74733,18,64524,hemoglobin a1c,serum troponin concentration,ASSOCIATED_WITH
+73729,18,55528,acylcarnitines,venous thrombosis,ASSOCIATED_WITH
+72326,18,66496,elevated d-dimer levels,severe covid-19,ASSOCIATED_WITH
+73833,18,66579,elevated d-dimer,severity of covid-19,ASSOCIATED_WITH
+80779,19,70003,low vegf production,increased risk for oral squamous cell carcinoma,ASSOCIATED_WITH
+79457,19,65807,bk to bk-des-arg-9 conversion,systemic rheumatic diseases,ASSOCIATED_WITH
+79012,19,58053,pregnancy or postpartum period,cerebral venous sinus thrombosis,ASSOCIATED_WITH
+76932,19,58451,pt,acute kidney injury,ASSOCIATED_WITH
+79449,19,65796,up-regulation of hgf and met,transition to androgen-independent growth,ASSOCIATED_WITH
+77374,19,57158,clio-vt680 nanoparticle deposition,neointimal hyperplasia,ASSOCIATED_WITH
+77808,19,57009,decreased portal flow,extrahepatic portal vein thrombosis,ASSOCIATED_WITH
+76168,19,55942,vitamin k deficiency,coagulopathy,ASSOCIATED_WITH
+76989,19,56233,age > 60 years,dvt,ASSOCIATED_WITH
+77043,19,66057,vitamin d deficiency,cellular inflammation and cytokine release,ASSOCIATED_WITH
+79888,19,67451,altered plasma ph,glycocalyx damage,ASSOCIATED_WITH
+80050,19,67913,high pituitary ctla-4 expression,hypophysitis,ASSOCIATED_WITH
+76217,19,55970,iron deficiency,venous thromboemboli,ASSOCIATED_WITH
+76868,19,58326,hyperlactatemia,shock,ASSOCIATED_WITH

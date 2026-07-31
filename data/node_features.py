@@ -195,17 +195,29 @@ class PubMedBERTEncoder:
 
 
 class NodeFeaturePipeline:
-    """Two-stage node feature pipeline: PubMedBERT(768) + Node2Vec(128) -> 896d."""
+    """Two-stage node feature pipeline: PubMedBERT(768) + Node2Vec(128) -> 896d.
+
+    PubMedBERT encoder is lazily loaded — only instantiated when
+    generate_pubmedbert_features() is called. Node2Vec-only workflows
+    (e.g. generate_node2vec_features) skip the model download entirely.
+    """
 
     def __init__(self, pubmedbert_model: str, node2vec_dim: int = 128,
                  output_dir: str = "data/features"):
-        self.pubmedbert_encoder = PubMedBERTEncoder(model_name=pubmedbert_model)
+        self.pubmedbert_model = pubmedbert_model
+        self._pubmedbert_encoder = None  # lazy-loaded
         self.node2vec_dim = node2vec_dim
         self.output_dim = 768 + node2vec_dim  # 896
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)
         self.layer_norm = nn.LayerNorm(self.output_dim)
         self._node2vec_model = None
+
+    @property
+    def pubmedbert_encoder(self):
+        if self._pubmedbert_encoder is None:
+            self._pubmedbert_encoder = PubMedBERTEncoder(model_name=self.pubmedbert_model)
+        return self._pubmedbert_encoder
 
     def _validate_summaries(self, summaries: Dict[str, Dict[int, str]]) -> bool:
         """Validate that all node indices have summaries."""
