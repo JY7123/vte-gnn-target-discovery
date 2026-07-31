@@ -4,7 +4,7 @@
 
 ---
 
-All custom code used in this study is publicly available at Zenodo with the DOI 10.5281/zenodo.21225701 and on GitHub at https://github.com/JY7123/vte-gnn-target-discovery.
+All custom code used in this study is publicly available at Zenodo with the DOI 10.5281/zenodo.21724152 and on GitHub at https://github.com/JY7123/vte-gnn-target-discovery.
 
 The repository includes:
 

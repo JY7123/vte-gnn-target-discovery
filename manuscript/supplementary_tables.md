@@ -6,7 +6,7 @@
 
 | Resource | Version / Identifier | Description | Source |
 |----------|---------------------|-------------|--------|
-| Knowledge Graph | v2.0 (Zenodo DOI: 10.5281/zenodo.21225701) | 82,644 nodes, 14 entity types, 29 curated edge types, 11,989 edges | Built from PubMed abstracts + PMC full-text + curated databases |
+| Knowledge Graph | v2.0 (Zenodo DOI: 10.5281/zenodo.21724152) | 82,644 nodes, 14 entity types, 29 curated edge types, 11,989 edges | Built from PubMed abstracts + PMC full-text + curated databases |
 | Training split | train_edges.pt (per-seed) | 9,591 edges (80%), random stratified | `data/processed/heterodata.pt` |
 | Validation split | val_edges.pt (per-seed) | 1,199 edges (10%), random stratified | `data/processed/heterodata.pt` |
 | Test split | test_edges.pt (per-seed) | 1,199 edges (10%), random stratified | `data/processed/heterodata.pt` |
