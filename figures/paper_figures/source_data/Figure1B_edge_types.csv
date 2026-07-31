@@ -1,21 +1,6 @@
-"Relation","Count","Group"
-"Disease — MENTIONED_IN — Article",39678,"Literature (MENTIONED_IN)"
-"Protein — MENTIONED_IN — Article",39186,"Literature (MENTIONED_IN)"
-"Cell — MENTIONED_IN — Article",24672,"Literature (MENTIONED_IN)"
-"Metabolite — MENTIONED_IN — Article",9987,"Literature (MENTIONED_IN)"
-"Cytokine — MENTIONED_IN — Article",9392,"Literature (MENTIONED_IN)"
-"Gene — MENTIONED_IN — Article",7389,"Literature (MENTIONED_IN)"
-"Process — MENTIONED_IN — Article",7117,"Literature (MENTIONED_IN)"
-"Drug — MENTIONED_IN — Article",4482,"Literature (MENTIONED_IN)"
-"Pathway — MENTIONED_IN — Article",4126,"Literature (MENTIONED_IN)"
-"Disease — PROMOTES — Disease",3618,"Biological"
-"Drug — ASSOCIATED_WITH — Disease",3399,"Biological"
-"Protein — ASSOCIATED_WITH — Disease",2735,"Biological"
-"Protein — BINDS_TO — Protein",2499,"Biological"
-"Protein — PROMOTES — Disease",2212,"Biological"
-"Drug — TREATS — Disease",2022,"Biological"
-"Gene — ASSOCIATED_WITH — Disease",1886,"Biological"
-"Cell — PROMOTES — Disease",1538,"Biological"
-"Cytokine — PROMOTES — Disease",1513,"Biological"
-"Protein — ACTIVATES — Protein",1435,"Biological"
-"Metabolite — ASSOCIATED_WITH — Disease",1284,"Biological"
+Category,Relation_Count,Edge_Count
+Gene/Protein Regulation,12,5639
+Disease Association,7,5542
+Drug-Target,2,1178
+Pathway/Process,4,168
+Cytokine/Cell Signaling,4,1462

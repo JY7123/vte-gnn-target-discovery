@@ -1,4 +1,4 @@
-"Phase","Start","End"
-"Train (≤2024)",2015,2024.5
-"Validation (2025H1)",2024.5,2025.5
-"Test (2025H2–2026)",2025.5,2026.5
+Split,Edge_Count
+Train (<=2024),11989
+Validation (2025 H1),850
+Test (2025 H2-2026 H1),1150

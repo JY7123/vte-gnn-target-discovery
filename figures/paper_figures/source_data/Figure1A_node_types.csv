@@ -1,14 +1,14 @@
-"Type","Count","Group"
-"Article",20869,"Major (>10k)"
-"Protein",14283,"Major (>10k)"
-"Disease",14597,"Major (>10k)"
-"Cell",11625,"Major (>10k)"
-"Gene",4959,"Minor (<10k)"
-"Process",4723,"Minor (<10k)"
-"Metabolite",3664,"Minor (<10k)"
-"Pathway",2251,"Minor (<10k)"
-"Drug",2136,"Minor (<10k)"
-"Cytokine",1511,"Minor (<10k)"
-"Concept",1355,"Minor (<10k)"
-"ECM",458,"Minor (<10k)"
-"Hormone",213,"Minor (<10k)"
+Node_Type,Count
+Article,20869
+Disease,14597
+Protein,14283
+Cell,11625
+Gene,4959
+Process,4723
+Metabolite,3664
+Pathway,2251
+Drug,2136
+Cytokine,1511
+Concept,1355
+ECM,458
+Hormone,213

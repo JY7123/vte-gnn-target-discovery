@@ -1,6 +1,0 @@
-"Target","Degree","GNN_Score","TotalPaths","CascadeSteps"
-"TSP-1",43,106.63,95,1
-"PAR-2",49,116.34,91,2
-"MMP-2",154,153.6,90,1
-"Renin",40,134.73,65,1
-"C3",86,136.98,46,0

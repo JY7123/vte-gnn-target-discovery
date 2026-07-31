@@ -1,0 +1,11 @@
+Metric,Mean,SD
+test_auroc,0.7409,
+test_mrr,0.0857,
+test_hits10,0.1841,
+
+Seed,AUROC,MRR,Hits@10
+42,,,
+123,,,
+456,,,
+789,,,
+1024,,,
