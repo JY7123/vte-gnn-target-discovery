@@ -12,7 +12,7 @@ This directory contains the complete codebase for reproducing results reported i
 - **RAM**: ≥ 32 GB recommended (16 GB minimum)
 - **GPU**: Optional (CPU training supported, ~40 min per model on modern CPU)
 - **Python**: 3.12
-- **R**: 4.4+ (packages: ggplot2, dplyr, tidyr, jsonlite, patchwork, scales, fgsea, gridExtra)
+- **R**: 4.5.2 (packages: ggplot2, dplyr, tidyr, jsonlite, patchwork, scales, fgsea, gridExtra)
 
 ## Quick Start (5 minutes)
 

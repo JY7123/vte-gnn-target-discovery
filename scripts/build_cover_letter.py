@@ -124,9 +124,9 @@ p = doc.add_paragraph()
 p.add_run(
     "Third, cross-species gene set enrichment analysis in a clinical "
     "whole-blood transcriptomic cohort of human VTE patients (GSE48000, "
-    "n = 132) confirmed consistent directional enrichment of the "
-    "GNN-prioritized Fibrosis Program (NES = 1.45, p_empirical < 0.001 "
-    "against 200 size-matched random gene sets), demonstrating evolutionary "
+    "n = 132) confirmed significant enrichment of the vein wall "
+    "fibroblast activation program (NES = 1.60, p_empirical = 0.0055 "
+    "against 2,000 size-matched random gene sets), demonstrating evolutionary "
     "conservation of this pathological program."
 )
 

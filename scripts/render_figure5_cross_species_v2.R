@@ -22,15 +22,11 @@ if (requireNamespace("rstudioapi", quietly = TRUE) && rstudioapi::isAvailable())
 OUT <- "figures/paper_figures"
 dir.create(OUT, showWarnings = FALSE, recursive = TRUE)
 
-# ── 输入文件：优先 repo 相对路径（可复现），回退本机绝对路径 ──
-rel_gse_path <- "data/GSE48000_de_results.csv"
-abs_gse_path <- "D:/JY/work/my work/新思路/vte_gnn_target_discovery/data/GSE48000_de_results.csv"
-gse_path <- if (file.exists(rel_gse_path)) rel_gse_path else abs_gse_path
+# ── 输入文件（绝对路径，保证任何工作目录都能跑）──────────────
+gse_path      <- "D:/JY/work/my work/新思路/vte_gnn_target_discovery/data/GSE48000_de_results.csv"
+deg_afib_path <- "D:/JY/work/my work/新思路/figures/PAR2_scRNA/DEG_F2rl1pos_Activated_Fib.csv"
 
-rel_prog_path <- "data/vein_wall_fibroblast_program.csv"  # repo 内已提交的 93 基因程序
-abs_deg_path  <- "D:/JY/work/my work/新思路/figures/PAR2_scRNA/DEG_F2rl1pos_Activated_Fib.csv"  # 原 DEG 来源（回退）
-
-if (file.exists(gse_path)) {
+if (file.exists(gse_path) && file.exists(deg_afib_path)) {
   # ============================================================
   # 0. GSE48000 表达排序向量 (人类 VTE 全血, n=132)
   # ============================================================
@@ -42,24 +38,15 @@ if (file.exists(gse_path)) {
 
   # ============================================================
   # 1. 定义 Vein Wall Fibroblast Activation Program
-  #    优先读 repo 内的 data/vein_wall_fibroblast_program.csv (93 genes)；
-  #    若不存在，则从 scRNA DEG 绝对路径重新推导（F2rl1+ 活化成纤维细胞
-  #    上调基因 top-100, avg_log2FC>0.5, p_val_adj<0.05, 转人类符号, 移除 F2RL1）
+  #    来源：小鼠 IVC 模型 scRNA 中，活化成纤维细胞 (F2rl1+) vs 未活化
+  #    (F2rl1-) 的差异上调基因 (avg_log2FC>0.5, p_val_adj<0.05)，取 top-100
+  #    转人类符号 (toupper) 并与 GSE48000 基因取交集；移除 F2RL1 自身
   # ============================================================
-  if (file.exists(rel_prog_path)) {
-    program_genes <- read.csv(rel_prog_path, stringsAsFactors = FALSE)$gene
-    program_genes <- intersect(program_genes, names(ranked_genes))
-    message("Program loaded from data/vein_wall_fibroblast_program.csv")
-  } else if (file.exists(abs_deg_path)) {
-    deg_afib <- read.csv(abs_deg_path, stringsAsFactors = FALSE)
-    up <- subset(deg_afib, avg_log2FC > 0.5 & p_val_adj < 0.05)
-    up <- up[order(-up$avg_log2FC), ]
-    program_genes <- intersect(toupper(up$gene), names(ranked_genes))
-    program_genes <- program_genes[program_genes != "F2RL1"]
-    message("Program derived from scRNA DEG (F2rl1+ activated fibroblasts)")
-  } else {
-    stop("Neither data/vein_wall_fibroblast_program.csv nor the DEG absolute path is available.")
-  }
+  deg_afib <- read.csv(deg_afib_path, stringsAsFactors = FALSE)
+  up <- subset(deg_afib, avg_log2FC > 0.5 & p_val_adj < 0.05)
+  up <- up[order(-up$avg_log2FC), ]
+  program_genes <- intersect(toupper(up$gene), names(ranked_genes))
+  program_genes <- program_genes[program_genes != "F2RL1"]
   prog_size <- length(program_genes)
   message(sprintf("Vein Wall Fibroblast Activation Program: %d genes", prog_size))
 
@@ -188,8 +175,7 @@ if (file.exists(gse_path)) {
   message("Successfully generated and saved: ", output_file)
 
 } else {
-  warning("Input file(s) not found! Check gse_path / rel_prog_path.")
-  message("  gse_path    exists: ", file.exists(gse_path))
-  message("  rel_prog    exists: ", file.exists(rel_prog_path))
-  message("  abs_deg     exists: ", file.exists(abs_deg_path))
+  warning("Input file(s) not found! Check gse_path / deg_afib_path.")
+  message("  gse_path      exists: ", file.exists(gse_path))
+  message("  deg_afib_path exists: ", file.exists(deg_afib_path))
 }

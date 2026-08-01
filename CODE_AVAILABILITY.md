@@ -24,7 +24,7 @@ The repository includes:
 - Neo4j v5.26 (knowledge graph storage; not required for reproduction from shared HeteroData)
 - PubMedBERT (microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext)
 - NCBI E-utilities API (PMID date resolution)
-- R v4.4 with packages: ggplot2, dplyr, tidyr, jsonlite, patchwork, scales
+- R v4.5.2 with packages: ggplot2, dplyr, tidyr, jsonlite, patchwork, scales
 - CellChat v2 (scRNA-seq ligand-receptor analysis)
 - dorothea/viper (transcription factor activity inference)
 - Seurat v5 (scRNA-seq preprocessing)

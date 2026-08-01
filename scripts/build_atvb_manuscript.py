@@ -165,6 +165,30 @@ def add_body_paragraph(doc, text: str):
     return p
 
 
+def add_table_cell_runs(p, text: str, size: int, bold: bool = False):
+    """Add runs to paragraph p, honoring **bold** and *italic* inline markers."""
+    pattern = re.compile(r"(\*\*(.+?)\*\*|\*(.+?)\*)")
+    pos = 0
+    for m in pattern.finditer(text):
+        if m.start() > pos:
+            run = p.add_run(text[pos:m.start()])
+            run.bold = bold
+            run.font.size = Pt(size)
+        if m.group(2):
+            run = p.add_run(m.group(2))
+            run.bold = True
+            run.font.size = Pt(size)
+        else:
+            run = p.add_run(m.group(3))
+            run.italic = True
+            run.font.size = Pt(size)
+        pos = m.end()
+    if pos < len(text):
+        run = p.add_run(text[pos:])
+        run.bold = bold
+        run.font.size = Pt(size)
+
+
 def add_table_from_markdown(doc, header_row: list[str], data_rows: list[list[str]]):
     """Create a formatted Word table."""
     ncols = len(header_row)
@@ -176,9 +200,7 @@ def add_table_from_markdown(doc, header_row: list[str], data_rows: list[list[str
         cell = table.rows[0].cells[j]
         cell.text = ""
         p = cell.paragraphs[0]
-        run = p.add_run(cell_text.strip())
-        run.bold = True
-        run.font.size = Pt(9)
+        add_table_cell_runs(p, cell_text, size=9, bold=True)
         # Light gray background
         shading = OxmlElement("w:shd")
         shading.set(qn("w:fill"), "D9D9D9")
@@ -191,8 +213,7 @@ def add_table_from_markdown(doc, header_row: list[str], data_rows: list[list[str
             cell = table.rows[i + 1].cells[j]
             cell.text = ""
             p = cell.paragraphs[0]
-            run = p.add_run(cell_text.strip())
-            run.font.size = Pt(9)
+            add_table_cell_runs(p, cell_text, size=9)
 
     doc.add_paragraph("")  # spacing after table
     return table

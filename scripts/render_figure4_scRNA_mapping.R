@@ -25,8 +25,9 @@ umap_df <- read.csv("figures/scRNA/umap_coords.csv")
 p1a <- ggplot(umap_df, aes(x = UMAP1, y = UMAP2, color = condition)) +
   geom_point(size = 0.2, alpha = 0.6) +
   scale_color_manual(values = c("Control" = "steelblue", "DVT" = "#DC0000")) +
-  labs(title = "Condition", x = "UMAP1", y = "UMAP2") +
-  theme_minimal(base_size = 9) +
+  labs(title = "A  Condition", x = "UMAP1", y = "UMAP2") +
+  theme_minimal(base_size = 10) +
+  theme(plot.title = element_text(face = "bold", size = 12)) +
   guides(color = guide_legend(override.aes = list(size = 3)))
 
 cell_colors <- c(
@@ -38,8 +39,9 @@ cell_colors <- c(
 p1b <- ggplot(umap_df, aes(x = UMAP1, y = UMAP2, color = cell_type)) +
   geom_point(size = 0.2, alpha = 0.6) +
   scale_color_manual(values = cell_colors) +
-  labs(title = "Cell Type", x = "UMAP1", y = "UMAP2") +
-  theme_minimal(base_size = 9) +
+  labs(title = "B  Cell Type", x = "UMAP1", y = "UMAP2") +
+  theme_minimal(base_size = 10) +
+  theme(plot.title = element_text(face = "bold", size = 12)) +
   guides(color = guide_legend(override.aes = list(size = 3), ncol = 2))
 
 # ============================================================
