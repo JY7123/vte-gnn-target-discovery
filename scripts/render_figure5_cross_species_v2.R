@@ -22,11 +22,15 @@ if (requireNamespace("rstudioapi", quietly = TRUE) && rstudioapi::isAvailable())
 OUT <- "figures/paper_figures"
 dir.create(OUT, showWarnings = FALSE, recursive = TRUE)
 
-# ── 输入文件（绝对路径，保证任何工作目录都能跑）──────────────
-gse_path      <- "D:/JY/work/my work/新思路/vte_gnn_target_discovery/data/GSE48000_de_results.csv"
-deg_afib_path <- "D:/JY/work/my work/新思路/figures/PAR2_scRNA/DEG_F2rl1pos_Activated_Fib.csv"
+# ── 输入文件：优先 repo 相对路径（可复现），回退本机绝对路径 ──
+rel_gse_path <- "data/GSE48000_de_results.csv"
+abs_gse_path <- "D:/JY/work/my work/新思路/vte_gnn_target_discovery/data/GSE48000_de_results.csv"
+gse_path <- if (file.exists(rel_gse_path)) rel_gse_path else abs_gse_path
 
-if (file.exists(gse_path) && file.exists(deg_afib_path)) {
+rel_prog_path <- "data/vein_wall_fibroblast_program.csv"  # repo 内已提交的 93 基因程序
+abs_deg_path  <- "D:/JY/work/my work/新思路/figures/PAR2_scRNA/DEG_F2rl1pos_Activated_Fib.csv"  # 原 DEG 来源（回退）
+
+if (file.exists(gse_path)) {
   # ============================================================
   # 0. GSE48000 表达排序向量 (人类 VTE 全血, n=132)
   # ============================================================
@@ -38,15 +42,24 @@ if (file.exists(gse_path) && file.exists(deg_afib_path)) {
 
   # ============================================================
   # 1. 定义 Vein Wall Fibroblast Activation Program
-  #    来源：小鼠 IVC 模型 scRNA 中，活化成纤维细胞 (F2rl1+) vs 未活化
-  #    (F2rl1-) 的差异上调基因 (avg_log2FC>0.5, p_val_adj<0.05)，取 top-100
-  #    转人类符号 (toupper) 并与 GSE48000 基因取交集；移除 F2RL1 自身
+  #    优先读 repo 内的 data/vein_wall_fibroblast_program.csv (93 genes)；
+  #    若不存在，则从 scRNA DEG 绝对路径重新推导（F2rl1+ 活化成纤维细胞
+  #    上调基因 top-100, avg_log2FC>0.5, p_val_adj<0.05, 转人类符号, 移除 F2RL1）
   # ============================================================
-  deg_afib <- read.csv(deg_afib_path, stringsAsFactors = FALSE)
-  up <- subset(deg_afib, avg_log2FC > 0.5 & p_val_adj < 0.05)
-  up <- up[order(-up$avg_log2FC), ]
-  program_genes <- intersect(toupper(up$gene), names(ranked_genes))
-  program_genes <- program_genes[program_genes != "F2RL1"]
+  if (file.exists(rel_prog_path)) {
+    program_genes <- read.csv(rel_prog_path, stringsAsFactors = FALSE)$gene
+    program_genes <- intersect(program_genes, names(ranked_genes))
+    message("Program loaded from data/vein_wall_fibroblast_program.csv")
+  } else if (file.exists(abs_deg_path)) {
+    deg_afib <- read.csv(abs_deg_path, stringsAsFactors = FALSE)
+    up <- subset(deg_afib, avg_log2FC > 0.5 & p_val_adj < 0.05)
+    up <- up[order(-up$avg_log2FC), ]
+    program_genes <- intersect(toupper(up$gene), names(ranked_genes))
+    program_genes <- program_genes[program_genes != "F2RL1"]
+    message("Program derived from scRNA DEG (F2rl1+ activated fibroblasts)")
+  } else {
+    stop("Neither data/vein_wall_fibroblast_program.csv nor the DEG absolute path is available.")
+  }
   prog_size <- length(program_genes)
   message(sprintf("Vein Wall Fibroblast Activation Program: %d genes", prog_size))
 
@@ -80,8 +93,9 @@ if (file.exists(gse_path) && file.exists(deg_afib_path)) {
           plot.margin = margin(t = 10, r = 35, b = 10, l = 10))
 
   # ============================================================
-  # Panel B: Leave-one-gene-out robustness (86 基因 → 86 次 GSEA)
+  # Panel B: Leave-one-gene-out robustness (93 基因 → 93 次 GSEA)
   # ============================================================
+  set.seed(7)  # 固定 LOGO 数值，保证与手稿一致且可复现
   loo_pathways <- lapply(program_genes, function(g) setdiff(program_genes, g))
   names(loo_pathways) <- paste0("LOGO__", program_genes)
   loo_res_all <- fgsea(pathways = loo_pathways, stats = ranked_genes,
@@ -94,11 +108,13 @@ if (file.exists(gse_path) && file.exists(deg_afib_path)) {
     geom_hline(yintercept = obs_nes, linetype = "dashed", color = "grey40", linewidth = 0.9) +
     annotate("text", x = 1.45, y = obs_nes + 0.06, label = "Full program NES",
              color = "grey40", size = 3.3, hjust = 0.5) +
-    annotate("text", x = 0.6, y = min(loo_results$NES) + 0.03,
+    # 左下角标注下移至 y=1.49，拉开与底部散点的距离
+    annotate("text", x = 0.55, y = 1.49,
              label = sprintf("min = %.2f | mean = %.2f",
                              min(loo_results$NES), mean(loo_results$NES)),
              color = "#B03A2E", size = 3.2, hjust = 0) +
-    coord_cartesian(ylim = c(max(0, min(loo_results$NES) - 0.1), obs_nes + 0.25)) +
+    # ylim 下限设为 1.45，确保 1.49 的文字不被裁剪
+    coord_cartesian(ylim = c(1.45, obs_nes + 0.25)) +
     labs(title = "B  Leave-One-Gene-Out Robustness",
          subtitle = "NES remains positive when any single gene is removed",
          x = "", y = "NES") +
@@ -141,14 +157,19 @@ if (file.exists(gse_path) && file.exists(deg_afib_path)) {
   write.csv(emp_results, file.path(OUT, "Figure5_empirical_permutation.csv"),
             row.names = FALSE)
 
+  # 直方图最高峰，用于精确定位 "Observed" 文字高度
+  max_bin_count <- max(hist(random_df$NES, plot = FALSE, breaks = 40)$counts)
+
   p3 <- ggplot(random_df, aes(x = NES)) +
     geom_histogram(fill = "grey80", color = "white", bins = 40, alpha = 0.9) +
     geom_vline(xintercept = obs_nes, color = "#E64B35", linewidth = 1.1,
                linetype = "dashed") +
-    annotate("text", x = obs_nes, y = max(hist(random_df$NES, plot = FALSE)$counts) * 0.9,
+    # "Observed" 文字高度降至最高峰的 0.72 倍，远离上边界
+    annotate("text", x = obs_nes, y = max_bin_count * 0.72,
              label = "Observed", color = "#E64B35", angle = 90, vjust = 1.3,
              fontface = "bold", size = 3.5) +
-    scale_y_continuous(expand = expansion(mult = c(0, 0.05))) +
+    # 顶部预留 18% 边距空间，防止顶部裁切
+    scale_y_continuous(expand = expansion(mult = c(0, 0.18))) +
     labs(title = "C  Negative Control: Random Gene Sets",
          subtitle = p_label,
          x = "NES", y = "Count") +
@@ -175,7 +196,8 @@ if (file.exists(gse_path) && file.exists(deg_afib_path)) {
   message("Successfully generated and saved: ", output_file)
 
 } else {
-  warning("Input file(s) not found! Check gse_path / deg_afib_path.")
-  message("  gse_path      exists: ", file.exists(gse_path))
-  message("  deg_afib_path exists: ", file.exists(deg_afib_path))
+  warning("Input file(s) not found! Check gse_path / rel_prog_path.")
+  message("  gse_path    exists: ", file.exists(gse_path))
+  message("  rel_prog    exists: ", file.exists(rel_prog_path))
+  message("  abs_deg     exists: ", file.exists(abs_deg_path))
 }

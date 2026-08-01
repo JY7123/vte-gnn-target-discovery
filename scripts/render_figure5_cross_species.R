@@ -93,8 +93,9 @@ if (file.exists(gse_path)) {
           plot.margin = margin(t = 10, r = 35, b = 10, l = 10))
 
   # ============================================================
-  # Panel B: Leave-one-gene-out robustness (86 基因 → 86 次 GSEA)
+  # Panel B: Leave-one-gene-out robustness (93 基因 → 93 次 GSEA)
   # ============================================================
+  set.seed(7)  # 固定 LOGO 数值，保证与手稿一致且可复现
   loo_pathways <- lapply(program_genes, function(g) setdiff(program_genes, g))
   names(loo_pathways) <- paste0("LOGO__", program_genes)
   loo_res_all <- fgsea(pathways = loo_pathways, stats = ranked_genes,
@@ -107,11 +108,13 @@ if (file.exists(gse_path)) {
     geom_hline(yintercept = obs_nes, linetype = "dashed", color = "grey40", linewidth = 0.9) +
     annotate("text", x = 1.45, y = obs_nes + 0.06, label = "Full program NES",
              color = "grey40", size = 3.3, hjust = 0.5) +
-    annotate("text", x = 0.6, y = min(loo_results$NES) + 0.03,
+    # 左下角标注下移至 y=1.49，拉开与底部散点的距离
+    annotate("text", x = 0.55, y = 1.49,
              label = sprintf("min = %.2f | mean = %.2f",
                              min(loo_results$NES), mean(loo_results$NES)),
              color = "#B03A2E", size = 3.2, hjust = 0) +
-    coord_cartesian(ylim = c(max(0, min(loo_results$NES) - 0.1), obs_nes + 0.25)) +
+    # ylim 下限设为 1.45，确保 1.49 的文字不被裁剪
+    coord_cartesian(ylim = c(1.45, obs_nes + 0.25)) +
     labs(title = "B  Leave-One-Gene-Out Robustness",
          subtitle = "NES remains positive when any single gene is removed",
          x = "", y = "NES") +
@@ -154,14 +157,19 @@ if (file.exists(gse_path)) {
   write.csv(emp_results, file.path(OUT, "Figure5_empirical_permutation.csv"),
             row.names = FALSE)
 
+  # 直方图最高峰，用于精确定位 "Observed" 文字高度
+  max_bin_count <- max(hist(random_df$NES, plot = FALSE, breaks = 40)$counts)
+
   p3 <- ggplot(random_df, aes(x = NES)) +
     geom_histogram(fill = "grey80", color = "white", bins = 40, alpha = 0.9) +
     geom_vline(xintercept = obs_nes, color = "#E64B35", linewidth = 1.1,
                linetype = "dashed") +
-    annotate("text", x = obs_nes, y = max(hist(random_df$NES, plot = FALSE)$counts) * 0.9,
+    # "Observed" 文字高度降至最高峰的 0.72 倍，远离上边界
+    annotate("text", x = obs_nes, y = max_bin_count * 0.72,
              label = "Observed", color = "#E64B35", angle = 90, vjust = 1.3,
              fontface = "bold", size = 3.5) +
-    scale_y_continuous(expand = expansion(mult = c(0, 0.05))) +
+    # 顶部预留 18% 边距空间，防止顶部裁切
+    scale_y_continuous(expand = expansion(mult = c(0, 0.18))) +
     labs(title = "C  Negative Control: Random Gene Sets",
          subtitle = p_label,
          x = "NES", y = "Count") +
