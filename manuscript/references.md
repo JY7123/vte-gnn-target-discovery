@@ -1,6 +1,6 @@
 # References
 
-## ATVB Manuscript: "Temporally Evaluated Heterogeneous Graph Learning Prioritizes Cell-Type-Specific Inflammatory and Fibrotic Programs in Venous Thromboembolism"
+## ATVB Manuscript: "Data-Leakage-Free Heterogeneous Graph Learning Prioritizes Cell-Type-Specific Inflammatory and Fibrotic Programs in Venous Thromboembolism"
 
 All references verified via PubMed/DOI/Web search as of 2026-07-30. No fabricated citations.
 

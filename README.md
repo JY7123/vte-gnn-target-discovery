@@ -2,7 +2,7 @@
 
 This directory contains the complete codebase for reproducing results reported in:
 
-> **"Temporally Evaluated Heterogeneous Graph Learning Prioritizes Cell-Type-Specific Inflammatory and Fibrotic Programs in Venous Thromboembolism"**
+> **"Data-Leakage-Free Heterogeneous Graph Learning Prioritizes Cell-Type-Specific Inflammatory and Fibrotic Programs in Venous Thromboembolism"**
 
 ---
 
@@ -192,6 +192,6 @@ This code is provided for academic and research purposes. See LICENSE file for d
 
 If you use this code, please cite:
 
-> [Authors]. Temporally Evaluated Heterogeneous Graph Learning Prioritizes Cell-Type-Specific Inflammatory and Fibrotic Programs in Venous Thromboembolism. (2026).
+> [Authors]. Data-Leakage-Free Heterogeneous Graph Learning Prioritizes Cell-Type-Specific Inflammatory and Fibrotic Programs in Venous Thromboembolism. (2026).
 
 The code is archived at Zenodo: https://doi.org/10.5281/zenodo.21757258

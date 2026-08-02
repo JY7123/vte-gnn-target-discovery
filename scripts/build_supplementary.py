@@ -25,7 +25,7 @@ from build_atvb_manuscript import (
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 MD_PATH = PROJECT_ROOT / "manuscript" / "supplementary_tables.md"
 MANUSCRIPT_TITLE = (
-    "Temporally Evaluated Heterogeneous Graph Learning Prioritizes "
+    "Data-Leakage-Free Heterogeneous Graph Learning Prioritizes "
     "Cell-Type-Specific Inflammatory and Fibrotic Programs in Venous Thromboembolism"
 )
 OUT_DIR = PROJECT_ROOT.parent / "投稿ATVB"

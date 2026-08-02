@@ -46,7 +46,7 @@ p.add_run(
     "We are pleased to submit our manuscript entitled "
 ).italic = False
 p.add_run(
-    '"Temporally Evaluated Heterogeneous Graph Learning Prioritizes '
+    '"Data-Leakage-Free Heterogeneous Graph Learning Prioritizes '
     'Cell-Type-Specific Inflammatory and Fibrotic Programs in '
     'Venous Thromboembolism"'
 ).italic = True

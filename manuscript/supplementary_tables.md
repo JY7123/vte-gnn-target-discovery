@@ -1,6 +1,6 @@
 # Supplementary Materials
 
-**Manuscript:** "Temporally Evaluated Heterogeneous Graph Learning Prioritizes Cell-Type-Specific Inflammatory and Fibrotic Programs in Venous Thromboembolism"
+**Manuscript:** "Data-Leakage-Free Heterogeneous Graph Learning Prioritizes Cell-Type-Specific Inflammatory and Fibrotic Programs in Venous Thromboembolism"
 
 ---
 
