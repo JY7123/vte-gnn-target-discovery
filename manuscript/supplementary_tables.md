@@ -23,13 +23,13 @@
 
 ## Table S2: Analysis Script-to-Figure Mapping
 
-| Figure | Rendering Script | Input Data | Commit Hash |
+| Figure | Rendering Script | Input Data | Release Tag |
 |--------|-----------------|------------|-------------|
-| Figure 1 | `scripts/render_figure1_kg_temporal.R` | `data/processed/heterodata.pt` | b73dd4b |
-| Figure 2 | `scripts/render_figure2_benchmark.R` | `checkpoints/full_training_v2/summary.json`, `data/baselines/baseline_results.json` | b73dd4b |
-| Figure 3 | `scripts/render_figure3_target_ranking.R` | `figures/hidden_targets/full_ranked_candidates.json` | b73dd4b |
-| Figure 4 | `scripts/render_figure4_scRNA_mapping.R` | `figures/scRNA/gnn_network_expression.csv`, `figures/scRNA/umap_coords.csv` | b73dd4b |
-| Figure 5 | `scripts/render_figure5_cross_species.R` | `data/GSE48000_de_results.csv`, `data/vein_wall_fibroblast_program.csv` | b73dd4b |
+| Figure 1 | `scripts/render_figure1_kg_temporal.R` | `data/processed/heterodata.pt` | v2.1 |
+| Figure 2 | `scripts/render_figure2_benchmark.R` | `checkpoints/full_training_v2/summary.json`, `data/baselines/baseline_results.json` | v2.1 |
+| Figure 3 | `scripts/render_figure3_target_ranking.R` | `figures/hidden_targets/full_ranked_candidates.json` | v2.1 |
+| Figure 4 | `scripts/render_figure4_scRNA_mapping.R` | `figures/scRNA/gnn_network_expression.csv`, `figures/scRNA/umap_coords.csv` | v2.1 |
+| Figure 5 | `scripts/render_figure5_cross_species.R` | `data/GSE48000_de_results.csv`, `data/vein_wall_fibroblast_program.csv` | v2.1 |
 
 ## Table S3: Model Training Configuration
 
