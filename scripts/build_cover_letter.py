@@ -24,7 +24,7 @@ style.font.size = Pt(12)
 style.paragraph_format.line_spacing = 1.5
 
 # Date
-doc.add_paragraph("July 29, 2026")
+doc.add_paragraph("August 1, 2026")
 
 doc.add_paragraph("")
 
@@ -160,8 +160,9 @@ p.add_run(
     "manuscript. The authors declare no competing financial interests. "
     "The complete analysis pipeline and source code are publicly available "
     "at GitHub (https://github.com/JY7123/vte-gnn-target-discovery) with "
-    "a permanent Zenodo DOI (10.5281/zenodo.21225701). The mouse IVC "
-    "stenosis scRNA-seq data have been deposited in GEO [accession pending]."
+    "a permanent Zenodo DOI (10.5281/zenodo.21724152). The mouse IVC "
+    "stenosis scRNA-seq data are available from the corresponding author "
+    "upon reasonable request."
 )
 
 doc.add_paragraph("")
@@ -186,8 +187,8 @@ doc.add_paragraph("Department of Vascular Surgery")
 doc.add_paragraph("Shanghai Ninth People's Hospital")
 doc.add_paragraph("Shanghai Jiao Tong University School of Medicine")
 doc.add_paragraph("Shanghai, China")
-doc.add_paragraph("Email: [EMAIL]")
-doc.add_paragraph("Phone: [PHONE]")
+doc.add_paragraph("Email: wangruihua@sjtu.edu.cn")
+doc.add_paragraph("Phone: 19121035097")
 
 # Save
 OUT_PATH = OUT_DIR / "cover_letter.docx"
