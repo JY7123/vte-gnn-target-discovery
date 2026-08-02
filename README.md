@@ -39,7 +39,7 @@ reproduce.bat            # Windows
 
 ### From shared data (recommended)
 
-The pre-processed knowledge graph (`heterodata.pt`) and PCA features (`features_128d.pt`) are available on Zenodo at 10.5281/zenodo.21724152. Download and place them in `data/processed/`, then:
+The pre-processed knowledge graph (`heterodata.pt`) and PCA features (`features_128d.pt`) are available on Zenodo at 10.5281/zenodo.21757258. Download and place them in `data/processed/`, then:
 
 ```bash
 # Train the main Tempered HGT model (PCA 128d features)
@@ -194,4 +194,4 @@ If you use this code, please cite:
 
 > [Authors]. Temporally Evaluated Heterogeneous Graph Learning Prioritizes Cell-Type-Specific Inflammatory and Fibrotic Programs in Venous Thromboembolism. (2026).
 
-The code is archived at Zenodo: https://doi.org/10.5281/zenodo.21724152
+The code is archived at Zenodo: https://doi.org/10.5281/zenodo.21757258

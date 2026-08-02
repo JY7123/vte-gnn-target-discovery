@@ -160,7 +160,7 @@ p.add_run(
     "manuscript. The authors declare no competing financial interests. "
     "The complete analysis pipeline and source code are publicly available "
     "at GitHub (https://github.com/JY7123/vte-gnn-target-discovery) with "
-    "a permanent Zenodo DOI (10.5281/zenodo.21724152). The mouse IVC "
+    "a permanent Zenodo DOI (10.5281/zenodo.21757258). The mouse IVC "
     "stenosis scRNA-seq data are available from the corresponding author "
     "upon reasonable request."
 )
